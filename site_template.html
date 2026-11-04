@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Skills Catalog · @f0rgent</title>
+<meta name="description" content="Every Claude skill you actually need. Open-source skills for Claude Code, sorted by niche, with links to the original authors.">
+<meta property="og:title" content="Every Claude skill you actually need">
+<meta property="og:description" content="Open-source Claude skills sorted by niche: dev, design, SEO, marketing, copywriting, SMM, UGC, video.">
+<meta property="og:image" content="https://f0rgent.github.io/claude-skills-catalog/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@f0rgent">
+<link rel="icon" href="assets/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1e8d8;--card:#fbf6ec;--ink:#0e2a2d;--mute:#0e2a2d99;--line:#0e2a2d1f;--teal:#1d7f86;--gold:#e8b04a;--red:#c2382d;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;
+ background-image:radial-gradient(#0e2a2d14 1.2px,transparent 1.2px);background-size:22px 22px}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:28px}
+.me{display:flex;align-items:center;gap:14px;text-decoration:none}
+.me img{width:56px;height:56px;border-radius:50%;border:3px solid var(--ink);object-fit:cover}
+.me b{display:block;font-size:19px;letter-spacing:-.01em}.me span{color:var(--mute);font-size:15px}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;border:2px solid var(--ink);white-space:nowrap}
+.btn.dark{background:var(--ink);color:var(--bg)}.btn.teal{background:var(--teal);border-color:var(--teal);color:#fff}
+.btn:hover{transform:translateY(-1px)}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:24px;align-items:center;padding-block:10px 30px}
+.hero>*{min-width:0}
+h1{font-size:clamp(42px,6.2vw,78px);line-height:.95;letter-spacing:-.045em;font-weight:900;margin:0 0 22px;text-wrap:balance}
+h1 em{font-style:normal;color:var(--teal)}
+.lead{font-size:clamp(18px,2vw,21px);color:var(--ink);opacity:.82;max-width:34ch;margin:0 0 26px;font-weight:500}
+.lead b{background:var(--gold);padding:1px 7px;border-radius:6px;opacity:1}
+.meme{position:relative}
+.meme img{width:100%;display:block;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent),linear-gradient(to right,transparent,#000 8%,#000 92%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent),linear-gradient(to right,transparent,#000 8%,#000 92%,transparent);mask-composite:intersect}
+.caps{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:0 6% 0 8%}
+.cap{font-weight:900;letter-spacing:-.02em;font-size:clamp(15px,1.8vw,22px);white-space:nowrap}
+.cap.l{color:var(--teal)}.cap.r{color:var(--mute);text-align:center}
+.stamp{position:absolute;right:9%;bottom:6%;color:var(--red);border:4px solid var(--red);border-radius:10px;padding:0 12px;font-weight:900;font-size:clamp(16px,2.2vw,26px);transform:rotate(-6deg);background:#f1e8d8cc}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-block:10px 46px}
+.stat{background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:18px 20px;box-shadow:0 6px 0 var(--ink)}
+.stat small{color:var(--mute);font-weight:600;font-size:14px}.stat b{display:block;font-size:40px;letter-spacing:-.03em;line-height:1.1;margin-top:4px}
+.stat span{color:var(--mute);font-size:14px}
+h2{font-size:clamp(28px,3.4vw,40px);letter-spacing:-.03em;margin:0 0 6px;font-weight:900}
+.sub{color:var(--mute);margin:0 0 20px}
+.tools{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:14px 12px;border-bottom:2px solid var(--line);margin-bottom:22px}
+.search{display:flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--ink);border-radius:14px;padding:0 16px}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:500 17px Inter,sans-serif;padding:14px 0;color:var(--ink);outline:none}
+.search kbd{font:600 12px var(--mono);color:var(--mute);border:1px solid var(--line);border-radius:6px;padding:2px 7px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:2px solid var(--ink);background:transparent;border-radius:999px;padding:7px 14px;font:700 14px Inter,sans-serif;color:var(--ink);cursor:pointer}
+.chip.on{background:var(--ink);color:var(--bg)}
+.chip i{font-style:normal;opacity:.6;font-weight:600;margin-left:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.card{background:var(--card);border:2px solid var(--ink);border-radius:16px;padding:16px 16px 14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card .t{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.card a.n{font:700 16px var(--mono);text-decoration:none;word-break:break-word}
+.card a.n:hover{color:var(--teal)}
+.card .st{font:700 13px var(--mono);color:var(--mute);white-space:nowrap}
+.card p{margin:0;font-size:15px;line-height:1.45;flex:1}
+.card .rp{font-size:13px;color:var(--mute);text-decoration:none;word-break:break-all}
+.card .rp:hover{color:var(--ink)}
+.cp{display:flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);border-radius:10px;padding:8px 10px;border:0;cursor:pointer;font:500 12px var(--mono);text-align:left;width:100%}
+.cp code{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cp span{flex:none;color:var(--gold);font-weight:700}
+.tag{align-self:flex-start;font-size:12px;font-weight:700;padding:2px 9px;border-radius:999px;background:#0e2a2d10}
+.empty{padding:40px;text-align:center;color:var(--mute)}
+section{margin-block:56px}
+.bonus{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;background:var(--ink);color:var(--bg);border-radius:24px;padding:32px}
+.bonus>*{min-width:0}
+.bonus h2{color:var(--bg)}.bonus p{opacity:.85;margin:0 0 18px}
+.bonus ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.bonus li{background:#ffffff12;border-radius:12px;padding:12px 14px;font-size:15px}
+.bonus li b{color:var(--gold)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.step{background:var(--card);border:2px solid var(--ink);border-radius:16px;padding:18px;min-width:0}
+.step b{font:800 13px var(--mono);color:var(--teal)}
+.step h3{margin:6px 0 10px;font-size:19px}
+pre{margin:0;background:var(--ink);color:var(--bg);border-radius:10px;padding:12px 14px;font:500 13px/1.5 var(--mono);overflow-x:auto}
+details{background:var(--card);border:2px solid var(--ink);border-radius:16px;margin-bottom:10px}
+summary{cursor:pointer;padding:14px 18px;font-weight:700;display:flex;justify-content:space-between;gap:10px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary span{color:var(--mute);font-weight:600;font-size:14px;white-space:nowrap}
+details div{padding:0 18px 16px;font:500 13px/1.7 var(--mono);color:var(--mute);word-break:break-word}
+footer{border-top:2px solid var(--line);padding-block:30px 50px;color:var(--mute);font-size:14px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{font-weight:700;color:var(--ink)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);opacity:0;background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font-weight:700;transition:.2s;pointer-events:none}
+.toast.on{opacity:1;transform:translateX(-50%)}
+@media (max-width:860px){.hero{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.bonus,.steps{grid-template-columns:1fr}header.top{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="me" href="https://x.com/f0rgent"><img src="assets/avatar.jpg" alt=""><div><b>f0rgent</b><span>@f0rgent</span></div></a>
+  <div class="btns">
+    <a class="btn dark" href="https://x.com/f0rgent">Follow on 𝕏</a>
+    <a class="btn teal" href="https://github.com/f0rgent/claude-skills-catalog">★ Star on GitHub</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>Every Claude skill you <em>actually</em> need.</h1>
+    <p class="lead">Open-source skills for Claude Code, sorted by what you do. Every link goes to the original author. <b>One repo.</b></p>
+    <div class="btns"><a class="btn dark" href="#skills">Browse skills ↓</a><a class="btn" href="#install">How to install</a></div>
+  </div>
+  <div class="meme" aria-label="A muscular robot labelled Claude with skills next to a skinny crying robot labelled Claude without skills">
+    <div class="caps"><div class="cap l">Claude with skills</div><div class="cap r">Claude without skills</div></div>
+    <img src="assets/robots.jpg" alt="">
+    <div class="stamp">AI slop</div>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat"><small>Skills indexed</small><b>{{TOTAL}}</b><span>and growing</span></div>
+  <div class="stat"><small>Repos</small><b>{{REPOS}}</b><span>linked, not copied</span></div>
+  <div class="stat"><small>Niches</small><b>{{NICHES}}</b><span>dev to UGC</span></div>
+  <div class="stat"><small>Hand-picked</small><b>{{PICKS}}</b><span>with a one-line why</span></div>
+</div>
+
+<section id="skills" style="margin-top:0">
+  <h2>Find a skill</h2>
+  <p class="sub">Search by name or task, or pick a niche. Click the black bar to copy the install command.</p>
+  <div class="tools">
+    <label class="search"><span aria-hidden="true">⌕</span><input id="q" type="search" placeholder="Try “seo”, “video”, “humanizer”, “tdd”…" autocomplete="off"><kbd>/</kbd></label>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section>
+  <div class="bonus">
+    <div>
+      <h2>Bonus: x-reach</h2>
+      <p>Our own skill for writing X posts that get reach. Built from a study of 2,194 video posts across 300 accounts, plus our own tests.</p>
+      <a class="btn teal" href="https://github.com/f0rgent/claude-skills-catalog/tree/main/skills/x-reach">Get x-reach</a>
+    </div>
+    <ul>
+      <li><b>Video</b> posts hit 30% of the time, posts without video 16%.</li>
+      <li><b>1,000–1,500</b> characters in short paragraphs beat short text.</li>
+      <li>A hook with a person, a number and a twist: <b>26%</b> vs 15%.</li>
+      <li><b>82%</b> of viral posts end with a two-sided question.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="install">
+  <h2>Install in 10 seconds</h2>
+  <p class="sub">Pick one skill, a whole repo, or everything at once.</p>
+  <div class="steps">
+    <div class="step"><b>01 · ONE SKILL</b><h3>Copy from any card</h3><pre>npx skills@latest add coreyhaines31/marketingskills/copywriting</pre></div>
+    <div class="step"><b>02 · A PLUGIN</b><h3>Inside Claude Code</h3><pre>/plugin marketplace add obra/superpowers</pre></div>
+    <div class="step"><b>03 · EVERYTHING</b><h3>Clone with submodules</h3><pre>git clone --recursive https://github.com/f0rgent/claude-skills-catalog</pre></div>
+  </div>
+</section>
+
+<section>
+  <h2>Full index</h2>
+  <p class="sub">Every skill in every linked repo, grouped by repo. Each one keeps its author's license.</p>
+  <div id="idx"></div>
+</section>
+
+<footer>
+  <span>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</span>
+  <span>Our files are MIT. Linked skills belong to their authors.</span>
+</footer>
+</div>
+<div class="toast" id="toast">Copied</div>
+
+<script>
+const D = {{DATA}};
+const grid = document.getElementById('grid'), chips = document.getElementById('chips'), q = document.getElementById('q');
+let cur = -1;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const all = D.skills.length;
+chips.innerHTML = `<button class="chip on" data-c="-1">All<i>${all}</i></button>` +
+  D.niches.map((n, i) => `<button class="chip" data-c="${i}">${n.e} ${esc(n.t)}<i>${n.k}</i></button>`).join('');
+chips.onclick = e => { const b = e.target.closest('.chip'); if (!b) return; cur = +b.dataset.c;
+  chips.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === b)); render(); };
+function render() {
+  const t = q.value.trim().toLowerCase();
+  const seen = new Set();
+  const list = D.skills.filter(s => {
+    if (cur >= 0 && s.c !== cur) return false;
+    if (t && !(s.n + ' ' + s.d + ' ' + s.r + ' ' + D.niches[s.c].t).toLowerCase().includes(t)) return false;
+    if (cur < 0) { const k = s.n + '|' + s.r; if (seen.has(k)) return false; seen.add(k); }
+    return true;
+  });
+  grid.innerHTML = list.length ? list.map(s => `<article class="card">
+    <div class="t"><a class="n" href="${s.u}" target="_blank" rel="noopener">${esc(s.n)}</a><span class="st">${s.s ? '★ ' + s.s : ''}</span></div>
+    <span class="tag">${D.niches[s.c].e} ${esc(D.niches[s.c].t)}</span>
+    <p>${esc(s.d)}</p>
+    <a class="rp" href="https://github.com/${s.r}" target="_blank" rel="noopener">${esc(s.r)}</a>
+    <button class="cp" data-i="${esc(s.i)}" title="Copy install command"><code>${esc(s.i)}</code><span>copy</span></button>
+  </article>`).join('') : `<div class="empty">Nothing here yet. Try another word, or check the full index below.</div>`;
+}
+grid.onclick = async e => { const b = e.target.closest('.cp'); if (!b) return;
+  try { await navigator.clipboard.writeText(b.dataset.i); } catch (_) { const r = document.createRange(); r.selectNodeContents(b.querySelector('code')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+  const t = document.getElementById('toast'); t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 1200); };
+q.oninput = render;
+addEventListener('keydown', e => { if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); } });
+document.getElementById('idx').innerHTML = D.index.map(r => `<details><summary><a href="https://github.com/${r.r}" target="_blank" rel="noopener">${esc(r.r)}</a><span>${r.k} skills${r.s ? ' · ★ ' + r.s : ''}${r.l ? ' · ' + esc(r.l) : ''}</span></summary><div>${esc(r.v)}</div></details>`).join('');
+render();
+</script>
+</body>
+</html>

@@ -11,7 +11,7 @@
 
 <p align="center"><a href="#s1">Dev workflow</a> · <a href="#s2">Dev stacks</a> · <a href="#s3">Security</a> · <a href="#s4">Design</a> · <a href="#s5">SEO</a> · <a href="#s6">Marketing</a> · <a href="#s7">Copywriting</a> · <a href="#s8">SMM</a> · <a href="#s9">UGC & Ads</a> · <a href="#s10">Video</a> · <a href="#s11">Docs</a> · <a href="#s12">Product</a> · <a href="#s13">Research</a> · <a href="#s14">AI agents</a></p>
 
-<p align="center"><b>The best open-source skills for Claude Code, sorted by what you do.</b><br>Every skill links to its original author, so you always get the latest version.<br>The list keeps growing. ⭐ Star the repo to get updates.</p>
+<p align="center"><b>The best open-source skills for Claude Code, sorted by what you do.</b><br>Every skill links to its original author, so you always get the latest version.<br>The list keeps growing. ⭐ Star the repo to get updates.<br><br><a href="https://f0rgent.github.io/claude-skills-catalog/"><b>🌐 Open the catalog as a website, with search</b></a></p>
 
 ## ⚡ Install in 10 seconds
 

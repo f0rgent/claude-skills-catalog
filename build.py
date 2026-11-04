@@ -341,7 +341,7 @@ def main():
     w('  <a href="https://x.com/f0rgent"><img src="https://img.shields.io/badge/follow-@f0rgent-000000?style=flat-square&logo=x" alt="follow @f0rgent"></a>')
     w('</p>\n')
     w('<p align="center">' + " · ".join(f'<a href="#s{i}">{SHORT[i]}</a>' for i in range(1, len(SECTIONS))) + '</p>\n')
-    w('<p align="center"><b>The best open-source skills for Claude Code, sorted by what you do.</b><br>Every skill links to its original author, so you always get the latest version.<br>The list keeps growing. ⭐ Star the repo to get updates.</p>\n')
+    w('<p align="center"><b>The best open-source skills for Claude Code, sorted by what you do.</b><br>Every skill links to its original author, so you always get the latest version.<br>The list keeps growing. ⭐ Star the repo to get updates.<br><br><a href="https://f0rgent.github.io/claude-skills-catalog/"><b>🌐 Open the catalog as a website, with search</b></a></p>\n')
     w("## ⚡ Install in 10 seconds\n")
     w("```bash\n# one skill\nnpx skills@latest add coreyhaines31/marketingskills/copywriting\n\n# everything in this catalog (pulls each repo from its author)\ngit clone --recursive https://github.com/f0rgent/claude-skills-catalog\n```\n")
     name, intro, rows = SECTIONS[0]
@@ -388,5 +388,7 @@ def main():
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)
+    import subprocess, sys
+    subprocess.run([sys.executable, __file__.replace("build.py", "site.py")], check=True)
 
 main()
