@@ -5,7 +5,7 @@ description: Write and review X (Twitter) posts for maximum reach. Use when draf
 
 # X reach
 
-Write X posts the way posts that actually get recommended are written. The numbers below come from a public study of 2,194 video posts from 300 accounts (Aug to Nov 2026, CELEBEX) and from the author's own tests. Treat them as observations, not laws.
+Write X posts the way posts that actually get recommended are written. The numbers below come from a public study of 2,194 video posts from 300 accounts (Aug to Nov 2026) and from the author's own tests. Treat them as observations, not laws.
 
 ## What the data says
 
