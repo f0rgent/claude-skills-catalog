@@ -226,3 +226,7 @@
 	path = vendor/hungv47_meta-skills
 	url = https://github.com/hungv47/meta-skills.git
 	shallow = true
+[submodule "gokapso_agent-skills"]
+	path = vendor/gokapso_agent-skills
+	url = https://github.com/gokapso/agent-skills.git
+	shallow = true

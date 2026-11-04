@@ -60,6 +60,7 @@ REPOS = {
     "feedtailor/ccskill-nanobanana": (0, "MIT", "main"),
     "kingbootoshi/nano-banana-2-skill": (0, "MIT", "main"),
     "hungv47/meta-skills": (0, "MIT", "main"),
+    "gokapso/agent-skills": (198, "none stated", "master"),
 }
 
 def L(repo, path):
@@ -387,6 +388,9 @@ SECTIONS = [
  ("task-coordination-strategies", "wshobson/agents", "plugins/agent-teams/skills/task-coordination-strategies", "Splits work and coordinates agent teams"),
  ("debate-agents", "hungv47/meta-skills", "skills/debate-agents", "Independent positions argue out a big decision"),
  ("composio automations", "ComposioHQ/awesome-claude-skills", "composio-skills", "833 app automations (Gmail, Slack, Notion...) via Composio Rube MCP"),
+ ("integrate-whatsapp", "gokapso/agent-skills", "skills/integrate-whatsapp", "Connect WhatsApp to your product: webhooks, messages, templates (Kapso)"),
+ ("automate-whatsapp", "gokapso/agent-skills", "skills/automate-whatsapp", "Build and debug WhatsApp workflows and triggers"),
+ ("integrate-whatsapp-calling", "gokapso/agent-skills", "skills/integrate-whatsapp-calling", "Connect a voice agent to WhatsApp calls"),
 ]),
 ]
 
@@ -444,6 +448,7 @@ INDEX = {
  "feedtailor/ccskill-nanobanana": "ccskill-nanobanana",
  "kingbootoshi/nano-banana-2-skill": "nano-banana",
  "hungv47/meta-skills": "brief-creative, brief-product-ui, conquistador, create-brand, create-paid-campaign, create-shortform, debate-agents, improve-conversion, knowledge-review, map-user-flow, measure-growth, model-growth-funnel, optimize-search, plan-campaign, polish-vietnamese, research-channel, research-positioning, write-copy, write-longform, write-outreach, write-social",
+ "gokapso/agent-skills": "automate-whatsapp, integrate-whatsapp, integrate-whatsapp-calling, observe-whatsapp",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 

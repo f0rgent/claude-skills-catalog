@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2135-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-57-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2139-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-58-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -64,7 +64,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>13 picks</sub></td>
-<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>17 picks</sub></td>
+<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>20 picks</sub></td>
 </tr>
 </table>
 
@@ -557,7 +557,7 @@ For people building agents.
 | [**context-compression**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Compaction for long sessions | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 | [**multi-agent-patterns**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Multi-agent design | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 
-<details><summary><b>Show all 17 ai agents skills</b></summary>
+<details><summary><b>Show all 20 ai agents skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -575,6 +575,9 @@ For people building agents.
 | [**task-coordination-strategies**](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/task-coordination-strategies) | Splits work and coordinates agent teams | [wshobson/agents](https://github.com/wshobson/agents) |
 | [**debate-agents**](https://github.com/hungv47/meta-skills/tree/main/skills/debate-agents) | Independent positions argue out a big decision | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
 | [**composio automations**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills) | 833 app automations (Gmail, Slack, Notion...) via Composio Rube MCP | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) |
+| [**integrate-whatsapp**](https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp) | Connect WhatsApp to your product: webhooks, messages, templates (Kapso) | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) |
+| [**automate-whatsapp**](https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp) | Build and debug WhatsApp workflows and triggers | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) |
+| [**integrate-whatsapp-calling**](https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp-calling) | Connect a voice agent to WhatsApp calls | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) |
 
 </details>
 
@@ -585,7 +588,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2135 skills, grouped by repo</b></summary>
+<details><summary><b>All 2139 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -643,6 +646,7 @@ For people building agents.
 | [feedtailor/ccskill-nanobanana](https://github.com/feedtailor/ccskill-nanobanana) (1) |  | MIT | ccskill-nanobanana |
 | [kingbootoshi/nano-banana-2-skill](https://github.com/kingbootoshi/nano-banana-2-skill) (1) |  | MIT | nano-banana |
 | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) (21) |  | MIT | brief-creative, brief-product-ui, conquistador, create-brand, create-paid-campaign, create-shortform, debate-agents, improve-conversion, knowledge-review, map-user-flow, measure-growth, model-growth-funnel, optimize-search, plan-campaign, polish-vietnamese, research-channel, research-positioning, write-copy, write-longform, write-outreach, write-social |
+| [gokapso/agent-skills](https://github.com/gokapso/agent-skills) (4) | 198 | none stated | automate-whatsapp, integrate-whatsapp, integrate-whatsapp-calling, observe-whatsapp |
 
 </details>
 
