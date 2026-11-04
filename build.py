@@ -509,6 +509,7 @@ def main():
         w('\n<p align="right"><a href="#s0">↑ top</a></p>\n')
     w("> [!TIP]")
     w("> **Bonus: [x-reach](skills/x-reach/SKILL.md)**. Our own skill: how to write X posts that get reach, built from a study of 2,194 video posts across 300 accounts plus our own tests. Install it like any other skill.\n")
+    w(f"> **Want the full version?** The [X Creator Pack](https://f0rgent.gumroad.com/l/x-creator-pack) ($9) adds 2 more post templates, the first-reply recipe, series, a video checklist, tracking and the agent-episodes skill. Free x-reach stays free.\n")
     w("## 📚 Full index\n")
     w(f"<details><summary><b>All {total} skills, grouped by repo</b></summary>\n")
     w("| Repo | ⭐ | License | Skills |\n|---|---|---|---|")
