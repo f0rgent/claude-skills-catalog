@@ -1,0 +1,100 @@
+[submodule "anthropics_skills"]
+	path = vendor/anthropics_skills
+	url = https://github.com/anthropics/skills.git
+	shallow = true
+[submodule "obra_superpowers"]
+	path = vendor/obra_superpowers
+	url = https://github.com/obra/superpowers.git
+	shallow = true
+[submodule "mattpocock_skills"]
+	path = vendor/mattpocock_skills
+	url = https://github.com/mattpocock/skills.git
+	shallow = true
+[submodule "vercel-labs_agent-skills"]
+	path = vendor/vercel-labs_agent-skills
+	url = https://github.com/vercel-labs/agent-skills.git
+	shallow = true
+[submodule "coreyhaines31_marketingskills"]
+	path = vendor/coreyhaines31_marketingskills
+	url = https://github.com/coreyhaines31/marketingskills.git
+	shallow = true
+[submodule "agricidaniel_claude-seo"]
+	path = vendor/agricidaniel_claude-seo
+	url = https://github.com/agricidaniel/claude-seo.git
+	shallow = true
+[submodule "nextlevelbuilder_ui-ux-pro-max-skill"]
+	path = vendor/nextlevelbuilder_ui-ux-pro-max-skill
+	url = https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+	shallow = true
+[submodule "remotion-dev_skills"]
+	path = vendor/remotion-dev_skills
+	url = https://github.com/remotion-dev/skills.git
+	shallow = true
+[submodule "trailofbits_skills"]
+	path = vendor/trailofbits_skills
+	url = https://github.com/trailofbits/skills.git
+	shallow = true
+[submodule "hamelsmu_evals-skills"]
+	path = vendor/hamelsmu_evals-skills
+	url = https://github.com/hamelsmu/evals-skills.git
+	shallow = true
+[submodule "muratcankoylan_agent-skills-for-context-engineering"]
+	path = vendor/muratcankoylan_agent-skills-for-context-engineering
+	url = https://github.com/muratcankoylan/agent-skills-for-context-engineering.git
+	shallow = true
+[submodule "kepano_obsidian-skills"]
+	path = vendor/kepano_obsidian-skills
+	url = https://github.com/kepano/obsidian-skills.git
+	shallow = true
+[submodule "alirezarezvani_claude-skills"]
+	path = vendor/alirezarezvani_claude-skills
+	url = https://github.com/alirezarezvani/claude-skills.git
+	shallow = true
+[submodule "agricidaniel_claude-youtube"]
+	path = vendor/agricidaniel_claude-youtube
+	url = https://github.com/agricidaniel/claude-youtube.git
+	shallow = true
+[submodule "alchaincyf_huashu-motion"]
+	path = vendor/alchaincyf_huashu-motion
+	url = https://github.com/alchaincyf/huashu-motion.git
+	shallow = true
+[submodule "supabase_agent-skills"]
+	path = vendor/supabase_agent-skills
+	url = https://github.com/supabase/agent-skills.git
+	shallow = true
+[submodule "cloudflare_skills"]
+	path = vendor/cloudflare_skills
+	url = https://github.com/cloudflare/skills.git
+	shallow = true
+[submodule "getsentry_sentry-for-ai"]
+	path = vendor/getsentry_sentry-for-ai
+	url = https://github.com/getsentry/sentry-for-ai.git
+	shallow = true
+[submodule "forrestchang_andrej-karpathy-skills"]
+	path = vendor/forrestchang_andrej-karpathy-skills
+	url = https://github.com/forrestchang/andrej-karpathy-skills.git
+	shallow = true
+[submodule "jeffallan_claude-skills"]
+	path = vendor/jeffallan_claude-skills
+	url = https://github.com/jeffallan/claude-skills.git
+	shallow = true
+[submodule "199-biotechnologies_claude-deep-research-skill"]
+	path = vendor/199-biotechnologies_claude-deep-research-skill
+	url = https://github.com/199-biotechnologies/claude-deep-research-skill.git
+	shallow = true
+[submodule "pleaseprompto_notebooklm-skill"]
+	path = vendor/pleaseprompto_notebooklm-skill
+	url = https://github.com/pleaseprompto/notebooklm-skill.git
+	shallow = true
+[submodule "neolabhq_context-engineering-kit"]
+	path = vendor/neolabhq_context-engineering-kit
+	url = https://github.com/neolabhq/context-engineering-kit.git
+	shallow = true
+[submodule "Vincentwei1021_mg-styles-15"]
+	path = vendor/Vincentwei1021_mg-styles-15
+	url = https://github.com/Vincentwei1021/mg-styles-15.git
+	shallow = true
+[submodule "patch-gg_pixelfx"]
+	path = vendor/patch-gg_pixelfx
+	url = https://github.com/patch-gg/pixelfx.git
+	shallow = true
