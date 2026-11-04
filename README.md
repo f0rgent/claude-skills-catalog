@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-1025-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-29-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2135-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-57-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -45,26 +45,26 @@ If you install nothing else, install these.
 
 <table>
 <tr>
-<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>28 picks</sub></td>
-<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>23 picks</sub></td>
-<td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>7 picks</sub></td>
-<td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>16 picks</sub></td>
+<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>36 picks</sub></td>
+<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>28 picks</sub></td>
+<td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>9 picks</sub></td>
+<td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>21 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>22 picks</sub></td>
-<td align="center" width="25%"><a href="#s6"><h1>📈</h1><b>Marketing</b></a><br><sub>24 picks</sub></td>
-<td align="center" width="25%"><a href="#s7"><h1>✍️</h1><b>Copywriting</b></a><br><sub>15 picks</sub></td>
-<td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>11 picks</sub></td>
+<td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>28 picks</sub></td>
+<td align="center" width="25%"><a href="#s6"><h1>📈</h1><b>Marketing</b></a><br><sub>32 picks</sub></td>
+<td align="center" width="25%"><a href="#s7"><h1>✍️</h1><b>Copywriting</b></a><br><sub>21 picks</sub></td>
+<td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>17 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>7 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>11 picks</sub></td>
+<td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>16 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>5 picks</sub></td>
-<td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>10 picks</sub></td>
+<td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>17 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>8 picks</sub></td>
-<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>12 picks</sub></td>
+<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>13 picks</sub></td>
+<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>17 picks</sub></td>
 </tr>
 </table>
 
@@ -79,7 +79,7 @@ How the agent plans, codes, reviews and ships.
 | [**writing-plans**](https://github.com/obra/superpowers/tree/main/skills/writing-plans) | Turns a spec into a step-by-step implementation plan | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**executing-plans**](https://github.com/obra/superpowers/tree/main/skills/executing-plans) | Works through a plan inline, step by step | [obra/superpowers](https://github.com/obra/superpowers) |
 
-<details><summary><b>Show all 28 dev workflow skills</b></summary>
+<details><summary><b>Show all 36 dev workflow skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -108,6 +108,14 @@ How the agent plans, codes, reviews and ships.
 | [**simplify**](https://github.com/anthropics/skills) | Cleans up changed code (built into Claude Code) | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**webapp-testing**](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Tests local web apps with Playwright | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**mcp-builder**](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) | Builds MCP servers the right way | [anthropics/skills](https://github.com/anthropics/skills) |
+| [**spec-driven-development**](https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development) | Writes the spec before any code (Addy Osmani) | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| [**incremental-implementation**](https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation) | Ships changes in thin, verifiable slices | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| [**doubt-driven-development**](https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development) | Fresh-context adversarial review of each non-trivial decision | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| [**interview-me**](https://github.com/addyosmani/agent-skills/tree/main/skills/interview-me) | Pulls out what you actually want before building | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| [**multi-reviewer-patterns**](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/multi-reviewer-patterns) | Parallel code review across several quality dimensions | [wshobson/agents](https://github.com/wshobson/agents) |
+| [**parallel-debugging**](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/parallel-debugging) | Debugs with competing hypotheses investigated in parallel | [wshobson/agents](https://github.com/wshobson/agents) |
+| [**changelog-generator**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) | User-facing changelogs from git history | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) |
+| [**graphify**](https://github.com/safishamsi/graphify) | Turns a codebase or any folder into a queryable knowledge graph | [safishamsi/graphify](https://github.com/safishamsi/graphify) |
 
 </details>
 
@@ -124,7 +132,7 @@ Specialist skills per stack.
 | [**composition-patterns**](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) | React composition patterns that scale | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [**react-native-skills**](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills) | React Native and Expo best practices | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 
-<details><summary><b>Show all 23 dev stacks skills</b></summary>
+<details><summary><b>Show all 28 dev stacks skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -148,6 +156,11 @@ Specialist skills per stack.
 | [**supabase**](https://github.com/supabase/agent-skills) | Official: anything Supabase, plus Postgres best practices | [supabase/agent-skills](https://github.com/supabase/agent-skills) |
 | [**cloudflare**](https://github.com/cloudflare/skills) | Official: Workers, Durable Objects, Wrangler, web perf (19 skills) | [cloudflare/skills](https://github.com/cloudflare/skills) |
 | [**sentry-sdk-setup**](https://github.com/getsentry/sentry-for-ai) | Official: add Sentry to any stack, fix issues via MCP (34 skills) | [getsentry/sentry-for-ai](https://github.com/getsentry/sentry-for-ai) |
+| [**agents (185 skills)**](https://github.com/wshobson/agents) | Big pack of plugins: languages, infra, data, testing, accessibility | [wshobson/agents](https://github.com/wshobson/agents) |
+| [**gsap-core / gsap-scrolltrigger / gsap-react**](https://github.com/greensock/gsap-skills) | Official GSAP animation skills | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) |
+| [**terraform-style-guide / terraform-test**](https://github.com/hashicorp/agent-skills) | Official HashiCorp: Terraform and Packer | [hashicorp/agent-skills](https://github.com/hashicorp/agent-skills) |
+| [**deploy / aws-lambda**](https://github.com/awslabs/agent-plugins) | Official AWS: deploy, serverless, SageMaker | [awslabs/agent-plugins](https://github.com/awslabs/agent-plugins) |
+| [**azure-* (201 skills)**](https://github.com/MicrosoftDocs/Agent-Skills) | Official Microsoft Docs: one skill per Azure service | [MicrosoftDocs/Agent-Skills](https://github.com/MicrosoftDocs/Agent-Skills) |
 
 </details>
 
@@ -164,7 +177,7 @@ From Trail of Bits, one of the best-known security firms (97 skills).
 | [**supply-chain-risk-auditor**](https://github.com/trailofbits/skills) | Checks dependencies for supply-chain risk | [trailofbits/skills](https://github.com/trailofbits/skills) |
 | [**differential-review**](https://github.com/trailofbits/skills) | Security review of a diff | [trailofbits/skills](https://github.com/trailofbits/skills) |
 
-<details><summary><b>Show all 7 security skills</b></summary>
+<details><summary><b>Show all 9 security skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -172,6 +185,8 @@ From Trail of Bits, one of the best-known security firms (97 skills).
 | [**libfuzzer / aflpp / cargo-fuzz**](https://github.com/trailofbits/skills) | Fuzzing harnesses for C/C++/Rust | [trailofbits/skills](https://github.com/trailofbits/skills) |
 | [**solana / cosmos / ton vulnerability scanners**](https://github.com/trailofbits/skills) | Smart-contract vulnerability checks | [trailofbits/skills](https://github.com/trailofbits/skills) |
 | [**security-reviewer**](https://github.com/jeffallan/claude-skills/tree/main/skills/security-reviewer) | Structured audit report with severity | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
+| [**VibeSec-Skill**](https://github.com/BehiSecc/VibeSec-Skill) | Makes Claude write secure web apps by default | [BehiSecc/VibeSec-Skill](https://github.com/BehiSecc/VibeSec-Skill) |
+| [**security-and-hardening**](https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening) | Hardens input handlers and auth against common vulnerabilities | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 
 </details>
 
@@ -188,7 +203,7 @@ UI, brand and visuals.
 | [**design**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/design) | Brand identity, tokens, logos (55 styles), CI kits | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | [**design-system**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/design-system) | Token architecture and component specs | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
-<details><summary><b>Show all 16 design skills</b></summary>
+<details><summary><b>Show all 21 design skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -205,6 +220,11 @@ UI, brand and visuals.
 | [**web-design-guidelines**](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines) | Audits accessibility and UX of your UI | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [**apple-hig-expert**](https://github.com/alirezarezvani/claude-skills) | Apple Human Interface Guidelines | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**ux-researcher-designer**](https://github.com/alirezarezvani/claude-skills) | UX research and design | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| [**awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) | 84 DESIGN.md files from real sites to drop into a project | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) |
+| [**design**](https://github.com/firecrawl/firecrawl-claude-plugin/tree/main/skills/design) | Extracts a site's visual system into an implementation-ready DESIGN.md | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
+| [**brand-identity**](https://github.com/firecrawl/firecrawl-claude-plugin/tree/main/skills/brand-identity) | Collects a company's logo, palette and fonts | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
+| [**nano-banana**](https://github.com/kingbootoshi/nano-banana-2-skill) | Image generation with Gemini via the nano-banana CLI | [kingbootoshi/nano-banana-2-skill](https://github.com/kingbootoshi/nano-banana-2-skill) |
+| [**ccskill-nanobanana**](https://github.com/feedtailor/ccskill-nanobanana) | Generate and edit images with Nano Banana (Gemini Image API) | [feedtailor/ccskill-nanobanana](https://github.com/feedtailor/ccskill-nanobanana) |
 
 </details>
 
@@ -221,7 +241,7 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 | [**seo-audit**](https://github.com/agricidaniel/claude-seo/tree/main/skills/seo-audit) | Full-site scored, prioritized audit | [agricidaniel/claude-seo](https://github.com/agricidaniel/claude-seo) |
 | [**seo-page**](https://github.com/agricidaniel/claude-seo/tree/main/skills/seo-page) | Single-URL analysis | [agricidaniel/claude-seo](https://github.com/agricidaniel/claude-seo) |
 
-<details><summary><b>Show all 22 seo skills</b></summary>
+<details><summary><b>Show all 28 seo skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -244,6 +264,12 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 | [**competitors**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitors) | Alternative and vs pages | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**directory-submissions**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/directory-submissions) | Submits to startup/AI/SaaS directories for links | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**web-perf**](https://github.com/cloudflare/skills) | Core Web Vitals audit and fixes | [cloudflare/skills](https://github.com/cloudflare/skills) |
+| [**keyword-research**](https://github.com/aaron-he-zhu/aaron-marketing-skills/tree/main/seo-geo/survey/keyword-research) | Keyword research, part of a full SEO/GEO pack | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) |
+| [**geo-content-optimizer**](https://github.com/aaron-he-zhu/aaron-marketing-skills/tree/main/seo-geo/implement/geo-content-optimizer) | Optimizes content to get cited by AI answers | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) |
+| [**technical-seo-checker**](https://github.com/aaron-he-zhu/aaron-marketing-skills/tree/main/seo-geo/tune/technical-seo-checker) | Technical SEO checks | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) |
+| [**content-gap-analysis**](https://github.com/aaron-he-zhu/aaron-marketing-skills/tree/main/seo-geo/survey/content-gap-analysis) | Finds topics competitors cover and you don't | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) |
+| [**ai-discoverability-audit**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/ai-discoverability-audit) | How your brand shows up in ChatGPT, Perplexity, Claude | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
+| [**seo-audit**](https://github.com/firecrawl/firecrawl-claude-plugin/tree/main/skills/seo-audit) | Inspects titles, meta, headings, canonicals, structured data | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
 
 </details>
 
@@ -260,7 +286,7 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 | [**marketing-ideas**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas) | Growth ideas for SaaS | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**launch**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch) | Launches, Product Hunt, announcements | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
-<details><summary><b>Show all 24 marketing skills</b></summary>
+<details><summary><b>Show all 32 marketing skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -285,6 +311,14 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 | [**aso**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/aso) | App Store / Google Play listing optimization | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**community-marketing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/community-marketing) | Discord/Slack community growth | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**growth-marketer / cmo-advisor**](https://github.com/alirezarezvani/claude-skills) | Growth and CMO-level advice | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| [**aso-audit / metadata-optimization**](https://github.com/Eronred/aso-skills/tree/main/skills/aso-audit) | 40 App Store / Google Play skills: ASO, paywalls, Apple Search Ads | [Eronred/aso-skills](https://github.com/Eronred/aso-skills) |
+| [**email-marketing-bible**](https://github.com/CosmoBlk/email-marketing-bible/tree/main/skills/email-marketing-bible) | Email marketing manual with send-safety gates, any ESP | [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) |
+| [**go-to-market-plan**](https://github.com/ognjengt/founder-skills/tree/main/skills/go-to-market-plan) | 3 best GTM strategies from your business context | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**product-hunt-launch-plan**](https://github.com/ognjengt/founder-skills/tree/main/skills/product-hunt-launch-plan) | Personalized Product Hunt launch plan | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**pricing-strategist**](https://github.com/ognjengt/founder-skills/tree/main/skills/pricing-strategist) | Pricing strategy from your business context | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**conquistador**](https://github.com/hungv47/meta-skills/tree/main/skills/conquistador) | Default product-marketing and growth teammate | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
+| [**launch-day-conductor**](https://github.com/aaron-he-zhu/aaron-marketing-skills/tree/main/launch/mobilize/launch-day-conductor) | Runs launch day; one of 120 skills for launch, email, ads, influencers | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) |
+| [**find-leads / enrich-lead**](https://github.com/firecrawl/firecrawl-claude-plugin/tree/main/skills/find-leads) | Ranked lead lists with sourced contact data | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
 
 </details>
 
@@ -301,7 +335,7 @@ Writing that sells and reads like a person.
 | [**copywriting**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting) | Homepage, landing, pricing, product copy | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**copy-editing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing) | Edits and refreshes existing copy | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
-<details><summary><b>Show all 15 copywriting skills</b></summary>
+<details><summary><b>Show all 21 copywriting skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -317,6 +351,12 @@ Writing that sells and reads like a person.
 | [**doc-coauthoring**](https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring) | Structured co-writing of specs and proposals | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**internal-comms**](https://github.com/anthropics/skills/tree/main/skills/internal-comms) | Company updates in house formats | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**writing-fragments / writing-beats / writing-shape**](https://github.com/mattpocock/skills/tree/main/skills/in-progress) | Matt Pocock's 3-step article writing loop | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| [**de-ai-ify**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/de-ai-ify) | Removes AI jargon and restores a human voice | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
+| [**generic-language-killer**](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/qa/generic-language-killer) | Replaces vague, corporate, AI-sounding language | [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) |
+| [**voice-extractor**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/voice-extractor) | Documents your writing voice from samples | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
+| [**brand-copywriter**](https://github.com/ognjengt/founder-skills/tree/main/skills/brand-copywriter) | Marketing copy on proven frameworks | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**headline-matrix**](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/copy-chief/headline-matrix) | Headline variations across angles | [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) |
+| [**write-copy / write-longform**](https://github.com/hungv47/meta-skills/tree/main/skills/write-copy) | Finished product-marketing copy and long-form pieces | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
 
 </details>
 
@@ -333,7 +373,7 @@ Social content, scheduling, analytics.
 | [**influencer-marketing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/influencer-marketing) | Finds, vets and briefs creators | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**co-marketing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/co-marketing) | Partner campaigns | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
-<details><summary><b>Show all 11 smm skills</b></summary>
+<details><summary><b>Show all 17 smm skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -345,6 +385,12 @@ Social content, scheduling, analytics.
 | [**youtube-full / video-content-strategist**](https://github.com/alirezarezvani/claude-skills) | YouTube channel and video strategy | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**youtube**](https://github.com/agricidaniel/claude-youtube) | YouTube SEO and channel work | [agricidaniel/claude-youtube](https://github.com/agricidaniel/claude-youtube) |
 | [**x-reach (ours)**](skills/x-reach) | How to write X posts that get reach, from data on 2,194 posts | this repo |
+| [**typefully**](https://github.com/typefully/agent-skills/tree/main/skills/typefully) | Official: draft and schedule posts for X, LinkedIn, Threads, Bluesky | [typefully/agent-skills](https://github.com/typefully/agent-skills) |
+| [**x-writer**](https://github.com/ognjengt/founder-skills/tree/main/skills/x-writer) | X posts from proven formats and templates | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**viral-hook-creator**](https://github.com/ognjengt/founder-skills/tree/main/skills/viral-hook-creator) | Hooks built on psychological patterns | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**linkedin-writer**](https://github.com/ognjengt/founder-skills/tree/main/skills/linkedin-writer) | LinkedIn posts with voice matching | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**tweet-draft-reviewer**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/tweet-draft-reviewer) | Scores tweet drafts 1-10 against voice rules | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
+| [**tweetclaw**](https://github.com/Xquik-dev/tweetclaw/tree/master/skills/tweetclaw) | Post, reply, search tweets, export followers | [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw) |
 
 </details>
 
@@ -361,7 +407,7 @@ Ads that convert, scripts for UGC videos.
 | [**ads**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads) | Google, Meta, LinkedIn, X ad campaigns | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**video**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/video) | AI and programmatic video production | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
-<details><summary><b>Show all 7 ugc & ads skills</b></summary>
+<details><summary><b>Show all 14 ugc & ads skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -369,6 +415,13 @@ Ads that convert, scripts for UGC videos.
 | [**paid-ads / ad-creative**](https://github.com/alirezarezvani/claude-skills) | Paid ads and creatives | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**landing-page-generator**](https://github.com/alirezarezvani/claude-skills) | Landing pages for campaigns | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**banner-design**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/banner-design) | Ad and social banners | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| [**ad-angle-multiplier**](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/ad-angle-multiplier) | One idea into many distinct ad angles | [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) |
+| [**scroll-stopping-creative**](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/scroll-stopping-creative) | Ad concepts that hold the first 3 seconds | [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) |
+| [**offer-extraction**](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/foundations/offer-extraction) | Turns a product into a high-converting offer | [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) |
+| [**performance-diagnosis**](https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/performance-diagnosis) | Why a campaign underperforms | [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) |
+| [**competitive-ads-extractor**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor) | Pulls and analyzes competitors' ads from ad libraries | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) |
+| [**create-paid-campaign**](https://github.com/hungv47/meta-skills/tree/main/skills/create-paid-campaign) | Focused paid-media tests on Meta, Google, LinkedIn, TikTok | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
+| [**creator-ugc-marketing**](https://github.com/Eronred/aso-skills/tree/main/skills/creator-ugc-marketing) | Plans and briefs creator and UGC campaigns | [Eronred/aso-skills](https://github.com/Eronred/aso-skills) |
 
 </details>
 
@@ -385,7 +438,7 @@ Videos and animation written as code.
 | [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-create**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-create) | New Remotion video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 
-<details><summary><b>Show all 11 video skills</b></summary>
+<details><summary><b>Show all 16 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -397,6 +450,11 @@ Videos and animation written as code.
 | [**pixelfx**](https://github.com/patch-gg/pixelfx) | 244 pixel effects plus a pixel-artist skill | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) |
 | [**slack-gif-creator**](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator) | Animated GIFs that fit Slack limits | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**demo-video**](https://github.com/alirezarezvani/claude-skills) | Product demo videos | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| [**video-use**](https://github.com/browser-use/video-use) | Edit any video by conversation: transcribe, cut, grade, overlays | [browser-use/video-use](https://github.com/browser-use/video-use) |
+| [**manim-video**](https://github.com/browser-use/video-use/tree/main/skills/manim-video) | Math and technical animations with Manim | [browser-use/video-use](https://github.com/browser-use/video-use) |
+| [**claude-code-video-toolkit**](https://github.com/digitalsamba/claude-code-video-toolkit) | Explainer videos: Remotion, FFmpeg, ElevenLabs voice, AI clips | [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) |
+| [**synthetic-ui-demo**](https://github.com/digitalsamba/claude-code-video-toolkit/tree/main/.claude/skills/synthetic-ui-demo) | Product demo videos without screen recording | [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) |
+| [**create-shortform**](https://github.com/hungv47/meta-skills/tree/main/skills/create-shortform) | Researches and scripts TikTok, Reels, Shorts | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
 
 </details>
 
@@ -435,7 +493,7 @@ PRDs, strategy, C-level thinking.
 | [**grill-with-docs**](https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs) | Stress-tests a plan and writes ADRs | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | [**prd / product-manager / roadmap-communicator**](https://github.com/alirezarezvani/claude-skills) | Product management pack | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 
-<details><summary><b>Show all 10 product skills</b></summary>
+<details><summary><b>Show all 17 product skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -446,6 +504,13 @@ PRDs, strategy, C-level thinking.
 | [**soc2 / gdpr / iso27001 audit prep**](https://github.com/alirezarezvani/claude-skills) | Compliance readiness | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**feature-forge**](https://github.com/jeffallan/claude-skills/tree/main/skills/feature-forge) | Requirements workshops into specs | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**the-fool**](https://github.com/jeffallan/claude-skills/tree/main/skills/the-fool) | Structured critique of any plan | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
+| [**create-prd**](https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd) | Lean, decision-ready PRD (Paweł Huryn, 65+ PM skills) | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) |
+| [**pre-mortem**](https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/pre-mortem) | Risk analysis on a PRD or launch plan | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) |
+| [**strategy-red-team**](https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/strategy-red-team) | Attacks the load-bearing assumptions of a strategy | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) |
+| [**market-sizing**](https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing) | TAM, SAM, SOM top-down and bottom-up | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) |
+| [**jobs-to-be-done**](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/jobs-to-be-done) | Customer jobs, pains and gains | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) |
+| [**opportunity-solution-tree**](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/opportunity-solution-tree) | Outcomes to opportunities to experiments | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) |
+| [**prd-generator**](https://github.com/ognjengt/founder-skills/tree/main/skills/prd-generator) | PRD files built for AI coding agents | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
 
 </details>
 
@@ -462,7 +527,7 @@ Second brain, notes, deep research.
 | [**defuddle**](https://github.com/kepano/obsidian-skills) | Any web page to clean Markdown | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |
 | [**notebooklm**](https://github.com/pleaseprompto/notebooklm-skill) | Query your NotebookLM notebooks from Claude Code | [pleaseprompto/notebooklm-skill](https://github.com/pleaseprompto/notebooklm-skill) |
 
-<details><summary><b>Show all 8 research skills</b></summary>
+<details><summary><b>Show all 13 research skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -471,6 +536,11 @@ Second brain, notes, deep research.
 | [**digital-brain**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Personal operating-system workflows | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 | [**llm-wiki / wiki-ingest / wiki-query**](https://github.com/alirezarezvani/claude-skills) | Build a wiki the agent maintains | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**market-research / litreview / patent**](https://github.com/alirezarezvani/claude-skills) | Research pack | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| [**firecrawl-deep-research**](https://github.com/firecrawl/firecrawl-claude-plugin/tree/main/skills/firecrawl-deep-research) | Multi-source research on live web data | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
+| [**read-docs / read-literature**](https://github.com/firecrawl/firecrawl-claude-plugin/tree/main/skills/read-docs) | Reads current official docs and papers instead of memory | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
+| [**last30days**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/last30days) | What Reddit, X and the web said on a topic in 30 days | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
+| [**youtube-summarizer**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/youtube-summarizer) | YouTube transcript to structured summary | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
+| [**claude-scientific-skills**](https://github.com/K-Dense-AI/claude-scientific-skills) | 177 science skills: biology, chemistry, data, lab tools | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) |
 
 </details>
 
@@ -487,7 +557,7 @@ For people building agents.
 | [**context-compression**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Compaction for long sessions | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 | [**multi-agent-patterns**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Multi-agent design | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 
-<details><summary><b>Show all 12 ai agents skills</b></summary>
+<details><summary><b>Show all 17 ai agents skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -500,6 +570,11 @@ For people building agents.
 | [**evaluate-rag**](https://github.com/hamelsmu/evals-skills) | RAG evaluation | [hamelsmu/evals-skills](https://github.com/hamelsmu/evals-skills) |
 | [**rag-architect / prompt-engineer / fine-tuning-expert**](https://github.com/jeffallan/claude-skills) | Agent and model building | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**context-engineering-kit**](https://github.com/neolabhq/context-engineering-kit) | 70 commands: judge, critique, tree-of-thoughts, kaizen | [neolabhq/context-engineering-kit](https://github.com/neolabhq/context-engineering-kit) |
+| [**n8n-workflow-patterns / n8n-agents**](https://github.com/czlonkowski/n8n-skills) | Build n8n workflows and AI agents with n8n-mcp | [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) |
+| [**context-engineering**](https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering) | Sets up agent context so output stays sharp | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| [**task-coordination-strategies**](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/task-coordination-strategies) | Splits work and coordinates agent teams | [wshobson/agents](https://github.com/wshobson/agents) |
+| [**debate-agents**](https://github.com/hungv47/meta-skills/tree/main/skills/debate-agents) | Independent positions argue out a big decision | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
+| [**composio automations**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills) | 833 app automations (Gmail, Slack, Notion...) via Composio Rube MCP | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) |
 
 </details>
 
@@ -510,7 +585,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 1025 skills, grouped by repo</b></summary>
+<details><summary><b>All 2135 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -540,6 +615,34 @@ For people building agents.
 | [199-biotechnologies/claude-deep-research-skill](https://github.com/199-biotechnologies/claude-deep-research-skill) (1) | 1k | none stated | deep-research |
 | [pleaseprompto/notebooklm-skill](https://github.com/pleaseprompto/notebooklm-skill) (1) | 8k | MIT | notebooklm |
 | [neolabhq/context-engineering-kit](https://github.com/neolabhq/context-engineering-kit) (68) | 2k | GPL-3.0 | actualize, add-task, agent-evaluation, analyse-problem, analyse, analyze-issue, apply-anthropic-skill-best-practices, attach-review-to-pr, brainstorm, build-mcp, cause-and-effect, commit, context-engineering, create-agent, create-command, create-hook, create-ideas, create-pr, create-rule, create-skill, create-workflow-command, critique, decay, design-testing-strategy, do-and-judge, do-competitively, do-in-parallel, do-in-steps, fix-tests, git-notes, git-worktrees, implement-task, judge-with-debate, judge, kaizen, launch-sub-agent, load-issues, load-pr-comments, memorize, multi-agent-patterns, plan-do-check-act, plan-task, prompt-engineering, propose-hypotheses, query, reflect, reset, resolve-fixed-pr-comments, review-local-changes, review-pr, root-cause-tracing, setup-arxiv-mcp, setup-codemap-cli, setup-context7-mcp, setup-serena-mcp, status, subagent-driven-development, test-coverage, test-driven-development, test-prompt, test-skill, thought-based-reasoning, traiage-review, tree-of-thoughts, update-docs, why, write-concisely, write-tests |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) (32) |  | none stated | artifacts-builder, brand-guidelines, canvas-design, changelog-generator, competitive-ads-extractor, connect-apps, connect, content-research-writer, developer-growth-analysis, docx, pdf, pptx, xlsx, domain-name-brainstormer, file-organizer, image-enhancer, internal-comms, invoice-organizer, langsmith-fetch, lead-research-assistant, mcp-builder, meeting-insights-analyzer, raffle-winner-picker, skill-creator, skill-share, slack-gif-creator, tailored-resume-generator, template-skill, theme-factory, twitter-algorithm-optimizer, video-downloader, webapp-testing |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (1) |  | MIT | awesome-design-md |
+| [wshobson/agents](https://github.com/wshobson/agents) (185) |  | MIT | screen-reader-testing, wcag-audit-patterns, multi-reviewer-patterns, parallel-debugging, parallel-feature-development, task-coordination-strategies, team-communication-protocols, team-composition-patterns, fastapi-templates, avoid-ai-writing, api-design-principles, architecture-patterns, cqrs-implementation, event-store-design, microservices-patterns, projection-patterns, saga-orchestration, temporal-python-testing, workflow-orchestration-patterns, before-you-build, block-no-verify-hook, defi-protocol-templates, nft-standards, solidity-security, web3-testing, brand-landingpage, data-storytelling, kpi-dashboard-design, deployment-pipeline-design, github-actions-templates, gitlab-ci-patterns, secrets-management, cost-optimization, hybrid-cloud-networking, istio-traffic-management, linkerd-patterns, mtls-configuration, multi-cloud-architecture, service-mesh-observability, terraform-module-library, context-driven-development, track-management, workflow-patterns, social-evidence-research, airflow-dag-patterns, data-quality-frameworks, dbt-transformation-patterns, spark-optimization, postgresql-table-design, auth-implementation-patterns, bazel-build-optimization, code-review-excellence, debugging-strategies, e2e-testing-patterns, error-handling-patterns, git-advanced-workflows, monorepo-management, nx-workspace-patterns, sql-optimization-patterns, turborepo-caching, spark-environment-setup, spark-memory-thermal-ops, spark-training-gotchas, architecture-decision-records, changelog-automation, openapi-spec-generation, grounded-vault, hads, dotnet-backend-patterns, file-conversion, angular-migration, database-migration, dependency-upgrade, react-modernization, nextjs-app-router-patterns, react-native-architecture, react-state-management, tailwind-design-system, godot-gdscript-patterns, unity-ecs-patterns, hermes-tweet, employment-contract-templates, gdpr-data-handling, connectivity-triage, incident-runbook-templates, on-call-handoff-patterns, postmortem-writing, javascript-testing-patterns, modern-javascript-patterns, nodejs-backend-patterns, typescript-advanced-types, gitops-workflow, helm-chart-scaffolding, k8s-manifest-generator, k8s-security-policies, embedding-strategies, hybrid-search-implementation, langchain-architecture, llm-evaluation, prompt-engineering-patterns, rag-implementation, similarity-search-patterns, vector-index-tuning, checkpoint-promotion, dataset-curation, eval-harness-first, finetuning-method-selection, grpo-rlvr-training, lora-qlora-recipes, preference-optimization, quantized-export, trace-to-training-data, vision-sft, ml-pipeline-workflow, recsys-pipeline-architect, distributed-tracing, grafana-dashboards, prometheus-configuration, slo-implementation, billing-automation, paypal-integration, pci-compliance, stripe-integration, evaluation-methodology, pptx-deck-context, pptx-quality-gates, pptx-reference-deck-analysis, pptx-slide-specification, pptx-visual-assets, protect-mcp-setup, async-python-patterns, python-anti-patterns, python-background-jobs, python-code-style, python-configuration, python-design-patterns, python-error-handling, python-observability, python-packaging, python-performance-optimization, python-project-structure, python-resilience, python-resource-management, python-testing-patterns, python-type-safety, uv-package-manager, backtesting-frameworks, risk-metrics-calculation, anti-reversing-techniques, binary-analysis-patterns, memory-forensics, protocol-reverse-engineering, review-agent-setup, attack-tree-construction, sast-configuration, security-requirement-extraction, stride-analysis-patterns, threat-mitigation-mapping, bash-defensive-patterns, bats-testing-patterns, shellcheck-configuration, scan, signed-audit-trails-recipe, ai-debt-detector, session-guard, visual-edit-precision, social-publishing, competitive-landscape, market-sizing-analysis, startup-financial-modeling, startup-metrics-framework, team-composition-analysis, superself, go-concurrency-patterns, memory-safety-patterns, rust-async-patterns, accessibility-compliance, design-system-patterns, interaction-design, mobile-android-design, mobile-ios-design, react-native-design, responsive-design, visual-design-foundations, web-component-design |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) (69) |  | MIT | code-review, intended-vs-implemented, shipping-artifacts, ab-test-analysis, cohort-analysis, sql-queries, brainstorm-okrs, create-prd, dummy-dataset, job-stories, outcome-roadmap, pre-mortem, prioritization-frameworks, release-notes, retro, sprint-plan, stakeholder-map, strategy-red-team, summarize-meeting, test-scenarios, user-stories, wwas, beachhead-segment, competitive-battlecard, growth-loops, gtm-motions, gtm-strategy, ideal-customer-profile, competitor-analysis, customer-journey-map, market-segments, market-sizing, sentiment-analysis, user-personas, user-segmentation, marketing-ideas, north-star-metric, positioning-ideas, product-name, value-prop-statements, analyze-feature-requests, brainstorm-experiments-existing, brainstorm-experiments-new, brainstorm-ideas-existing, brainstorm-ideas-new, identify-assumptions-existing, identify-assumptions-new, interview-script, metrics-dashboard, opportunity-solution-tree, prioritize-assumptions, prioritize-features, summarize-interview, ansoff-matrix, business-model, lean-canvas, monetization-strategy, pestle-analysis, porters-five-forces, pricing-strategy, product-strategy, product-vision, startup-canvas, swot-analysis, value-proposition, draft-nda, grammar-check, privacy-policy, review-resume |
+| [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) (77) |  | CC-BY-NC-SA-4.0 | acquisition-channel-advisor, agent-orchestration-advisor, ai-shaped-readiness-advisor, altitude-horizon-framework, ansoff-matrix, autonomous-investigation, battle-card-builder, business-health-diagnostic, company-intel, company-research, competitive-analysis-process, competitive-intel-watch, competitive-research-snapshot, context-engineering-advisor, customer-journey-map, customer-journey-mapping-workshop, derisk-measurement-advisor, director-readiness-advisor, discovery-interview-prep, discovery-process, eol-checklist, eol-internal-enablement, eol-message, eol-process, eol-readiness-advisor, eol-stakeholder-sequence, epic-breakdown-advisor, epic-hypothesis, executive-onboarding-playbook, feature-investment-advisor, finance-based-pricing-advisor, finance-metrics-quickref, incoming-request-advisor, intel-discipline-advisor, intelligence-collection-disciplines, jobs-to-be-done, lean-ux-canvas, lifecycle-play-advisor, market-landscape-scan, opportunity-solution-tree, organic-growth-advisor, pestel-analysis, pestel-delta-monitor, pm-skill-creator, pol-probe-advisor, pol-probe, porters-five-forces, positioning-statement, positioning-workshop, prd-development, press-release, pricing-packaging-tracker, prioritization-advisor, problem-framing-canvas, problem-statement, product-lifecycle-plays, product-sense-interview-answer, product-strategy-session, proto-persona, recommendation-canvas, roadmap-planning, saas-economics-efficiency-metrics, saas-revenue-growth-metrics, skill-authoring-workflow, stakeholder-engagement-advisor, stakeholder-identification, stakeholder-mapping, storyboard, swot-analysis, tam-sam-som-calculator, user-story-mapping-workshop, user-story-mapping, user-story-splitting, user-story, voice-of-customer-miner, vp-cpo-readiness-advisor, workshop-facilitation |
+| [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) (120) |  | Apache-2.0 | ad-account-auditor, conversion-signal-qa, conversion-value-mapper, placement-exclusion-manager, ad-creative-builder, ad-test-designer, bid-strategy-planner, landing-experience-checker, audience-segment-builder, campaign-architect, product-feed-optimizer, search-term-miner, attribution-reconciler, budget-pacing-monitor, fatigue-frequency-manager, paid-measurement-loop, cold-outbound-sequencer, email-quality-auditor, inbox-placement-monitor, send-experiment-designer, dynamic-content-personalizer, email-creative-builder, email-render-builder, subject-line-lab, email-sequence-designer, newsletter-monetization-planner, preference-frequency-manager, reactivation-specialist, deliverability-qa, list-growth-designer, list-hygiene-monitor, list-segment-builder, content-amplifier, contract-helper, creator-content-auditor, outreach-manager, landing-optimizer, performance-analyzer, report-generator, roi-calculator, audience-mapper, fit-scorer, influencer-discovery, trend-spotter, brief-generator, budget-optimizer, campaign-planner, competitor-tracker, launch-asset-packager, message-house-builder, pricing-packaging-planner, sales-enablement-kit, community-launch-runner, launch-day-conductor, launch-readiness-auditor, press-media-relations, launch-feedback-synthesizer, launch-monitor, launch-retro-analyzer, momentum-planner, early-access-designer, launch-tier-planner, launch-window-planner, positioning-mapper, brand-language-codifier, message-system-architect, story-bank-builder, strategic-narrative-designer, message-test-designer, narrative-drift-monitor, narrative-quality-auditor, narrative-resonance-monitor, narrative-cascade-planner, narrative-enablement-kit, pitch-narrative-builder, proof-point-packager, audience-belief-mapper, category-narrative-mapper, narrative-baseline-mapper, positioning-truth-tracer, channel-registry, consent-registry, creator-registry, entity-registry, launch-registry, memory-management, narrative-registry, offer-claims-registry, domain-authority-auditor, offsite-signal-analyzer, performance-monitor, rank-tracker, content-writer, geo-content-optimizer, page-play-builder, serp-markup-builder, competitor-analysis, content-gap-analysis, keyword-research, serp-analysis, content-quality-auditor, on-page-seo-checker, site-structure-optimizer, technical-seo-checker, advocacy-program-designer, short-video-scripter, social-calendar-builder, social-creative-builder, channel-portfolio-planner, participation-warmup-planner, platform-norm-profiler, voice-dossier-builder, crisis-response-planner, engagement-inbox-manager, social-quality-auditor, social-selling-planner, dark-social-attributor, share-of-voice-tracker, social-measurement-loop, social-pulse-monitor |
+| [Eronred/aso-skills](https://github.com/Eronred/aso-skills) (40) |  | MIT | ab-test-store-listing, android-aso, app-analytics, app-clips, app-icon-optimization, app-launch, app-marketing-context, app-preview-video, app-rejection-recovery, app-store-featured, apple-search-ads, asc-metrics, aso-audit, aso-router, attribution-setup, category-positioning, competitor-analysis, competitor-tracking, crash-analytics, creator-ugc-marketing, custom-product-pages, in-app-events, keyword-research, localization, market-movers, market-pulse, metadata-optimization, monetization-strategy, onboarding-optimization, paywall-optimization, press-and-pr, rating-prompt-strategy, referral-program, retention-optimization, review-management, screenshot-optimization, seasonal-aso, subscription-lifecycle, ua-campaign, web-to-app-funnel |
+| [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) (15) |  | MIT | brand-copywriter, competitor-intel, cro-optimization, go-to-market-plan, lead-magnet-generator, linkedin-writer, marketing-ideas, outreach-specialist, prd-generator, pricing-strategist, product-hunt-launch-plan, sop-creator, strategic-planning, viral-hook-creator, x-writer |
+| [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) (23) |  | none stated | ai-discoverability-audit, case-study-builder, cold-outreach-sequence, content-idea-generator, daily-briefing-builder, de-ai-ify, go-mode, homepage-audit, last30days, linkedin-authority-builder, linkedin-profile-optimizer, marketing-principles, meeting-prep, newsletter-creation-curation, plan-my-day, positioning-basics, reddit-insights, social-card-gen, testimonial-collector, tweet-draft-reviewer, vault-cleanup-auditor, voice-extractor, youtube-summarizer |
+| [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) (12) |  | none stated | headline-matrix, mechanism-builder, objection-crusher, schwartz-awareness-mapper, avatar-extraction, offer-extraction, ad-angle-multiplier, conversion-path-builder, performance-diagnosis, scroll-stopping-creative, full-funnel-campaign-orchestrator, generic-language-killer |
+| [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) (1) |  | MIT | email-marketing-bible |
+| [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw) (1) |  | MIT | tweetclaw |
+| [greensock/gsap-skills](https://github.com/greensock/gsap-skills) (8) |  | MIT | gsap-core, gsap-frameworks, gsap-performance, gsap-plugins, gsap-react, gsap-scrolltrigger, gsap-timeline, gsap-utils |
+| [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) (15) |  | MIT | n8n-agents, n8n-binary-and-data, n8n-code-javascript, n8n-code-python, n8n-code-tool, n8n-error-handling, n8n-expression-syntax, n8n-mcp-tools-expert, n8n-multi-instance, n8n-node-configuration, n8n-self-hosting, n8n-subworkflows, n8n-validation-expert, n8n-workflow-patterns, using-n8n-mcp-skills |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (25) |  | MIT | api-and-interface-design, browser-testing-with-devtools, ci-cd-and-automation, code-review-and-quality, code-simplification, constraint-driven-development, context-engineering, debugging-and-error-recovery, deprecation-and-migration, documentation-and-adrs, doubt-driven-development, frontend-ui-engineering, git-workflow-and-versioning, idea-refine, incremental-implementation, interview-me, observability-and-instrumentation, performance-optimization, planning-and-task-breakdown, security-and-hardening, shipping-and-launch, source-driven-development, spec-driven-development, test-driven-development, using-agent-skills |
+| [safishamsi/graphify](https://github.com/safishamsi/graphify) (1) |  | Apache-2.0 | graphify |
+| [browser-use/video-use](https://github.com/browser-use/video-use) (2) |  | MIT | video-use, manim-video |
+| [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) (14) |  | MIT | acestep, elevenlabs, ffmpeg, frontend-design, ideogram4, ltx2, moviepy, playwright-recording, qwen-edit, remotion-official, remotion, runpod, synthetic-ui-demo, video-toolkit |
+| [typefully/agent-skills](https://github.com/typefully/agent-skills) (1) |  | MIT | typefully |
+| [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) (12) |  | MIT | brand-identity, business-contact-research, design, enrich-lead, fantasy-sports, find-leads, firecrawl-deep-research, firecrawl, job-postings, read-docs, read-literature, seo-audit |
+| [hashicorp/agent-skills](https://github.com/hashicorp/agent-skills) (20) |  | MPL-2.0 | aws-ami-builder, azure-image-builder, push-to-registry, windows-builder, azure-verified-modules, new-terraform-provider, provider-actions, provider-configuration, provider-docs, provider-ephemeral-resources, provider-framework-migration, provider-resources, provider-test-patterns, refactor-module, run-acceptance-tests, terraform-policy, terraform-search-import, terraform-stacks, terraform-style-guide, terraform-test |
+| [MicrosoftDocs/Agent-Skills](https://github.com/MicrosoftDocs/Agent-Skills) (201) |  | CC-BY-4.0 | azure-active-directory-b2c, azure-advisor, azure-ai-vision, azure-aks-edge-essentials, azure-analysis-services, azure-anyscale-on-azure, azure-api-center, azure-api-management, azure-app-configuration, azure-app-service, azure-app-testing, azure-application-gateway, azure-application-network, azure-arc, azure-architecture, azure-artifact-signing, azure-artifacts, azure-attestation, azure-automation, azure-backup, azure-bastion, azure-batch, azure-blob-storage, azure-blueprints, azure-boards, azure-bot-service, azure-business-process-tracking, azure-cache-redis, azure-carbon-optimization, azure-chaos-studio, azure-cloud-adoption-framework, azure-cloud-hsm, azure-cloud-services, azure-cloud-shell, azure-cognitive-search, azure-communication-services, azure-confidential-computing, azure-confidential-ledger, azure-connector-namespace, azure-container-apps, azure-container-instances, azure-container-registry, azure-container-storage, azure-content-safety, azure-content-understanding, azure-copilot, azure-cosmos-db, azure-cost-management, azure-custom-vision, azure-cyclecloud, azure-data-api-builder, azure-data-box-family, azure-data-explorer, azure-data-factory, azure-data-manager-for-agri, azure-data-science-vm, azure-data-share, azure-database-migration, azure-database-mysql, azure-database-postgresql, azure-databricks, azure-ddos-protection, azure-dedicated-hsm, azure-defender-for-cloud, azure-defender-for-iot, azure-deployment-environments, azure-dev-box, azure-devops, azure-devtest-labs, azure-digital-twins, azure-dns, azure-document-intelligence, azure-documentdb, azure-durable-task, azure-education-hub, azure-elastic-san, azure-enclave, azure-energy-data-services, azure-event-grid, azure-event-hubs, azure-expressroute, azure-extended-zones, azure-external-attack-surface-management, azure-face, azure-files, azure-firewall-manager, azure-firewall, azure-firmware-analysis, azure-fluid-relay, azure-front-door, azure-functions, azure-hdinsight, azure-health-bot, azure-health-data-services, azure-horizondb, azure-hpc-cache, azure-immersive-reader, azure-impact-reporting, azure-import-export, azure-information-protection, azure-internet-peering, azure-iot-central, azure-iot-edge, azure-iot-hub, azure-iot-operations, azure-iot, azure-key-vault, azure-kubernetes-service, azure-lab-services, azure-language-service, azure-large-instances, azure-lighthouse, azure-load-balancer, azure-local, azure-logic-apps, azure-machine-learning, azure-managed-applications, azure-managed-grafana, azure-managed-lustre, azure-managed-redis, azure-maps, azure-metrics-advisor, azure-microsoft-discovery, azure-microsoft-opentelemetry, azure-migrate, azure-monitor, azure-nat-gateway, azure-netapp-files, azure-network-function-manager, azure-network-watcher, azure-networking, azure-notification-hubs, azure-nutanix, azure-open-datasets, azure-operator-nexus, azure-operator-service-manager, azure-oracle, azure-osconfig, azure-partner-solutions, azure-payment-hsm, azure-peering-service, azure-personalizer, azure-pipelines, azure-planetary-computer-pro, azure-playwright-workspaces, azure-policy, azure-portal, azure-private-link, azure-quantum, azure-queue-storage, azure-quotas, azure-rbac, azure-redhat-openshift, azure-relay, azure-reliability, azure-repos, azure-resiliency, azure-resource-graph, azure-resource-manager, azure-route-server, azure-sap, azure-security, azure-sentinel, azure-service-bus, azure-service-connector, azure-service-fabric, azure-service-health, azure-signalr-service, azure-site-recovery, azure-sovereign-us, azure-speech, azure-spring-apps, azure-sql-database, azure-sql-managed-instance, azure-sql-virtual-machines, azure-sre-agent, azure-stack-edge, azure-static-web-apps, azure-stream-analytics, azure-synapse-analytics, azure-table-storage, azure-test-plans, azure-traffic-manager, azure-translator, azure-update-manager, azure-video-indexer, azure-virtual-desktop, azure-virtual-machines, azure-virtual-network-manager, azure-virtual-network, azure-virtual-wan, azure-vm-scalesets, azure-vmware-solution, azure-vpn-gateway, azure-web-application-firewall, azure-web-pubsub, azure-well-architected, microsoft-foundry-classic, microsoft-foundry-local, microsoft-foundry-tools, microsoft-foundry |
+| [awslabs/agent-plugins](https://github.com/awslabs/agent-plugins) (34) |  | Apache-2.0 | amazon-location-service, amplify-workflow, api-gateway, aws-lambda-durable-functions, aws-lambda-managed-instances, aws-lambda-microvms, aws-lambda, aws-serverless-deployment, aws-step-functions, aws-transform, document-service, dsql, aws-architecture-diagram, deploy, elastic-beanstalk, dataset-evaluation, dataset-transformation, directory-management, finetuning-technique, finetuning, hyperpod-cluster-debugger, hyperpod-issue-report, hyperpod-nccl, hyperpod-node-debugger, hyperpod-performance-debugger, hyperpod-slurm-debugger, hyperpod-ssm, hyperpod-version-checker, model-deployment, model-evaluation, model-selection, planning, sdk-getting-started, use-case-specification |
+| [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) (177) |  | MIT | 13c-metabolic-flux, adaptyv, aeon, alphagenome, analytical-method-validation, anndata, arbor, arboreto, astropy, autoskill, benchling-integration, bgpt-paper-search, bids, biopython, bioservices, bulk-rnaseq, cantera, cellprofiler, cellxgene-census, cirq, citation-management, clinical-decision-support, clinical-reports, cobrapy, consciousness-council, dask, database-lookup, datalad, datamol, deepchem, deepspot-m, deeptools, depmap, dhdna-profiler, diffdock, dnanexus-integration, esm, etetoolkit, exa-search, experimental-design, exploratory-data-analysis, fictiv, flowio, flowkit, fluidsim, folklore-variant-evidence, generate-image, geniml, genomic-coordinates, genomic-intelligence, geomaster, geopandas, get-available-resources, gget, ginkgo-cloud-lab, glycoengineering, gtars, histolab, hugging-science, hypogenic, hypothesis-generation, imaging-data-commons, infographics, iso-standards-readiness, lab-hardware-cad, labarchive-integration, lamindb, latchbio-integration, latex-posters, liteparse, literature-review, mageck, marine-carbonate-chemistry, markdown-mermaid-writing, market-research-reports, markitdown, matchms, matlab, matplotlib, medchem, modal, molecular-dynamics, molfeat, ncats-arax, networkx, neurokit2, neuropixels-analysis, nextflow, nmrglue, nwb-conversion, omero-integration, onekgpd, ontology-term-resolution, open-notebook, openpiv, opentrons-integration, optimize-for-gpu, pacsomatic, paper-lookup, paperclip, paperzilla, parallel-web, pathml, pathogen-variant-surveillance, pathway-enrichment, peer-review, pennylane, phylogenetics, pi-agent, pkpd-modeling, polars-bio, polars, pptx-posters, primekg, primer-design, protocolsio-integration, pufferlib, pybamm, pycalphad, pydeseq2, pydicom, pyhealth, pylabrobot, pymatgen, pymc, pymoo, pyopenms, pysam, pytdc, pytorch-lightning, pyzotero, qiime2-amplicon, qiskit, qutip, rdkit, relion, relsa-severity-assessment, research-grants, research-lookup, rowan, scanpy, scholar-evaluation, scientific-brainstorming, scientific-critical-thinking, scientific-schematics, scientific-slides, scientific-visualization, scientific-writing, scikit-bio, scikit-learn, scikit-survival, scvelo, scvi-tools, seaborn, shap, simpy, stable-baselines3, statistical-analysis, statistical-power, statsmodels, sympy, tamarind, tellurium, tiledbvcf, timesfm-forecasting, torch-geometric, torchdrug, transformers, treatment-plans, umap-learn, uncertainty-and-units, usfiscaldata, vaex, venue-templates, waypoint-bio, what-if-oracle, zarr-python |
+| [BehiSecc/VibeSec-Skill](https://github.com/BehiSecc/VibeSec-Skill) (1) |  | Apache-2.0 | VibeSec-Skill |
+| [feedtailor/ccskill-nanobanana](https://github.com/feedtailor/ccskill-nanobanana) (1) |  | MIT | ccskill-nanobanana |
+| [kingbootoshi/nano-banana-2-skill](https://github.com/kingbootoshi/nano-banana-2-skill) (1) |  | MIT | nano-banana |
+| [hungv47/meta-skills](https://github.com/hungv47/meta-skills) (21) |  | MIT | brief-creative, brief-product-ui, conquistador, create-brand, create-paid-campaign, create-shortform, debate-agents, improve-conversion, knowledge-review, map-user-flow, measure-growth, model-growth-funnel, optimize-search, plan-campaign, polish-vietnamese, research-channel, research-positioning, write-copy, write-longform, write-outreach, write-social |
 
 </details>
 

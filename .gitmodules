@@ -114,3 +114,115 @@
 	path = vendor/retieedra-profound_skills-marketing-library
 	url = https://github.com/retieedra-profound/skills-marketing-library.git
 	shallow = true
+[submodule "ComposioHQ_awesome-claude-skills"]
+	path = vendor/ComposioHQ_awesome-claude-skills
+	url = https://github.com/ComposioHQ/awesome-claude-skills.git
+	shallow = true
+[submodule "VoltAgent_awesome-design-md"]
+	path = vendor/VoltAgent_awesome-design-md
+	url = https://github.com/VoltAgent/awesome-design-md.git
+	shallow = true
+[submodule "wshobson_agents"]
+	path = vendor/wshobson_agents
+	url = https://github.com/wshobson/agents.git
+	shallow = true
+[submodule "phuryn_pm-skills"]
+	path = vendor/phuryn_pm-skills
+	url = https://github.com/phuryn/pm-skills.git
+	shallow = true
+[submodule "deanpeters_Product-Manager-Skills"]
+	path = vendor/deanpeters_Product-Manager-Skills
+	url = https://github.com/deanpeters/Product-Manager-Skills.git
+	shallow = true
+[submodule "aaron-he-zhu_aaron-marketing-skills"]
+	path = vendor/aaron-he-zhu_aaron-marketing-skills
+	url = https://github.com/aaron-he-zhu/aaron-marketing-skills.git
+	shallow = true
+[submodule "Eronred_aso-skills"]
+	path = vendor/Eronred_aso-skills
+	url = https://github.com/Eronred/aso-skills.git
+	shallow = true
+[submodule "ognjengt_founder-skills"]
+	path = vendor/ognjengt_founder-skills
+	url = https://github.com/ognjengt/founder-skills.git
+	shallow = true
+[submodule "BrianRWagner_ai-marketing-skills"]
+	path = vendor/BrianRWagner_ai-marketing-skills
+	url = https://github.com/BrianRWagner/ai-marketing-skills.git
+	shallow = true
+[submodule "realkimbarrett_advertising-skills"]
+	path = vendor/realkimbarrett_advertising-skills
+	url = https://github.com/realkimbarrett/advertising-skills.git
+	shallow = true
+[submodule "CosmoBlk_email-marketing-bible"]
+	path = vendor/CosmoBlk_email-marketing-bible
+	url = https://github.com/CosmoBlk/email-marketing-bible.git
+	shallow = true
+[submodule "Xquik-dev_tweetclaw"]
+	path = vendor/Xquik-dev_tweetclaw
+	url = https://github.com/Xquik-dev/tweetclaw.git
+	shallow = true
+[submodule "greensock_gsap-skills"]
+	path = vendor/greensock_gsap-skills
+	url = https://github.com/greensock/gsap-skills.git
+	shallow = true
+[submodule "czlonkowski_n8n-skills"]
+	path = vendor/czlonkowski_n8n-skills
+	url = https://github.com/czlonkowski/n8n-skills.git
+	shallow = true
+[submodule "addyosmani_agent-skills"]
+	path = vendor/addyosmani_agent-skills
+	url = https://github.com/addyosmani/agent-skills.git
+	shallow = true
+[submodule "safishamsi_graphify"]
+	path = vendor/safishamsi_graphify
+	url = https://github.com/safishamsi/graphify.git
+	shallow = true
+[submodule "browser-use_video-use"]
+	path = vendor/browser-use_video-use
+	url = https://github.com/browser-use/video-use.git
+	shallow = true
+[submodule "digitalsamba_claude-code-video-toolkit"]
+	path = vendor/digitalsamba_claude-code-video-toolkit
+	url = https://github.com/digitalsamba/claude-code-video-toolkit.git
+	shallow = true
+[submodule "typefully_agent-skills"]
+	path = vendor/typefully_agent-skills
+	url = https://github.com/typefully/agent-skills.git
+	shallow = true
+[submodule "firecrawl_firecrawl-claude-plugin"]
+	path = vendor/firecrawl_firecrawl-claude-plugin
+	url = https://github.com/firecrawl/firecrawl-claude-plugin.git
+	shallow = true
+[submodule "hashicorp_agent-skills"]
+	path = vendor/hashicorp_agent-skills
+	url = https://github.com/hashicorp/agent-skills.git
+	shallow = true
+[submodule "MicrosoftDocs_Agent-Skills"]
+	path = vendor/MicrosoftDocs_Agent-Skills
+	url = https://github.com/MicrosoftDocs/Agent-Skills.git
+	shallow = true
+[submodule "awslabs_agent-plugins"]
+	path = vendor/awslabs_agent-plugins
+	url = https://github.com/awslabs/agent-plugins.git
+	shallow = true
+[submodule "K-Dense-AI_claude-scientific-skills"]
+	path = vendor/K-Dense-AI_claude-scientific-skills
+	url = https://github.com/K-Dense-AI/claude-scientific-skills.git
+	shallow = true
+[submodule "BehiSecc_VibeSec-Skill"]
+	path = vendor/BehiSecc_VibeSec-Skill
+	url = https://github.com/BehiSecc/VibeSec-Skill.git
+	shallow = true
+[submodule "feedtailor_ccskill-nanobanana"]
+	path = vendor/feedtailor_ccskill-nanobanana
+	url = https://github.com/feedtailor/ccskill-nanobanana.git
+	shallow = true
+[submodule "kingbootoshi_nano-banana-2-skill"]
+	path = vendor/kingbootoshi_nano-banana-2-skill
+	url = https://github.com/kingbootoshi/nano-banana-2-skill.git
+	shallow = true
+[submodule "hungv47_meta-skills"]
+	path = vendor/hungv47_meta-skills
+	url = https://github.com/hungv47/meta-skills.git
+	shallow = true
