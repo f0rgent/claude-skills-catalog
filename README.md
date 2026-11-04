@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-971-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-25-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-990-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-26-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -45,7 +45,7 @@ If you install nothing else, install these.
 
 <table>
 <tr>
-<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>27 picks</sub></td>
+<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>28 picks</sub></td>
 <td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>23 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>7 picks</sub></td>
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>16 picks</sub></td>
@@ -79,7 +79,7 @@ How the agent plans, codes, reviews and ships.
 | [**writing-plans**](https://github.com/obra/superpowers/tree/main/skills/writing-plans) | Turns a spec into a step-by-step implementation plan | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**executing-plans**](https://github.com/obra/superpowers/tree/main/skills/executing-plans) | Works through a plan inline, step by step | [obra/superpowers](https://github.com/obra/superpowers) |
 
-<details><summary><b>Show all 27 dev workflow skills</b></summary>
+<details><summary><b>Show all 28 dev workflow skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -87,6 +87,7 @@ How the agent plans, codes, reviews and ships.
 | [**dispatching-parallel-agents**](https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents) | Splits independent tasks across agents in parallel | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**test-driven-development**](https://github.com/obra/superpowers/tree/main/skills/test-driven-development) | Red-green-refactor before writing implementation | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**systematic-debugging**](https://github.com/obra/superpowers/tree/main/skills/systematic-debugging) | Root-cause debugging instead of guess-and-check | [obra/superpowers](https://github.com/obra/superpowers) |
+| [**file-search**](https://github.com/massgen/massgen/tree/main/massgen/skills/file-search) | Fast code search with ripgrep for text and ast-grep for syntax | [massgen/massgen](https://github.com/massgen/massgen) |
 | [**verification-before-completion**](https://github.com/obra/superpowers/tree/main/skills/verification-before-completion) | Makes the agent prove tests pass before saying done | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**requesting-code-review**](https://github.com/obra/superpowers/tree/main/skills/requesting-code-review) | Self-review against requirements before merge | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**receiving-code-review**](https://github.com/obra/superpowers/tree/main/skills/receiving-code-review) | Handles review feedback with rigor, not blind agreement | [obra/superpowers](https://github.com/obra/superpowers) |
@@ -504,12 +505,13 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 971 skills, grouped by repo</b></summary>
+<details><summary><b>All 990 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
 | [anthropics/skills](https://github.com/anthropics/skills) (17) | 187k | see repo (some source-available) | algorithmic-art, brand-guidelines, canvas-design, claude-api, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx |
 | [obra/superpowers](https://github.com/obra/superpowers) (15) | 312k | MIT | brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills |
+| [massgen/massgen](https://github.com/massgen/massgen) (19) | 1k | Apache-2.0 | audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation |
 | [mattpocock/skills](https://github.com/mattpocock/skills) (39) | 312k | MIT | ask-matt, code-review, codebase-design, diagnosing-bugs, domain-modeling, grill-with-docs, implement-spec, implement, improve-codebase-architecture, pr, prototype, research, retro, setup-matt-pocock-skills, tdd, to-spec, to-tickets, triage, wayfinder, wizard, chief-of-staff, claude-handoff, loop-me, setup-ts-deep-modules, software-factory, writing-beats, writing-fragments, writing-shape, git-guardrails-claude-code, migrate-to-shoehorn, scaffold-exercises, setup-pre-commit, grill-me, grilling, handoff, teach, to-questionnaire, wait-what, writing-for-agents |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (9) | 34k | none stated | composition-patterns, deploy-to-vercel, react-best-practices, react-native-skills, react-view-transitions, vercel-cli-with-tokens, vercel-optimize, web-design-guidelines, writing-guidelines |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (53) | 58k | MIT | ab-testing, ad-creative, ads, ai-seo, analytics, aso, attribution, churn-prevention, co-marketing, cold-email, community-marketing, competitor-profiling, competitors, content-strategy, conversion-tracking, copy-editing, copywriting, cro, customer-research, directory-submissions, emails, events, free-tools, image, influencer-marketing, launch, lead-magnets, link-building, marketing-council, marketing-ideas, marketing-loops, marketing-plan, marketing-psychology, offers, onboarding, paywalls, popups, pricing, product-marketing, programmatic-seo, prospecting, public-relations, referrals, reverse-engineer-marketing, revops, sales-enablement, schema, seo-audit, signup, site-architecture, sms, social, video |

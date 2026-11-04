@@ -8,6 +8,7 @@ REPOS = {
     # repo: (stars, license, default_branch)
     "anthropics/skills": (187236, "see repo (some source-available)", "main"),
     "obra/superpowers": (312086, "MIT", "main"),
+    "massgen/massgen": (1100, "Apache-2.0", "main"),
     "mattpocock/skills": (312011, "MIT", "main"),
     "vercel-labs/agent-skills": (33509, "none stated", "main"),
     "coreyhaines31/marketingskills": (58394, "MIT", "main"),
@@ -62,6 +63,7 @@ SECTIONS = [
  ("dispatching-parallel-agents", SP, "skills/dispatching-parallel-agents", "Splits independent tasks across agents in parallel"),
  ("test-driven-development", SP, "skills/test-driven-development", "Red-green-refactor before writing implementation"),
  ("systematic-debugging", SP, "skills/systematic-debugging", "Root-cause debugging instead of guess-and-check"),
+ ("file-search", "massgen/massgen", "massgen/skills/file-search", "Fast code search with ripgrep for text and ast-grep for syntax"),
  ("verification-before-completion", SP, "skills/verification-before-completion", "Makes the agent prove tests pass before saying done"),
  ("requesting-code-review", SP, "skills/requesting-code-review", "Self-review against requirements before merge"),
  ("receiving-code-review", SP, "skills/receiving-code-review", "Handles review feedback with rigor, not blind agreement"),
@@ -278,6 +280,7 @@ SECTIONS = [
 ]
 
 INDEX = {
+ "massgen/massgen": "audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation",
  "anthropics/skills": "algorithmic-art, brand-guidelines, canvas-design, claude-api, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx",
  "obra/superpowers": "brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills",
  "mattpocock/skills": "ask-matt, code-review, codebase-design, diagnosing-bugs, domain-modeling, grill-with-docs, implement-spec, implement, improve-codebase-architecture, pr, prototype, research, retro, setup-matt-pocock-skills, tdd, to-spec, to-tickets, triage, wayfinder, wizard, chief-of-staff, claude-handoff, loop-me, setup-ts-deep-modules, software-factory, writing-beats, writing-fragments, writing-shape, git-guardrails-claude-code, migrate-to-shoehorn, scaffold-exercises, setup-pre-commit, grill-me, grilling, handoff, teach, to-questionnaire, wait-what, writing-for-agents",

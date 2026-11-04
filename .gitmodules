@@ -98,3 +98,7 @@
 	path = vendor/patch-gg_pixelfx
 	url = https://github.com/patch-gg/pixelfx.git
 	shallow = true
+[submodule "massgen_massgen"]
+	path = vendor/massgen_massgen
+	url = https://github.com/massgen/massgen.git
+	shallow = true

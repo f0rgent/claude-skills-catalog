@@ -23,3 +23,4 @@ pleaseprompto/notebooklm-skill c80722d3f27d65e06b6579add201bf69b99101d0
 neolabhq/context-engineering-kit 23e2428e809d77717f8acc9659c374a3a1fcb93e
 Vincentwei1021/mg-styles-15 49052d80bfaf9fa8412cc9710530e5e95a3b8d8c
 patch-gg/pixelfx a84159688af3ca37a4be05a0d422b94451b2e24e
+massgen/massgen 007bd8579298d7dc3ff2a43c378e27a284902f22
