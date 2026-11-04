@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-990-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-26-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-1025-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-29-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -53,12 +53,12 @@ If you install nothing else, install these.
 <tr>
 <td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>22 picks</sub></td>
 <td align="center" width="25%"><a href="#s6"><h1>📈</h1><b>Marketing</b></a><br><sub>24 picks</sub></td>
-<td align="center" width="25%"><a href="#s7"><h1>✍️</h1><b>Copywriting</b></a><br><sub>11 picks</sub></td>
+<td align="center" width="25%"><a href="#s7"><h1>✍️</h1><b>Copywriting</b></a><br><sub>15 picks</sub></td>
 <td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>11 picks</sub></td>
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>7 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>10 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>11 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>5 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>10 picks</sub></td>
 </tr>
@@ -297,14 +297,18 @@ Writing that sells and reads like a person.
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**humanizer**](https://github.com/blader/humanizer) | Strips the signs of AI writing so text reads like a person wrote it | [blader/humanizer](https://github.com/blader/humanizer) |
 | [**copywriting**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting) | Homepage, landing, pricing, product copy | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**copy-editing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing) | Edits and refreshes existing copy | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
-| [**content-strategy**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy) | What to write and why | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
-<details><summary><b>Show all 11 copywriting skills</b></summary>
+<details><summary><b>Show all 15 copywriting skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**content-strategy**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy) | What to write and why | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
+| [**writing**](https://github.com/retieedra-profound/skills-marketing-library/tree/main/wisprflow/writing) | Edits AI text to sound human: cuts banned words and filler, adds voice | [retieedra-profound/skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library) |
+| [**improved-copywriting**](https://github.com/retieedra-profound/skills-marketing-library/tree/main/profound/improved-copywriting) | Diagnoses page copy first, then writes only claims the facts support | [retieedra-profound/skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library) |
+| [**brand-voice**](https://github.com/retieedra-profound/skills-marketing-library/tree/main/wisprflow/brand-voice) | Keeps one brand voice across everything you write | [retieedra-profound/skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library) |
 | [**sales-enablement**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement) | Decks, one-pagers, objection docs | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**content-humanizer**](https://github.com/alirezarezvani/claude-skills) | Removes AI tone from text | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**content-creator / content-production**](https://github.com/alirezarezvani/claude-skills) | Content pipeline end to end | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
@@ -377,14 +381,15 @@ Videos and animation written as code.
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**hyperframes**](https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes) | Write HTML, render video: explainers, captions, charts, vertical clips | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
 | [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-create**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-create) | New Remotion video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
-| [**remotion-captions**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-captions) | Transcribe and animate captions | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 
-<details><summary><b>Show all 10 video skills</b></summary>
+<details><summary><b>Show all 11 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**remotion-captions**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-captions) | Transcribe and animate captions | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-render**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-render) | Export the video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-maps**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-maps) | Map animations | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**huashu-motion**](https://github.com/alchaincyf/huashu-motion) | Launch videos and explainers; click a frame to fix that part | [alchaincyf/huashu-motion](https://github.com/alchaincyf/huashu-motion) |
@@ -505,13 +510,16 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 990 skills, grouped by repo</b></summary>
+<details><summary><b>All 1025 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
 | [anthropics/skills](https://github.com/anthropics/skills) (17) | 187k | see repo (some source-available) | algorithmic-art, brand-guidelines, canvas-design, claude-api, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx |
 | [obra/superpowers](https://github.com/obra/superpowers) (15) | 312k | MIT | brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills |
 | [massgen/massgen](https://github.com/massgen/massgen) (19) | 1k | Apache-2.0 | audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation |
+| [blader/humanizer](https://github.com/blader/humanizer) (1) | 65k | MIT | humanizer |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) (15) | 79k | Apache-2.0 | captions-overlay, changelog-video, cut-the-curve, figma, hyperframes, hyperframes-cli, hyperframes-registry, media-use, motion-doctrine, oversized-cursor, remotion-to-hyperframes, reverse-any-video, seam-craft, slideshow, style-sampling |
+| [retieedra-profound/skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library) (19) | 3 | MIT | aeo-operator-2026, ai-answer-accuracy-auditor, ai-citation-mix-strategist, ai-commerce-readiness-auditor, ai-prompt-portfolio-builder, ai-retrieval-fanout-mapper, ai-search-attribution-planner, brand-voice, claude-code-discoverability-auditor, commercial-ai-journey-mapper, copy-editing, humanizer, improved-copywriting, international-aeo-strategist, link-creator, newsletter-copy, session-end, session-start, writing |
 | [mattpocock/skills](https://github.com/mattpocock/skills) (39) | 312k | MIT | ask-matt, code-review, codebase-design, diagnosing-bugs, domain-modeling, grill-with-docs, implement-spec, implement, improve-codebase-architecture, pr, prototype, research, retro, setup-matt-pocock-skills, tdd, to-spec, to-tickets, triage, wayfinder, wizard, chief-of-staff, claude-handoff, loop-me, setup-ts-deep-modules, software-factory, writing-beats, writing-fragments, writing-shape, git-guardrails-claude-code, migrate-to-shoehorn, scaffold-exercises, setup-pre-commit, grill-me, grilling, handoff, teach, to-questionnaire, wait-what, writing-for-agents |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (9) | 34k | none stated | composition-patterns, deploy-to-vercel, react-best-practices, react-native-skills, react-view-transitions, vercel-cli-with-tokens, vercel-optimize, web-design-guidelines, writing-guidelines |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (53) | 58k | MIT | ab-testing, ad-creative, ads, ai-seo, analytics, aso, attribution, churn-prevention, co-marketing, cold-email, community-marketing, competitor-profiling, competitors, content-strategy, conversion-tracking, copy-editing, copywriting, cro, customer-research, directory-submissions, emails, events, free-tools, image, influencer-marketing, launch, lead-magnets, link-building, marketing-council, marketing-ideas, marketing-loops, marketing-plan, marketing-psychology, offers, onboarding, paywalls, popups, pricing, product-marketing, programmatic-seo, prospecting, public-relations, referrals, reverse-engineer-marketing, revops, sales-enablement, schema, seo-audit, signup, site-architecture, sms, social, video |

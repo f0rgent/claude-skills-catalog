@@ -102,3 +102,15 @@
 	path = vendor/massgen_massgen
 	url = https://github.com/massgen/massgen.git
 	shallow = true
+[submodule "blader_humanizer"]
+	path = vendor/blader_humanizer
+	url = https://github.com/blader/humanizer.git
+	shallow = true
+[submodule "heygen-com_hyperframes"]
+	path = vendor/heygen-com_hyperframes
+	url = https://github.com/heygen-com/hyperframes.git
+	shallow = true
+[submodule "retieedra-profound_skills-marketing-library"]
+	path = vendor/retieedra-profound_skills-marketing-library
+	url = https://github.com/retieedra-profound/skills-marketing-library.git
+	shallow = true

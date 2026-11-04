@@ -9,6 +9,9 @@ REPOS = {
     "anthropics/skills": (187236, "see repo (some source-available)", "main"),
     "obra/superpowers": (312086, "MIT", "main"),
     "massgen/massgen": (1100, "Apache-2.0", "main"),
+    "blader/humanizer": (64600, "MIT", "main"),
+    "heygen-com/hyperframes": (78600, "Apache-2.0", "main"),
+    "retieedra-profound/skills-marketing-library": (3, "MIT", "main"),
     "mattpocock/skills": (312011, "MIT", "main"),
     "vercel-labs/agent-skills": (33509, "none stated", "main"),
     "coreyhaines31/marketingskills": (58394, "MIT", "main"),
@@ -188,9 +191,13 @@ SECTIONS = [
  ("growth-marketer / cmo-advisor", AR, "", "Growth and CMO-level advice"),
 ]),
 ("Copywriting and content", "Writing that sells and reads like a person.", [
+ ("humanizer", "blader/humanizer", "", "Strips the signs of AI writing so text reads like a person wrote it"),
  ("copywriting", MK, "skills/copywriting", "Homepage, landing, pricing, product copy"),
  ("copy-editing", MK, "skills/copy-editing", "Edits and refreshes existing copy"),
  ("content-strategy", MK, "skills/content-strategy", "What to write and why"),
+ ("writing", "retieedra-profound/skills-marketing-library", "wisprflow/writing", "Edits AI text to sound human: cuts banned words and filler, adds voice"),
+ ("improved-copywriting", "retieedra-profound/skills-marketing-library", "profound/improved-copywriting", "Diagnoses page copy first, then writes only claims the facts support"),
+ ("brand-voice", "retieedra-profound/skills-marketing-library", "wisprflow/brand-voice", "Keeps one brand voice across everything you write"),
  ("sales-enablement", MK, "skills/sales-enablement", "Decks, one-pagers, objection docs"),
  ("content-humanizer", AR, "", "Removes AI tone from text"),
  ("content-creator / content-production", AR, "", "Content pipeline end to end"),
@@ -223,6 +230,7 @@ SECTIONS = [
  ("banner-design", UX, ".claude/skills/banner-design", "Ad and social banners"),
 ]),
 ("Video and motion", "Videos and animation written as code.", [
+ ("hyperframes", "heygen-com/hyperframes", "skills/hyperframes", "Write HTML, render video: explainers, captions, charts, vertical clips"),
  ("remotion-best-practices", RM, "skills/remotion-best-practices", "Official Remotion router skill"),
  ("remotion-create", RM, "skills/remotion-create", "New Remotion video"),
  ("remotion-captions", RM, "skills/remotion-captions", "Transcribe and animate captions"),
@@ -280,6 +288,9 @@ SECTIONS = [
 ]
 
 INDEX = {
+ "blader/humanizer": "humanizer",
+ "heygen-com/hyperframes": "captions-overlay, changelog-video, cut-the-curve, figma, hyperframes, hyperframes-cli, hyperframes-registry, media-use, motion-doctrine, oversized-cursor, remotion-to-hyperframes, reverse-any-video, seam-craft, slideshow, style-sampling",
+ "retieedra-profound/skills-marketing-library": "aeo-operator-2026, ai-answer-accuracy-auditor, ai-citation-mix-strategist, ai-commerce-readiness-auditor, ai-prompt-portfolio-builder, ai-retrieval-fanout-mapper, ai-search-attribution-planner, brand-voice, claude-code-discoverability-auditor, commercial-ai-journey-mapper, copy-editing, humanizer, improved-copywriting, international-aeo-strategist, link-creator, newsletter-copy, session-end, session-start, writing",
  "massgen/massgen": "audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation",
  "anthropics/skills": "algorithmic-art, brand-guidelines, canvas-design, claude-api, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx",
  "obra/superpowers": "brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills",

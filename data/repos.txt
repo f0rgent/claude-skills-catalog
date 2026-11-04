@@ -24,3 +24,6 @@ neolabhq/context-engineering-kit
 Vincentwei1021/mg-styles-15
 patch-gg/pixelfx
 massgen/massgen
+blader/humanizer
+heygen-com/hyperframes
+retieedra-profound/skills-marketing-library
