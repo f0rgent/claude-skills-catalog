@@ -56,3 +56,4 @@ feedtailor/ccskill-nanobanana
 kingbootoshi/nano-banana-2-skill
 hungv47/meta-skills
 gokapso/agent-skills
+olelehmann100kMRR/autoresearch-skill

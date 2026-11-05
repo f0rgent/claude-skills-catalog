@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2139-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-58-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2142-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-59-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -63,8 +63,8 @@ If you install nothing else, install these.
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>17 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>13 picks</sub></td>
-<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>20 picks</sub></td>
+<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>15 picks</sub></td>
+<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>21 picks</sub></td>
 </tr>
 </table>
 
@@ -527,7 +527,7 @@ Second brain, notes, deep research.
 | [**defuddle**](https://github.com/kepano/obsidian-skills) | Any web page to clean Markdown | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |
 | [**notebooklm**](https://github.com/pleaseprompto/notebooklm-skill) | Query your NotebookLM notebooks from Claude Code | [pleaseprompto/notebooklm-skill](https://github.com/pleaseprompto/notebooklm-skill) |
 
-<details><summary><b>Show all 13 research skills</b></summary>
+<details><summary><b>Show all 15 research skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -541,6 +541,8 @@ Second brain, notes, deep research.
 | [**last30days**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/last30days) | What Reddit, X and the web said on a topic in 30 days | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
 | [**youtube-summarizer**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/youtube-summarizer) | YouTube transcript to structured summary | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
 | [**claude-scientific-skills**](https://github.com/K-Dense-AI/claude-scientific-skills) | 177 science skills: biology, chemistry, data, lab tools | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| [**academy-guide**](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | Points you to the matching Claude Academy course when you ask how to use Claude | [anthropics/skills](https://github.com/anthropics/skills) |
+| [**discernment-nudge**](https://github.com/anthropics/skills/tree/main/skills/discernment-nudge) | After advice or a draft, adds 2-3 questions on what to check before you act on it | [anthropics/skills](https://github.com/anthropics/skills) |
 
 </details>
 
@@ -557,7 +559,7 @@ For people building agents.
 | [**context-compression**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Compaction for long sessions | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 | [**multi-agent-patterns**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Multi-agent design | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 
-<details><summary><b>Show all 20 ai agents skills</b></summary>
+<details><summary><b>Show all 21 ai agents skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -568,6 +570,7 @@ For people building agents.
 | [**error-analysis**](https://github.com/hamelsmu/evals-skills) | Hamel Husain's eval workflow | [hamelsmu/evals-skills](https://github.com/hamelsmu/evals-skills) |
 | [**write-judge-prompt**](https://github.com/hamelsmu/evals-skills) | Judge prompts that agree with humans | [hamelsmu/evals-skills](https://github.com/hamelsmu/evals-skills) |
 | [**evaluate-rag**](https://github.com/hamelsmu/evals-skills) | RAG evaluation | [hamelsmu/evals-skills](https://github.com/hamelsmu/evals-skills) |
+| [**autoresearch**](https://github.com/olelehmann100kMRR/autoresearch-skill) | Improves any skill by itself: runs it, scores with yes/no evals, keeps what works (Karpathy's autoresearch method) | [olelehmann100kMRR/autoresearch-skill](https://github.com/olelehmann100kMRR/autoresearch-skill) |
 | [**rag-architect / prompt-engineer / fine-tuning-expert**](https://github.com/jeffallan/claude-skills) | Agent and model building | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**context-engineering-kit**](https://github.com/neolabhq/context-engineering-kit) | 70 commands: judge, critique, tree-of-thoughts, kaizen | [neolabhq/context-engineering-kit](https://github.com/neolabhq/context-engineering-kit) |
 | [**n8n-workflow-patterns / n8n-agents**](https://github.com/czlonkowski/n8n-skills) | Build n8n workflows and AI agents with n8n-mcp | [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) |
@@ -590,11 +593,11 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2139 skills, grouped by repo</b></summary>
+<details><summary><b>All 2142 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
-| [anthropics/skills](https://github.com/anthropics/skills) (17) | 187k | see repo (some source-available) | algorithmic-art, brand-guidelines, canvas-design, claude-api, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx |
+| [anthropics/skills](https://github.com/anthropics/skills) (19) | 187k | see repo (some source-available) | academy-guide, algorithmic-art, brand-guidelines, canvas-design, claude-api, discernment-nudge, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx |
 | [obra/superpowers](https://github.com/obra/superpowers) (15) | 312k | MIT | brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills |
 | [massgen/massgen](https://github.com/massgen/massgen) (19) | 1k | Apache-2.0 | audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation |
 | [blader/humanizer](https://github.com/blader/humanizer) (1) | 65k | MIT | humanizer |
@@ -649,6 +652,7 @@ For people building agents.
 | [kingbootoshi/nano-banana-2-skill](https://github.com/kingbootoshi/nano-banana-2-skill) (1) |  | MIT | nano-banana |
 | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) (21) |  | MIT | brief-creative, brief-product-ui, conquistador, create-brand, create-paid-campaign, create-shortform, debate-agents, improve-conversion, knowledge-review, map-user-flow, measure-growth, model-growth-funnel, optimize-search, plan-campaign, polish-vietnamese, research-channel, research-positioning, write-copy, write-longform, write-outreach, write-social |
 | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) (4) | 198 | none stated | automate-whatsapp, integrate-whatsapp, integrate-whatsapp-calling, observe-whatsapp |
+| [olelehmann100kMRR/autoresearch-skill](https://github.com/olelehmann100kMRR/autoresearch-skill) (1) |  | none stated | autoresearch |
 
 </details>
 

@@ -61,6 +61,7 @@ REPOS = {
     "kingbootoshi/nano-banana-2-skill": (0, "MIT", "main"),
     "hungv47/meta-skills": (0, "MIT", "main"),
     "gokapso/agent-skills": (198, "none stated", "master"),
+    "olelehmann100kMRR/autoresearch-skill": (0, "none stated", "main"),
 }
 
 def L(repo, path):
@@ -369,6 +370,8 @@ SECTIONS = [
  ("last30days", "BrianRWagner/ai-marketing-skills", "last30days", "What Reddit, X and the web said on a topic in 30 days"),
  ("youtube-summarizer", "BrianRWagner/ai-marketing-skills", "youtube-summarizer", "YouTube transcript to structured summary"),
  ("claude-scientific-skills", "K-Dense-AI/claude-scientific-skills", "", "177 science skills: biology, chemistry, data, lab tools"),
+ ("academy-guide", A, "skills/academy-guide", "Points you to the matching Claude Academy course when you ask how to use Claude"),
+ ("discernment-nudge", A, "skills/discernment-nudge", "After advice or a draft, adds 2-3 questions on what to check before you act on it"),
 ]),
 ("AI agents, context and evals", "For people building agents.", [
  ("context-optimization", CE, "", "Context budgeting so the agent doesn't degrade"),
@@ -381,6 +384,7 @@ SECTIONS = [
  ("error-analysis", "hamelsmu/evals-skills", "", "Hamel Husain's eval workflow"),
  ("write-judge-prompt", "hamelsmu/evals-skills", "", "Judge prompts that agree with humans"),
  ("evaluate-rag", "hamelsmu/evals-skills", "", "RAG evaluation"),
+ ("autoresearch", "olelehmann100kMRR/autoresearch-skill", "", "Improves any skill by itself: runs it, scores with yes/no evals, keeps what works (Karpathy's autoresearch method)"),
  ("rag-architect / prompt-engineer / fine-tuning-expert", JA, "", "Agent and model building"),
  ("context-engineering-kit", "neolabhq/context-engineering-kit", "", "70 commands: judge, critique, tree-of-thoughts, kaizen"),
  ("n8n-workflow-patterns / n8n-agents", "czlonkowski/n8n-skills", "", "Build n8n workflows and AI agents with n8n-mcp"),
@@ -399,7 +403,7 @@ INDEX = {
  "heygen-com/hyperframes": "captions-overlay, changelog-video, cut-the-curve, figma, hyperframes, hyperframes-cli, hyperframes-registry, media-use, motion-doctrine, oversized-cursor, remotion-to-hyperframes, reverse-any-video, seam-craft, slideshow, style-sampling",
  "retieedra-profound/skills-marketing-library": "aeo-operator-2026, ai-answer-accuracy-auditor, ai-citation-mix-strategist, ai-commerce-readiness-auditor, ai-prompt-portfolio-builder, ai-retrieval-fanout-mapper, ai-search-attribution-planner, brand-voice, claude-code-discoverability-auditor, commercial-ai-journey-mapper, copy-editing, humanizer, improved-copywriting, international-aeo-strategist, link-creator, newsletter-copy, session-end, session-start, writing",
  "massgen/massgen": "audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation",
- "anthropics/skills": "algorithmic-art, brand-guidelines, canvas-design, claude-api, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx",
+ "anthropics/skills": "academy-guide, algorithmic-art, brand-guidelines, canvas-design, claude-api, discernment-nudge, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx",
  "obra/superpowers": "brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills",
  "mattpocock/skills": "ask-matt, code-review, codebase-design, diagnosing-bugs, domain-modeling, grill-with-docs, implement-spec, implement, improve-codebase-architecture, pr, prototype, research, retro, setup-matt-pocock-skills, tdd, to-spec, to-tickets, triage, wayfinder, wizard, chief-of-staff, claude-handoff, loop-me, setup-ts-deep-modules, software-factory, writing-beats, writing-fragments, writing-shape, git-guardrails-claude-code, migrate-to-shoehorn, scaffold-exercises, setup-pre-commit, grill-me, grilling, handoff, teach, to-questionnaire, wait-what, writing-for-agents",
  "vercel-labs/agent-skills": "composition-patterns, deploy-to-vercel, react-best-practices, react-native-skills, react-view-transitions, vercel-cli-with-tokens, vercel-optimize, web-design-guidelines, writing-guidelines",
@@ -449,6 +453,7 @@ INDEX = {
  "kingbootoshi/nano-banana-2-skill": "nano-banana",
  "hungv47/meta-skills": "brief-creative, brief-product-ui, conquistador, create-brand, create-paid-campaign, create-shortform, debate-agents, improve-conversion, knowledge-review, map-user-flow, measure-growth, model-growth-funnel, optimize-search, plan-campaign, polish-vietnamese, research-channel, research-positioning, write-copy, write-longform, write-outreach, write-social",
  "gokapso/agent-skills": "automate-whatsapp, integrate-whatsapp, integrate-whatsapp-calling, observe-whatsapp",
+ "olelehmann100kMRR/autoresearch-skill": "autoresearch",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 

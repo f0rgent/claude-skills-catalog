@@ -230,3 +230,7 @@
 	path = vendor/gokapso_agent-skills
 	url = https://github.com/gokapso/agent-skills.git
 	shallow = true
+[submodule "vendor/olelehmann100kMRR_autoresearch-skill"]
+	path = vendor/olelehmann100kMRR_autoresearch-skill
+	url = https://github.com/olelehmann100kMRR/autoresearch-skill.git
+	shallow = true
