@@ -17,8 +17,13 @@ nrepos = len(open(os.path.join(HERE, "data/repos.txt")).read().split())
 
 def install(sk, repo, path):
     if not repo:
-        return "git clone https://github.com/f0rgent/claude-skills-catalog"
-    return f"npx skills@latest add {repo}/{sk}" if path else f"npx skills@latest add {repo}"
+        return "npx skills@latest add f0rgent/claude-skills-catalog/x-reach"
+    if not path or "(" in sk:
+        return f"npx skills@latest add {repo}"
+    name = sk.split(" / ")[0].strip()
+    if " " in name:
+        return f"npx skills@latest add {repo}"
+    return f"npx skills@latest add {repo}/{name}"
 
 skills = []
 for i, (name, intro, rows) in enumerate(SECTIONS):
