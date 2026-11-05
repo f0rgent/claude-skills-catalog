@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2142-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-59-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2201-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-61-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -45,7 +45,7 @@ If you install nothing else, install these.
 
 <table>
 <tr>
-<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>36 picks</sub></td>
+<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>38 picks</sub></td>
 <td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>28 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>9 picks</sub></td>
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>21 picks</sub></td>
@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>16 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>17 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>5 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>17 picks</sub></td>
 </tr>
@@ -79,7 +79,7 @@ How the agent plans, codes, reviews and ships.
 | [**writing-plans**](https://github.com/obra/superpowers/tree/main/skills/writing-plans) | Turns a spec into a step-by-step implementation plan | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**executing-plans**](https://github.com/obra/superpowers/tree/main/skills/executing-plans) | Works through a plan inline, step by step | [obra/superpowers](https://github.com/obra/superpowers) |
 
-<details><summary><b>Show all 36 dev workflow skills</b></summary>
+<details><summary><b>Show all 38 dev workflow skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -116,6 +116,8 @@ How the agent plans, codes, reviews and ships.
 | [**parallel-debugging**](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/parallel-debugging) | Debugs with competing hypotheses investigated in parallel | [wshobson/agents](https://github.com/wshobson/agents) |
 | [**changelog-generator**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) | User-facing changelogs from git history | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) |
 | [**graphify**](https://github.com/safishamsi/graphify) | Turns a codebase or any folder into a queryable knowledge graph | [safishamsi/graphify](https://github.com/safishamsi/graphify) |
+| [**statechart / create-formal-verification-skill**](https://github.com/cursor/plugins/tree/main/pstack/skills/statechart) | Lauren Tan's pstack: models state machines in TLA+ and finds logic bugs | [cursor/plugins](https://github.com/cursor/plugins) |
+| [**pstack (58 skills)**](https://github.com/cursor/plugins/tree/main/pstack) | Lauren Tan's skills for careful agent coding: arena, blast-radius, swarm, unslop | [cursor/plugins](https://github.com/cursor/plugins) |
 
 </details>
 
@@ -435,13 +437,14 @@ Videos and animation written as code.
 | Skill | What it does | Repo |
 |---|---|---|
 | [**hyperframes**](https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes) | Write HTML, render video: explainers, captions, charts, vertical clips | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
 | [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
-| [**remotion-create**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-create) | New Remotion video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 
-<details><summary><b>Show all 16 video skills</b></summary>
+<details><summary><b>Show all 17 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**remotion-create**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-create) | New Remotion video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-captions**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-captions) | Transcribe and animate captions | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-render**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-render) | Export the video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-maps**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-maps) | Map animations | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
@@ -593,7 +596,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2142 skills, grouped by repo</b></summary>
+<details><summary><b>All 2201 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -653,6 +656,8 @@ For people building agents.
 | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) (21) |  | MIT | brief-creative, brief-product-ui, conquistador, create-brand, create-paid-campaign, create-shortform, debate-agents, improve-conversion, knowledge-review, map-user-flow, measure-growth, model-growth-funnel, optimize-search, plan-campaign, polish-vietnamese, research-channel, research-positioning, write-copy, write-longform, write-outreach, write-social |
 | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) (4) | 198 | none stated | automate-whatsapp, integrate-whatsapp, integrate-whatsapp-calling, observe-whatsapp |
 | [olelehmann100kMRR/autoresearch-skill](https://github.com/olelehmann100kMRR/autoresearch-skill) (1) |  | none stated | autoresearch |
+| [elvarofficial/teardown](https://github.com/elvarofficial/teardown) (1) | 2k | MIT | teardown |
+| [cursor/plugins](https://github.com/cursor/plugins) (58) |  | MIT | architect, arena, automate-me, benchmark-checklist, blast-radius, bro, correct, create-formal-verification-skill, create-verification-skill, figure-it-out, how, in-your-own-words, interrogate, ketchup, ketchup-video, maintain-formal-verification-skill, maintain-verification-skill, make-bot-ui, no-comments, poteto-help, poteto-mode, principle-attack-the-premise, principle-boundary-discipline, principle-build-the-lever, principle-encode-lessons-in-structure, principle-exhaust-the-design-space, principle-experience-first, principle-explain-the-number, principle-fix-root-causes, principle-foundational-thinking, principle-guard-the-context-window, principle-laziness-protocol, principle-make-operations-idempotent, principle-migrate-callers-then-delete-legacy-apis, principle-minimize-reader-load, principle-model-the-domain, principle-never-block-on-the-human, principle-outcome-oriented-execution, principle-prove-it-works, principle-redesign-from-first-principles, principle-separate-before-serializing-shared-state, principle-sequence-verifiable-units, principle-subtract-before-you-add, principle-test-behavior-not-implementation, principle-type-system-discipline, recall, reflect, setup-pstack, sharpen, show-me-your-work, statechart, swarm, tdd, teach, technical-writing, typescript-best-practices, unslop, why |
 
 </details>
 

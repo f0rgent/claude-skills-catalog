@@ -62,6 +62,8 @@ REPOS = {
     "hungv47/meta-skills": (0, "MIT", "main"),
     "gokapso/agent-skills": (198, "none stated", "master"),
     "olelehmann100kMRR/autoresearch-skill": (0, "none stated", "main"),
+    "elvarofficial/teardown": (1975, "MIT", "main"),
+    "cursor/plugins": (0, "MIT", "main"),
 }
 
 def L(repo, path):
@@ -125,6 +127,8 @@ SECTIONS = [
  ("parallel-debugging", "wshobson/agents", "plugins/agent-teams/skills/parallel-debugging", "Debugs with competing hypotheses investigated in parallel"),
  ("changelog-generator", "ComposioHQ/awesome-claude-skills", "changelog-generator", "User-facing changelogs from git history"),
  ("graphify", "safishamsi/graphify", "", "Turns a codebase or any folder into a queryable knowledge graph"),
+ ("statechart / create-formal-verification-skill", "cursor/plugins", "pstack/skills/statechart", "Lauren Tan's pstack: models state machines in TLA+ and finds logic bugs"),
+ ("pstack (58 skills)", "cursor/plugins", "pstack", "Lauren Tan's skills for careful agent coding: arena, blast-radius, swarm, unslop"),
 ]),
 ("Developers: languages, frameworks, infra", "Specialist skills per stack.", [
  ("react-best-practices", VL, "skills/react-best-practices", "Vercel's React and Next.js performance rules"),
@@ -314,6 +318,7 @@ SECTIONS = [
 ]),
 ("Video and motion", "Videos and animation written as code.", [
  ("hyperframes", "heygen-com/hyperframes", "skills/hyperframes", "Write HTML, render video: explainers, captions, charts, vertical clips"),
+ ("teardown", "elvarofficial/teardown", "", "A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video"),
  ("remotion-best-practices", RM, "skills/remotion-best-practices", "Official Remotion router skill"),
  ("remotion-create", RM, "skills/remotion-create", "New Remotion video"),
  ("remotion-captions", RM, "skills/remotion-captions", "Transcribe and animate captions"),
@@ -452,6 +457,8 @@ INDEX = {
  "feedtailor/ccskill-nanobanana": "ccskill-nanobanana",
  "kingbootoshi/nano-banana-2-skill": "nano-banana",
  "hungv47/meta-skills": "brief-creative, brief-product-ui, conquistador, create-brand, create-paid-campaign, create-shortform, debate-agents, improve-conversion, knowledge-review, map-user-flow, measure-growth, model-growth-funnel, optimize-search, plan-campaign, polish-vietnamese, research-channel, research-positioning, write-copy, write-longform, write-outreach, write-social",
+ "elvarofficial/teardown": "teardown",
+ "cursor/plugins": "architect, arena, automate-me, benchmark-checklist, blast-radius, bro, correct, create-formal-verification-skill, create-verification-skill, figure-it-out, how, in-your-own-words, interrogate, ketchup, ketchup-video, maintain-formal-verification-skill, maintain-verification-skill, make-bot-ui, no-comments, poteto-help, poteto-mode, principle-attack-the-premise, principle-boundary-discipline, principle-build-the-lever, principle-encode-lessons-in-structure, principle-exhaust-the-design-space, principle-experience-first, principle-explain-the-number, principle-fix-root-causes, principle-foundational-thinking, principle-guard-the-context-window, principle-laziness-protocol, principle-make-operations-idempotent, principle-migrate-callers-then-delete-legacy-apis, principle-minimize-reader-load, principle-model-the-domain, principle-never-block-on-the-human, principle-outcome-oriented-execution, principle-prove-it-works, principle-redesign-from-first-principles, principle-separate-before-serializing-shared-state, principle-sequence-verifiable-units, principle-subtract-before-you-add, principle-test-behavior-not-implementation, principle-type-system-discipline, recall, reflect, setup-pstack, sharpen, show-me-your-work, statechart, swarm, tdd, teach, technical-writing, typescript-best-practices, unslop, why",
  "gokapso/agent-skills": "automate-whatsapp, integrate-whatsapp, integrate-whatsapp-calling, observe-whatsapp",
  "olelehmann100kMRR/autoresearch-skill": "autoresearch",
 }
