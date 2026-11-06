@@ -59,3 +59,17 @@ gokapso/agent-skills
 olelehmann100kMRR/autoresearch-skill
 elvarofficial/teardown
 cursor/plugins
+whaleyxbt/claude-motion
+howseen-ai/claude-motion-design
+charlie947/motion-graphics-skills
+haidrrrry/claude-remotion-skill
+t3knobox/klik-anim-skill-creation
+Sunwood-ai-labs/hyperframes-motion-reel-skill
+AbubakrChan/product-launch-motion
+cth9191/animate
+iart-ai/motion-design-skills
+nateherkai/hyperframes-student-kit
+LottieFiles/motion-design-skill
+frankxai/awesome-motion-design-agent-skills
+Barty-Bart/motion-graphics
+199-biotechnologies/motion-dev-animations-skill
