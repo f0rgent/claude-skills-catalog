@@ -242,3 +242,59 @@
 	path = vendor/cursor_plugins
 	url = https://github.com/cursor/plugins.git
 	shallow = true
+[submodule "whaleyxbt_claude-motion"]
+	path = vendor/whaleyxbt_claude-motion
+	url = https://github.com/whaleyxbt/claude-motion.git
+	shallow = true
+[submodule "howseen-ai_claude-motion-design"]
+	path = vendor/howseen-ai_claude-motion-design
+	url = https://github.com/howseen-ai/claude-motion-design.git
+	shallow = true
+[submodule "charlie947_motion-graphics-skills"]
+	path = vendor/charlie947_motion-graphics-skills
+	url = https://github.com/charlie947/motion-graphics-skills.git
+	shallow = true
+[submodule "haidrrrry_claude-remotion-skill"]
+	path = vendor/haidrrrry_claude-remotion-skill
+	url = https://github.com/haidrrrry/claude-remotion-skill.git
+	shallow = true
+[submodule "t3knobox_klik-anim-skill-creation"]
+	path = vendor/t3knobox_klik-anim-skill-creation
+	url = https://github.com/t3knobox/klik-anim-skill-creation.git
+	shallow = true
+[submodule "Sunwood-ai-labs_hyperframes-motion-reel-skill"]
+	path = vendor/Sunwood-ai-labs_hyperframes-motion-reel-skill
+	url = https://github.com/Sunwood-ai-labs/hyperframes-motion-reel-skill.git
+	shallow = true
+[submodule "AbubakrChan_product-launch-motion"]
+	path = vendor/AbubakrChan_product-launch-motion
+	url = https://github.com/AbubakrChan/product-launch-motion.git
+	shallow = true
+[submodule "cth9191_animate"]
+	path = vendor/cth9191_animate
+	url = https://github.com/cth9191/animate.git
+	shallow = true
+[submodule "iart-ai_motion-design-skills"]
+	path = vendor/iart-ai_motion-design-skills
+	url = https://github.com/iart-ai/motion-design-skills.git
+	shallow = true
+[submodule "nateherkai_hyperframes-student-kit"]
+	path = vendor/nateherkai_hyperframes-student-kit
+	url = https://github.com/nateherkai/hyperframes-student-kit.git
+	shallow = true
+[submodule "LottieFiles_motion-design-skill"]
+	path = vendor/LottieFiles_motion-design-skill
+	url = https://github.com/LottieFiles/motion-design-skill.git
+	shallow = true
+[submodule "frankxai_awesome-motion-design-agent-skills"]
+	path = vendor/frankxai_awesome-motion-design-agent-skills
+	url = https://github.com/frankxai/awesome-motion-design-agent-skills.git
+	shallow = true
+[submodule "Barty-Bart_motion-graphics"]
+	path = vendor/Barty-Bart_motion-graphics
+	url = https://github.com/Barty-Bart/motion-graphics.git
+	shallow = true
+[submodule "199-biotechnologies_motion-dev-animations-skill"]
+	path = vendor/199-biotechnologies_motion-dev-animations-skill
+	url = https://github.com/199-biotechnologies/motion-dev-animations-skill.git
+	shallow = true

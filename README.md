@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2201-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-61-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2265-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-75-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>17 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>31 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>5 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>17 picks</sub></td>
 </tr>
@@ -440,7 +440,7 @@ Videos and animation written as code.
 | [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
 | [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 
-<details><summary><b>Show all 17 video skills</b></summary>
+<details><summary><b>Show all 31 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -457,6 +457,20 @@ Videos and animation written as code.
 | [**manim-video**](https://github.com/browser-use/video-use/tree/main/skills/manim-video) | Math and technical animations with Manim | [browser-use/video-use](https://github.com/browser-use/video-use) |
 | [**claude-code-video-toolkit**](https://github.com/digitalsamba/claude-code-video-toolkit) | Explainer videos: Remotion, FFmpeg, ElevenLabs voice, AI clips | [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) |
 | [**synthetic-ui-demo**](https://github.com/digitalsamba/claude-code-video-toolkit/tree/main/.claude/skills/synthetic-ui-demo) | Product demo videos without screen recording | [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) |
+| [**claude-motion (4 skills)**](https://github.com/whaleyxbt/claude-motion/tree/main/.claude/skills) | Motion with taste: checks its own frames, writes the sound in code, review loop | [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion) |
+| [**motion-design**](https://github.com/howseen-ai/claude-motion-design/tree/main/skill/motion-design) | HTML, Playwright and ffmpeg pipeline, no Remotion | [howseen-ai/claude-motion-design](https://github.com/howseen-ai/claude-motion-design) |
+| [**motion-graphics-skills (15 skills)**](https://github.com/charlie947/motion-graphics-skills/tree/main/skills) | Launch videos: brand intake, title sequences, animated charts, explainers, reel export | [charlie947/motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) |
+| [**remotion-motion-graphics**](https://github.com/haidrrrry/claude-remotion-skill/tree/main/remotion-motion-graphics) | A Remotion editor from one prompt: captions, B-roll, sound | [haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill) |
+| [**klik-anim / klik-cam / klik-remotion-method**](https://github.com/t3knobox/klik-anim-skill-creation) | The laws of animation and camera for agents | [t3knobox/klik-anim-skill-creation](https://github.com/t3knobox/klik-anim-skill-creation) |
+| [**hyperframes-motion-reel**](https://github.com/Sunwood-ai-labs/hyperframes-motion-reel-skill) | A showreel cut to the beat with HyperFrames | [Sunwood-ai-labs/hyperframes-motion-reel-skill](https://github.com/Sunwood-ai-labs/hyperframes-motion-reel-skill) |
+| [**product-launch-motion**](https://github.com/AbubakrChan/product-launch-motion) | A full launch film with voice-over, camera and color grade | [AbubakrChan/product-launch-motion](https://github.com/AbubakrChan/product-launch-motion) |
+| [**animate**](https://github.com/cth9191/animate/tree/main/plugins/animate/skills/animate) | A short clip in one canvas file, storyboarded as it goes | [cth9191/animate](https://github.com/cth9191/animate) |
+| [**motion-design-skills (9 skills)**](https://github.com/iart-ai/motion-design-skills/tree/main/skills) | Timing, color, shot composition, logo animation, beat-sync editing | [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) |
+| [**hyperframes-student-kit (15 skills)**](https://github.com/nateherkai/hyperframes-student-kit/tree/main/.claude/skills) | HyperFrames kit: cut silences, short-form edits, storytelling, motion cards | [nateherkai/hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit) |
+| [**motion-design**](https://github.com/LottieFiles/motion-design-skill/tree/main/skills/motion-design) | LottieFiles' motion principles for any engine | [LottieFiles/motion-design-skill](https://github.com/LottieFiles/motion-design-skill) |
+| [**awesome-motion-design-agent-skills (5 skills)**](https://github.com/frankxai/awesome-motion-design-agent-skills/tree/main/skills) | Map of GSAP, Remotion, Lottie and Rive skills plus motion director agents | [frankxai/awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) |
+| [**motion-graphics (6 skills)**](https://github.com/Barty-Bart/motion-graphics/tree/main/skills) | B-roll and explainers built from your transcript, plus sound effects | [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) |
+| [**motion-dev-animations**](https://github.com/199-biotechnologies/motion-dev-animations-skill) | Web animation with Motion.dev (formerly Framer Motion) | [199-biotechnologies/motion-dev-animations-skill](https://github.com/199-biotechnologies/motion-dev-animations-skill) |
 | [**create-shortform**](https://github.com/hungv47/meta-skills/tree/main/skills/create-shortform) | Researches and scripts TikTok, Reels, Shorts | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
 
 </details>
@@ -596,7 +610,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2201 skills, grouped by repo</b></summary>
+<details><summary><b>All 2265 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -658,6 +672,20 @@ For people building agents.
 | [olelehmann100kMRR/autoresearch-skill](https://github.com/olelehmann100kMRR/autoresearch-skill) (1) |  | none stated | autoresearch |
 | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) (1) | 2k | MIT | teardown |
 | [cursor/plugins](https://github.com/cursor/plugins) (58) |  | MIT | architect, arena, automate-me, benchmark-checklist, blast-radius, bro, correct, create-formal-verification-skill, create-verification-skill, figure-it-out, how, in-your-own-words, interrogate, ketchup, ketchup-video, maintain-formal-verification-skill, maintain-verification-skill, make-bot-ui, no-comments, poteto-help, poteto-mode, principle-attack-the-premise, principle-boundary-discipline, principle-build-the-lever, principle-encode-lessons-in-structure, principle-exhaust-the-design-space, principle-experience-first, principle-explain-the-number, principle-fix-root-causes, principle-foundational-thinking, principle-guard-the-context-window, principle-laziness-protocol, principle-make-operations-idempotent, principle-migrate-callers-then-delete-legacy-apis, principle-minimize-reader-load, principle-model-the-domain, principle-never-block-on-the-human, principle-outcome-oriented-execution, principle-prove-it-works, principle-redesign-from-first-principles, principle-separate-before-serializing-shared-state, principle-sequence-verifiable-units, principle-subtract-before-you-add, principle-test-behavior-not-implementation, principle-type-system-discipline, recall, reflect, setup-pstack, sharpen, show-me-your-work, statechart, swarm, tdd, teach, technical-writing, typescript-best-practices, unslop, why |
+| [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion) (4) |  | MIT | motion-design, review-loop, sound-design, web-sims |
+| [howseen-ai/claude-motion-design](https://github.com/howseen-ai/claude-motion-design) (1) |  | MIT | motion-design |
+| [charlie947/motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) (15) |  | MIT | animated-chart, apple-launch-film, brand-intake, launch-video, loop-cover, milestone-reveal, model-showdown, motion-brief-writer, motion-effects, motion-prompt-writer, newsletter-promo, reel-export, reference-to-motion, title-sequence-3d, vox-explainer |
+| [haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill) (1) |  | MIT | remotion-motion-graphics |
+| [t3knobox/klik-anim-skill-creation](https://github.com/t3knobox/klik-anim-skill-creation) (3) |  | none stated | klik-anim, klik-cam, klik-remotion-method |
+| [Sunwood-ai-labs/hyperframes-motion-reel-skill](https://github.com/Sunwood-ai-labs/hyperframes-motion-reel-skill) (1) |  | MIT | hyperframes-motion-reel |
+| [AbubakrChan/product-launch-motion](https://github.com/AbubakrChan/product-launch-motion) (1) |  | MIT | product-launch-motion |
+| [cth9191/animate](https://github.com/cth9191/animate) (1) |  | MIT | animate |
+| [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) (9) |  | MIT | after-effects, animation-principles, beat-sync-editing, color-motion, logo-animation, motion-art-direction, motion-background, remotion-video, shot-composition |
+| [nateherkai/hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit) (15) |  | MIT | cut-mistakes, cut-silences, edit-video, gsap, hyperframes, hyperframes-cli, hyperframes-registry, hyperframes-video-beats, make-a-video, motion-showreel, short-form-edit, short-form-video, style-library, video-storytelling, website-to-hyperframes |
+| [LottieFiles/motion-design-skill](https://github.com/LottieFiles/motion-design-skill) (1) |  | MIT | motion-design |
+| [frankxai/awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) (5) |  | CC0-1.0 | generative-media-director, motion-director, remotion-video-agent, site-motion-excellence-director, web-motion-auditor |
+| [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) (6) |  | MIT | explainer-default, explainer-engaging, explainer-high-energy, motion-broll, object-separation, sound-effects |
+| [199-biotechnologies/motion-dev-animations-skill](https://github.com/199-biotechnologies/motion-dev-animations-skill) (1) |  | MIT | motion-dev-animations |
 
 </details>
 
