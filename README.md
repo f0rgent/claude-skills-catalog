@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>33 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>34 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>5 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>17 picks</sub></td>
 </tr>
@@ -437,13 +437,14 @@ Videos and animation written as code.
 | Skill | What it does | Repo |
 |---|---|---|
 | [**hyperframes**](https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes) | Write HTML, render video: explainers, captions, charts, vertical clips | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**frame-critic (ours)**](skills/frame-critic) | Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs | this repo |
 | [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
-| [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 
-<details><summary><b>Show all 33 video skills</b></summary>
+<details><summary><b>Show all 34 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-create**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-create) | New Remotion video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-captions**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-captions) | Transcribe and animate captions | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-render**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-render) | Export the video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
@@ -606,9 +607,9 @@ For people building agents.
 <p align="right"><a href="#s0">↑ top</a></p>
 
 > [!TIP]
-> **Bonus: [x-reach](skills/x-reach/SKILL.md)**. Our own skill: how to write X posts that get reach, built from a study of 2,194 video posts across 300 accounts plus our own tests. Install it like any other skill.
+> **Bonus: [x-reach](skills/x-reach/SKILL.md)** and **[frame-critic](skills/frame-critic/SKILL.md)**. Our own skills: x-reach shows how to write X posts that get reach, built from a study of 2,194 video posts across 300 accounts plus our own tests. frame-critic watches your AI video before you ship it: a contact sheet, a score out of 10 for every frame, red boxes on the bugs. Install them like any other skill.
 
-> **Want the full version?** The [X Creator Pack](https://f0rgent.gumroad.com/l/x-creator-pack) ($9) adds 2 more post templates, the first-reply recipe, series, a video checklist, tracking, plus 3 more skills: agent-episodes, X Article playbooks and an X monetization playbook. Free x-reach stays free.
+> **Want the full version?** The [X Creator Pack](https://f0rgent.gumroad.com/l/x-creator-pack) ($9) adds 2 more post templates, the first-reply recipe, series, a video checklist, tracking, plus agent-episodes, X Article playbooks, an X monetization playbook and the full frame-critic that fixes and re-renders until every frame is 8/10 or higher. The free skills stay free.
 
 ## 📚 Full index
 
@@ -696,7 +697,7 @@ For people building agents.
 ## 📝 Notes
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
-- Our own files (this README, build.py, install.sh, skills/x-reach) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
+- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
 - Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>
