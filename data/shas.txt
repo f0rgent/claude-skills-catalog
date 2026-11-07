@@ -73,3 +73,5 @@ LottieFiles/motion-design-skill f9a8a041b85185ee4881b3471d3415e939aac772
 frankxai/awesome-motion-design-agent-skills 56d9a77baf143b604d9735bc23f6589b05056a53
 Barty-Bart/motion-graphics 3d83d987d658601d8a1269eb691622bdcd427335
 199-biotechnologies/motion-dev-animations-skill 3feedfb4dba8adae40fc9a5f9a23e3dda2121205
+lemomo-ai/lemo-opuscar 5c05490cc55dfb54f8f4c333f0f0e79cb6500564
+Mort1d/motion-graphics-skills 7f0c3714dc81bea52644a5287c6350345009e579

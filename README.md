@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2265-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-75-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2267-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-77-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>31 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>33 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>5 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>17 picks</sub></td>
 </tr>
@@ -440,7 +440,7 @@ Videos and animation written as code.
 | [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
 | [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 
-<details><summary><b>Show all 31 video skills</b></summary>
+<details><summary><b>Show all 33 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -471,6 +471,8 @@ Videos and animation written as code.
 | [**awesome-motion-design-agent-skills (5 skills)**](https://github.com/frankxai/awesome-motion-design-agent-skills/tree/main/skills) | Map of GSAP, Remotion, Lottie and Rive skills plus motion director agents | [frankxai/awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) |
 | [**motion-graphics (6 skills)**](https://github.com/Barty-Bart/motion-graphics/tree/main/skills) | B-roll and explainers built from your transcript, plus sound effects | [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) |
 | [**motion-dev-animations**](https://github.com/199-biotechnologies/motion-dev-animations-skill) | Web animation with Motion.dev (formerly Framer Motion) | [199-biotechnologies/motion-dev-animations-skill](https://github.com/199-biotechnologies/motion-dev-animations-skill) |
+| [**lemo-opuscar**](https://github.com/lemomo-ai/lemo-opuscar/tree/main/plugin/skills/lemo-opuscar) | 66 film styles in code (oil paint, ukiyo-e, teardown), each with a demo film | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) |
+| [**motion-graphics**](https://github.com/Mort1d/motion-graphics-skills/tree/main/skills/motion-graphics) | Promo from a link or clips: picks a style, reads the brand, writes the score, self-reviews | [Mort1d/motion-graphics-skills](https://github.com/Mort1d/motion-graphics-skills) |
 | [**create-shortform**](https://github.com/hungv47/meta-skills/tree/main/skills/create-shortform) | Researches and scripts TikTok, Reels, Shorts | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
 
 </details>
@@ -610,7 +612,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2265 skills, grouped by repo</b></summary>
+<details><summary><b>All 2267 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -673,6 +675,8 @@ For people building agents.
 | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) (1) | 2k | MIT | teardown |
 | [cursor/plugins](https://github.com/cursor/plugins) (58) |  | MIT | architect, arena, automate-me, benchmark-checklist, blast-radius, bro, correct, create-formal-verification-skill, create-verification-skill, figure-it-out, how, in-your-own-words, interrogate, ketchup, ketchup-video, maintain-formal-verification-skill, maintain-verification-skill, make-bot-ui, no-comments, poteto-help, poteto-mode, principle-attack-the-premise, principle-boundary-discipline, principle-build-the-lever, principle-encode-lessons-in-structure, principle-exhaust-the-design-space, principle-experience-first, principle-explain-the-number, principle-fix-root-causes, principle-foundational-thinking, principle-guard-the-context-window, principle-laziness-protocol, principle-make-operations-idempotent, principle-migrate-callers-then-delete-legacy-apis, principle-minimize-reader-load, principle-model-the-domain, principle-never-block-on-the-human, principle-outcome-oriented-execution, principle-prove-it-works, principle-redesign-from-first-principles, principle-separate-before-serializing-shared-state, principle-sequence-verifiable-units, principle-subtract-before-you-add, principle-test-behavior-not-implementation, principle-type-system-discipline, recall, reflect, setup-pstack, sharpen, show-me-your-work, statechart, swarm, tdd, teach, technical-writing, typescript-best-practices, unslop, why |
 | [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion) (4) |  | MIT | motion-design, review-loop, sound-design, web-sims |
+| [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) (1) | 13k | MIT | lemo-opuscar |
+| [Mort1d/motion-graphics-skills](https://github.com/Mort1d/motion-graphics-skills) (1) | 78 | MIT | motion-graphics |
 | [howseen-ai/claude-motion-design](https://github.com/howseen-ai/claude-motion-design) (1) |  | MIT | motion-design |
 | [charlie947/motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) (15) |  | MIT | animated-chart, apple-launch-film, brand-intake, launch-video, loop-cover, milestone-reveal, model-showdown, motion-brief-writer, motion-effects, motion-prompt-writer, newsletter-promo, reel-export, reference-to-motion, title-sequence-3d, vox-explainer |
 | [haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill) (1) |  | MIT | remotion-motion-graphics |

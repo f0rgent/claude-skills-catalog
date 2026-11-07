@@ -298,3 +298,11 @@
 	path = vendor/199-biotechnologies_motion-dev-animations-skill
 	url = https://github.com/199-biotechnologies/motion-dev-animations-skill.git
 	shallow = true
+[submodule "lemomo-ai_lemo-opuscar"]
+	path = vendor/lemomo-ai_lemo-opuscar
+	url = https://github.com/lemomo-ai/lemo-opuscar.git
+	shallow = true
+[submodule "Mort1d_motion-graphics-skills"]
+	path = vendor/Mort1d_motion-graphics-skills
+	url = https://github.com/Mort1d/motion-graphics-skills.git
+	shallow = true
