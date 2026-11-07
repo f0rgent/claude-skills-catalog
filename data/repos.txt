@@ -73,3 +73,5 @@ LottieFiles/motion-design-skill
 frankxai/awesome-motion-design-agent-skills
 Barty-Bart/motion-graphics
 199-biotechnologies/motion-dev-animations-skill
+lemomo-ai/lemo-opuscar
+Mort1d/motion-graphics-skills
