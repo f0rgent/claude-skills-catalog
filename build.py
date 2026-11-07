@@ -334,6 +334,7 @@ SECTIONS = [
 ]),
 ("Video and motion", "Videos and animation written as code.", [
  ("hyperframes", "heygen-com/hyperframes", "skills/hyperframes", "Write HTML, render video: explainers, captions, charts, vertical clips"),
+ ("frame-critic (ours)", "", "skills/frame-critic", "Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs"),
  ("teardown", "elvarofficial/teardown", "", "A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video"),
  ("remotion-best-practices", RM, "skills/remotion-best-practices", "Official Remotion router skill"),
  ("remotion-create", RM, "skills/remotion-create", "New Remotion video"),
@@ -568,8 +569,8 @@ def main():
             w("\n</details>")
         w('\n<p align="right"><a href="#s0">↑ top</a></p>\n')
     w("> [!TIP]")
-    w("> **Bonus: [x-reach](skills/x-reach/SKILL.md)**. Our own skill: how to write X posts that get reach, built from a study of 2,194 video posts across 300 accounts plus our own tests. Install it like any other skill.\n")
-    w(f"> **Want the full version?** The [X Creator Pack](https://f0rgent.gumroad.com/l/x-creator-pack) ($9) adds 2 more post templates, the first-reply recipe, series, a video checklist, tracking, plus 3 more skills: agent-episodes, X Article playbooks and an X monetization playbook. Free x-reach stays free.\n")
+    w("> **Bonus: [x-reach](skills/x-reach/SKILL.md)** and **[frame-critic](skills/frame-critic/SKILL.md)**. Our own skills: x-reach shows how to write X posts that get reach, built from a study of 2,194 video posts across 300 accounts plus our own tests. frame-critic watches your AI video before you ship it: a contact sheet, a score out of 10 for every frame, red boxes on the bugs. Install them like any other skill.\n")
+    w(f"> **Want the full version?** The [X Creator Pack](https://f0rgent.gumroad.com/l/x-creator-pack) ($9) adds 2 more post templates, the first-reply recipe, series, a video checklist, tracking, plus agent-episodes, X Article playbooks, an X monetization playbook and the full frame-critic that fixes and re-renders until every frame is 8/10 or higher. The free skills stay free.\n")
     w("## 📚 Full index\n")
     w(f"<details><summary><b>All {total} skills, grouped by repo</b></summary>\n")
     w("| Repo | ⭐ | License | Skills |\n|---|---|---|---|")
@@ -580,7 +581,7 @@ def main():
     w("\n</details>\n")
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
-    w("- Our own files (this README, build.py, install.sh, skills/x-reach) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
+    w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
     w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
