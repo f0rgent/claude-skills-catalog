@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2267-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-77-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2596-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-83-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -45,7 +45,7 @@ If you install nothing else, install these.
 
 <table>
 <tr>
-<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>38 picks</sub></td>
+<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>41 picks</sub></td>
 <td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>28 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>9 picks</sub></td>
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>21 picks</sub></td>
@@ -59,12 +59,12 @@ If you install nothing else, install these.
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
 <td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>34 picks</sub></td>
-<td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>5 picks</sub></td>
-<td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>17 picks</sub></td>
+<td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>7 picks</sub></td>
+<td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>25 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>15 picks</sub></td>
-<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>21 picks</sub></td>
+<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>17 picks</sub></td>
+<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>24 picks</sub></td>
 </tr>
 </table>
 
@@ -79,7 +79,7 @@ How the agent plans, codes, reviews and ships.
 | [**writing-plans**](https://github.com/obra/superpowers/tree/main/skills/writing-plans) | Turns a spec into a step-by-step implementation plan | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**executing-plans**](https://github.com/obra/superpowers/tree/main/skills/executing-plans) | Works through a plan inline, step by step | [obra/superpowers](https://github.com/obra/superpowers) |
 
-<details><summary><b>Show all 38 dev workflow skills</b></summary>
+<details><summary><b>Show all 41 dev workflow skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -111,6 +111,9 @@ How the agent plans, codes, reviews and ships.
 | [**spec-driven-development**](https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development) | Writes the spec before any code (Addy Osmani) | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | [**incremental-implementation**](https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation) | Ships changes in thin, verifiable slices | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | [**doubt-driven-development**](https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development) | Fresh-context adversarial review of each non-trivial decision | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| [**ralph**](https://github.com/snarktank/ralph/tree/main/skills/ralph) | Turns a PRD into stories for Ralph, the loop that keeps the agent going until every story passes | [snarktank/ralph](https://github.com/snarktank/ralph) |
+| [**browser-use**](https://github.com/browser-use/browser-use/tree/main/skills/browser-use) | Drives a real browser: clicks, forms, scraping, screenshots | [browser-use/browser-use](https://github.com/browser-use/browser-use) |
+| [**qa**](https://github.com/browser-use/browser-use/tree/main/skills/qa) | QA-tests a site and returns a 1-5 score with evidence | [browser-use/browser-use](https://github.com/browser-use/browser-use) |
 | [**interview-me**](https://github.com/addyosmani/agent-skills/tree/main/skills/interview-me) | Pulls out what you actually want before building | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | [**multi-reviewer-patterns**](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/multi-reviewer-patterns) | Parallel code review across several quality dimensions | [wshobson/agents](https://github.com/wshobson/agents) |
 | [**parallel-debugging**](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/parallel-debugging) | Debugs with competing hypotheses investigated in parallel | [wshobson/agents](https://github.com/wshobson/agents) |
@@ -491,12 +494,14 @@ Office files from plain language.
 | [**docx**](https://github.com/anthropics/skills/tree/main/skills/docx) | Word documents with real formatting | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**pptx**](https://github.com/anthropics/skills/tree/main/skills/pptx) | Slide decks | [anthropics/skills](https://github.com/anthropics/skills) |
 
-<details><summary><b>Show all 5 docs skills</b></summary>
+<details><summary><b>Show all 7 docs skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
 | [**xlsx**](https://github.com/anthropics/skills/tree/main/skills/xlsx) | Spreadsheets with formulas and charts | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**md-slides / md-document**](https://github.com/alirezarezvani/claude-skills) | Markdown to slides and documents | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| [**xlsx-author / pptx-author**](https://github.com/anthropics/financial-services/tree/main/plugins/vertical-plugins/financial-analysis/skills/xlsx-author) | Banker-grade Excel models and decks with live formulas | [anthropics/financial-services](https://github.com/anthropics/financial-services) |
+| [**build-dashboard**](https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/build-dashboard) | Interactive HTML dashboard with charts, filters and tables | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
 
 </details>
 
@@ -513,7 +518,7 @@ PRDs, strategy, C-level thinking.
 | [**grill-with-docs**](https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs) | Stress-tests a plan and writes ADRs | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | [**prd / product-manager / roadmap-communicator**](https://github.com/alirezarezvani/claude-skills) | Product management pack | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 
-<details><summary><b>Show all 17 product skills</b></summary>
+<details><summary><b>Show all 25 product skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -531,6 +536,14 @@ PRDs, strategy, C-level thinking.
 | [**jobs-to-be-done**](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/jobs-to-be-done) | Customer jobs, pains and gains | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) |
 | [**opportunity-solution-tree**](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/opportunity-solution-tree) | Outcomes to opportunities to experiments | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) |
 | [**prd-generator**](https://github.com/ognjengt/founder-skills/tree/main/skills/prd-generator) | PRD files built for AI coding agents | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
+| [**review-contract / triage-nda**](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract) | Contract review against your playbook with redlines, plus NDA triage (Anthropic legal plugin) | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
+| [**financial-statements / variance-analysis**](https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/financial-statements) | P&L, balance sheet and cash flow with variance commentary | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
+| [**draft-offer / interview-prep / performance-review**](https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources/skills/draft-offer) | HR pack: offer letters, interview plans, reviews | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
+| [**call-prep / deal-review / forecast**](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales/skills/call-prep) | 36 sales skills: call prep, pipeline, forecast, follow-ups | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
+| [**cash-flow-snapshot / invoice-chase**](https://github.com/anthropics/knowledge-work-plugins/tree/main/small-business/skills/cash-flow-snapshot) | 44 skills for small business owners: cash, invoices, payroll, leads | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
+| [**dcf-model / lbo-model / 3-statement-model**](https://github.com/anthropics/financial-services/tree/main/plugins/vertical-plugins/financial-analysis/skills/dcf-model) | Analyst-grade financial models in Excel (Anthropic financial services) | [anthropics/financial-services](https://github.com/anthropics/financial-services) |
+| [**ic-memo / initiating-coverage**](https://github.com/anthropics/financial-services/tree/main/plugins/vertical-plugins/private-equity/skills/ic-memo) | Investment memos and equity research notes | [anthropics/financial-services](https://github.com/anthropics/financial-services) |
+| [**prd**](https://github.com/snarktank/ralph/tree/main/skills/prd) | PRD for a new feature, ready to hand to the Ralph loop | [snarktank/ralph](https://github.com/snarktank/ralph) |
 
 </details>
 
@@ -547,7 +560,7 @@ Second brain, notes, deep research.
 | [**defuddle**](https://github.com/kepano/obsidian-skills) | Any web page to clean Markdown | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |
 | [**notebooklm**](https://github.com/pleaseprompto/notebooklm-skill) | Query your NotebookLM notebooks from Claude Code | [pleaseprompto/notebooklm-skill](https://github.com/pleaseprompto/notebooklm-skill) |
 
-<details><summary><b>Show all 15 research skills</b></summary>
+<details><summary><b>Show all 17 research skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -563,6 +576,8 @@ Second brain, notes, deep research.
 | [**claude-scientific-skills**](https://github.com/K-Dense-AI/claude-scientific-skills) | 177 science skills: biology, chemistry, data, lab tools | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) |
 | [**academy-guide**](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | Points you to the matching Claude Academy course when you ask how to use Claude | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**discernment-nudge**](https://github.com/anthropics/skills/tree/main/skills/discernment-nudge) | After advice or a draft, adds 2-3 questions on what to check before you act on it | [anthropics/skills](https://github.com/anthropics/skills) |
+| [**gpt-researcher**](https://github.com/assafelovic/gpt-researcher/tree/main/.claude) | Autonomous deep research on any topic, ends in a cited report | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) |
+| [**analyze / explore-data / sql-queries**](https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/analyze) | Ask your data questions in plain English, get SQL and answers | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
 
 </details>
 
@@ -579,7 +594,7 @@ For people building agents.
 | [**context-compression**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Compaction for long sessions | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 | [**multi-agent-patterns**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Multi-agent design | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 
-<details><summary><b>Show all 21 ai agents skills</b></summary>
+<details><summary><b>Show all 24 ai agents skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -601,6 +616,9 @@ For people building agents.
 | [**integrate-whatsapp**](https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp) | Connect WhatsApp to your product: webhooks, messages, templates (Kapso) | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) |
 | [**automate-whatsapp**](https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp) | Build and debug WhatsApp workflows and triggers | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) |
 | [**integrate-whatsapp-calling**](https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp-calling) | Connect a voice agent to WhatsApp calls | [gokapso/agent-skills](https://github.com/gokapso/agent-skills) |
+| [**mem0**](https://github.com/mem0ai/mem0/tree/main/skills/mem0) | Memory layer so your agents remember context across sessions | [mem0ai/mem0](https://github.com/mem0ai/mem0) |
+| [**mem0 plugin: remember / search**](https://github.com/mem0ai/mem0/tree/main/integrations/claude-code-plugin) | Claude Code plugin that captures and recalls memories per repo | [mem0ai/mem0](https://github.com/mem0ai/mem0) |
+| [**create-cowork-plugin**](https://github.com/anthropics/knowledge-work-plugins/tree/main/cowork-plugin-management/skills/create-cowork-plugin) | Builds your own Claude plugin from scratch | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
 
 </details>
 
@@ -613,7 +631,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2267 skills, grouped by repo</b></summary>
+<details><summary><b>All 2596 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -691,6 +709,12 @@ For people building agents.
 | [frankxai/awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills) (5) |  | CC0-1.0 | generative-media-director, motion-director, remotion-video-agent, site-motion-excellence-director, web-motion-auditor |
 | [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) (6) |  | MIT | explainer-default, explainer-engaging, explainer-high-energy, motion-broll, object-separation, sound-effects |
 | [199-biotechnologies/motion-dev-animations-skill](https://github.com/199-biotechnologies/motion-dev-animations-skill) (1) |  | MIT | motion-dev-animations |
+| [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (245) |  | Apache-2.0 | accessibility-review, account-context, account-plan, account-research, account-tiering, ad-manager, analyze, ap-processor, architecture, audit-support, brand-review, brand-style, brand-voice-enforcement, brief, build-agent, build-connector, build-dashboard, build-zoom-bot, build-zoom-contact-center-app, build-zoom-meeting-app, build-zoom-meeting-sdk-app, build-zoom-phone-integration, build-zoom-rest-api-app, build-zoom-team-chat-app, build-zoom-video-sdk-app, build-zoom-virtual-agent, business-pulse, call-list, call-prep, call-summary, campaign-plan, canva-creator, capacity-plan, cash-flow-snapshot, change-request, choose-zoom-approach, close-management, close-month, close-plan, code-review, comp-analysis, competitive-brief, competitive-intelligence, compliance-check, compliance-tracking, compose-outreach, contact-center/android, contact-center/ios, contact-center/web, contact-research, content-creation, content-strategy, contract-review, cowork-plugin-customizer, create-an-asset, create-cowork-plugin, create-viz, crm-autopilot, crm-hygiene-check, customer-escalation, customer-health, customer-research, customer-voice, daily-briefing, data-context-extractor, data-visualization, deal-advance-gap, deal-review, deal-signals, deal-slip-scenario, debug, debug-zoom, debug-zoom-integration, deploy-checklist, design-critique, design-handoff, design-mcp-workflow, design-system, digest, discover-brand, documentation, draft-content, draft-offer, draft-outreach, draft-response, email-sequence, end-of-day, enrich-lead, expansion-whitespace, explore-data, financial-statements, forecast, grant-rfp-writer, grow-pipeline, growth-pulse, guideline-generation, handle-objection, hiring-screener, inbox-manager, inbox-sweep, incident-response, instrument-data-to-allotrope, interview-prep, inventory-planner, invoice-chase, job-post-builder, journal-entry, journal-entry-prep, kb-article, knowledge-synthesis, lead-finder, lead-triage, legal-response, legal-risk-assessment, log-activity, marketing-monday, meeting-briefing, meeting-sdk/linux, memory-management, metrics-review, monday-brief, month-end-prep, nextflow-development, onboarding, org-planning, outreach-composer, pay-the-bills, payroll-prep, people-report, performance-report, performance-review, pipeline-review, plan-payroll, plan-zoom-integration, plan-zoom-product, policy-lookup, probe-sdk, process-doc, process-optimization, product-brainstorming, proposal-builder, prospect, reactivate, reconciliation, recruiting-pipeline, renewal-radar, rep-context, report-builder, report-pack, research-synthesis, restock, review-contract, review-reputation, risk-assessment, rivet-sdk, roadmap-update, route-lead, runbook, schedule-meeting, scientific-problem-selection, scribe, scvi-tools, search, search-strategy, seo-ai-visibility, seo-audit, sequence-load, setup, setup-zoom-mcp, setup-zoom-oauth, setup-zoom-webhooks, setup-zoom-websockets, signature-request, single-cell-rna-qc, slack-messaging, slack-search, smb-onboard, smb-router, social-content-engine, source-management, sox-testing, speed-to-lead, sprint-planning, sql-queries, stakeholder-map, stakeholder-update, standup, start, statistical-analysis, status-report, synthesize-research, system-design, task-management, tax-prep, tax-season-organizer, team-pipeline, tech-debt, testing-strategy, ticket-deflector, ticket-triage, triage-nda, ui-toolkit/web, update, update-opportunity, user-research, ux-copy, validate-data, variance-analysis, vendor-check, vendor-review, video-sdk/linux, video-sdk/web, video-sdk/windows, view-pdf, virtual-agent/android, virtual-agent/ios, virtual-agent/web, weekly-prep-brief, weekly-wrap, win-loss-review, write-query, write-spec, zoom-apps-sdk, zoom-cobrowse-sdk, zoom-general, zoom-mcp, zoom-mcp/whiteboard, zoom-meeting-sdk-android, zoom-meeting-sdk-electron, zoom-meeting-sdk-ios, zoom-meeting-sdk-macos, zoom-meeting-sdk-react-native, zoom-meeting-sdk-unreal, zoom-meeting-sdk-web, zoom-meeting-sdk-web-client-view, zoom-meeting-sdk-web-component-view, zoom-meeting-sdk-windows, zoom-oauth, zoom-rtms, zoom-video-sdk-android, zoom-video-sdk-flutter, zoom-video-sdk-ios, zoom-video-sdk-macos, zoom-video-sdk-react-native, zoom-video-sdk-unity |
+| [anthropics/financial-services](https://github.com/anthropics/financial-services) (63) |  | Apache-2.0 | 3-statement-model, accrual-schedule, ai-readiness, audit-xls, bond-futures-basis, bond-relative-value, break-trace, buyer-list, catalyst-calendar, cim-builder, clean-data-xls, client-report, client-review, competitive-analysis, comps-analysis, datapack-builder, dcf-model, dd-checklist, dd-meeting-prep, deal-screening, deal-sourcing, deal-tracker, deck-refresh, earnings-analysis, earnings-preview, earnings-preview-single, equity-research, fixed-income-portfolio, fsi-strip-profile, funding-digest, fx-carry-trade, gl-recon, ib-check-deck, ic-memo, idea-generation, initiating-coverage, investment-proposal, kyc-doc-parse, kyc-rules, lbo-model, macro-rates-monitor, merger-model, model-update, morning-note, nav-tieout, option-vol-analysis, pitch-deck, portfolio-monitoring, ppt-template-creator, pptx-author, process-letter, returns-analysis, roll-forward, sector-overview, skill-creator, swap-curve-strategy, tear-sheet, teaser, thesis-tracker, unit-economics, value-creation-plan, variance-commentary, xlsx-author |
+| [snarktank/ralph](https://github.com/snarktank/ralph) (2) |  | MIT | prd, ralph |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) (6) |  | MIT | browser-use, cloud, open-source, qa, remote-browser, x402 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) (12) |  | Apache-2.0 | forget, mem0, mem0-cli, mem0-integrate, mem0-oss-to-platform, mem0-test-integration, mem0-vercel-ai-sdk, pause, remember, resume, search, status |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) (1) |  | Apache-2.0 | gpt-researcher |
 
 </details>
 
@@ -698,6 +722,6 @@ For people building agents.
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
-- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn on X.
+- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>
