@@ -186,6 +186,7 @@ SECTIONS = [
  ("security-reviewer", JA, "skills/security-reviewer", "Structured audit report with severity"),
  ("VibeSec-Skill", "BehiSecc/VibeSec-Skill", "", "Makes Claude write secure web apps by default"),
  ("security-and-hardening", "addyosmani/agent-skills", "skills/security-and-hardening", "Hardens input handlers and auth against common vulnerabilities"),
+ ("tail-check (ours)", "", "skills/tail-check", "Checks if a phone is following you with a Raspberry Pi (Chasing Your Tail) and writes a report for your lawyer"),
 ]),
 ("Designers", "UI, brand and visuals.", [
  ("ui-ux-pro-max", UX, ".claude/skills/ui-ux-pro-max", "Design intelligence for pages, components, apps"),
@@ -581,7 +582,7 @@ def main():
     w("\n</details>\n")
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
-    w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
+    w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
     w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))

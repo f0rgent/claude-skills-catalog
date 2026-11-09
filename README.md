@@ -189,6 +189,7 @@ From Trail of Bits, one of the best-known security firms (97 skills).
 | [**security-reviewer**](https://github.com/jeffallan/claude-skills/tree/main/skills/security-reviewer) | Structured audit report with severity | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**VibeSec-Skill**](https://github.com/BehiSecc/VibeSec-Skill) | Makes Claude write secure web apps by default | [BehiSecc/VibeSec-Skill](https://github.com/BehiSecc/VibeSec-Skill) |
 | [**security-and-hardening**](https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening) | Hardens input handlers and auth against common vulnerabilities | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| [**tail-check (ours)**](skills/tail-check) | Checks if a phone is following you with a Raspberry Pi (Chasing Your Tail) and writes a report for your lawyer | this repo |
 
 </details>
 
@@ -697,7 +698,7 @@ For people building agents.
 ## 📝 Notes
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
-- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
+- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
 - Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>
