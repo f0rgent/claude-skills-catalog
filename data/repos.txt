@@ -75,3 +75,9 @@ Barty-Bart/motion-graphics
 199-biotechnologies/motion-dev-animations-skill
 lemomo-ai/lemo-opuscar
 Mort1d/motion-graphics-skills
+anthropics/knowledge-work-plugins
+anthropics/financial-services
+snarktank/ralph
+browser-use/browser-use
+mem0ai/mem0
+assafelovic/gpt-researcher
