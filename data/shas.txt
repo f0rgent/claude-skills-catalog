@@ -81,3 +81,4 @@ snarktank/ralph 6c53cb0b831ebe8739c6a003e22af14902d8b0b5
 browser-use/browser-use b49a68e4060acb226da8f784194fef301c53a6d7
 mem0ai/mem0 f1791daa86d469249c9b002f62644d58a1eb96a0
 assafelovic/gpt-researcher b81060b2d5f382b30a0ea9d95bf799fd9835c34e
+xai-org/xai-cookbook 002788b1fe838295a5e0b6adedcc8c216f807926

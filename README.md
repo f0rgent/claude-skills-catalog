@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2596-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-83-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-2600-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-84-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>34 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>36 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>7 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>25 picks</sub></td>
 </tr>
@@ -443,7 +443,7 @@ Videos and animation written as code.
 | [**frame-critic (ours)**](skills/frame-critic) | Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs | this repo |
 | [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
 
-<details><summary><b>Show all 34 video skills</b></summary>
+<details><summary><b>Show all 36 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -477,6 +477,8 @@ Videos and animation written as code.
 | [**motion-dev-animations**](https://github.com/199-biotechnologies/motion-dev-animations-skill) | Web animation with Motion.dev (formerly Framer Motion) | [199-biotechnologies/motion-dev-animations-skill](https://github.com/199-biotechnologies/motion-dev-animations-skill) |
 | [**lemo-opuscar**](https://github.com/lemomo-ai/lemo-opuscar/tree/main/plugin/skills/lemo-opuscar) | 66 film styles in code (oil paint, ukiyo-e, teardown), each with a demo film | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) |
 | [**motion-graphics**](https://github.com/Mort1d/motion-graphics-skills/tree/main/skills/motion-graphics) | Promo from a link or clips: picks a style, reads the brand, writes the score, self-reviews | [Mort1d/motion-graphics-skills](https://github.com/Mort1d/motion-graphics-skills) |
+| [**grok-shorts-make**](https://github.com/xai-org/xai-cookbook/tree/main/examples/grok-shorts/skills/grok-shorts-make) | xAI's own: a lifelike presenter explains a PR or any idea in a 15-45s vertical video, with captions (needs an xAI API key) | [xai-org/xai-cookbook](https://github.com/xai-org/xai-cookbook) |
+| [**grok-shorts-edit / -presenters / -brand**](https://github.com/xai-org/xai-cookbook/tree/main/examples/grok-shorts/skills) | Re-cut a Grok Short, make your own presenter, set your logo, colors and font | [xai-org/xai-cookbook](https://github.com/xai-org/xai-cookbook) |
 | [**create-shortform**](https://github.com/hungv47/meta-skills/tree/main/skills/create-shortform) | Researches and scripts TikTok, Reels, Shorts | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
 
 </details>
@@ -631,7 +633,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2596 skills, grouped by repo</b></summary>
+<details><summary><b>All 2600 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -715,6 +717,7 @@ For people building agents.
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) (6) |  | MIT | browser-use, cloud, open-source, qa, remote-browser, x402 |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) (12) |  | Apache-2.0 | forget, mem0, mem0-cli, mem0-integrate, mem0-oss-to-platform, mem0-test-integration, mem0-vercel-ai-sdk, pause, remember, resume, search, status |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) (1) |  | Apache-2.0 | gpt-researcher |
+| [xai-org/xai-cookbook](https://github.com/xai-org/xai-cookbook) (4) |  | xAI Beta Testing License | grok-shorts-brand, grok-shorts-edit, grok-shorts-make, grok-shorts-presenters |
 
 </details>
 
@@ -722,6 +725,6 @@ For people building agents.
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
-- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi on X.
+- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>

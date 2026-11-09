@@ -81,3 +81,4 @@ snarktank/ralph
 browser-use/browser-use
 mem0ai/mem0
 assafelovic/gpt-researcher
+xai-org/xai-cookbook

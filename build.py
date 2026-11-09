@@ -86,6 +86,7 @@ REPOS = {
     "browser-use/browser-use": (0, "MIT", "main"),
     "mem0ai/mem0": (0, "Apache-2.0", "main"),
     "assafelovic/gpt-researcher": (0, "Apache-2.0", "main"),
+    "xai-org/xai-cookbook": (0, "xAI Beta Testing License", "main"),
 }
 
 def L(repo, path):
@@ -375,6 +376,8 @@ SECTIONS = [
  ("motion-dev-animations", "199-biotechnologies/motion-dev-animations-skill", "", "Web animation with Motion.dev (formerly Framer Motion)"),
  ("lemo-opuscar", "lemomo-ai/lemo-opuscar", "plugin/skills/lemo-opuscar", "66 film styles in code (oil paint, ukiyo-e, teardown), each with a demo film"),
  ("motion-graphics", "Mort1d/motion-graphics-skills", "skills/motion-graphics", "Promo from a link or clips: picks a style, reads the brand, writes the score, self-reviews"),
+ ("grok-shorts-make", "xai-org/xai-cookbook", "examples/grok-shorts/skills/grok-shorts-make", "xAI's own: a lifelike presenter explains a PR or any idea in a 15-45s vertical video, with captions (needs an xAI API key)"),
+ ("grok-shorts-edit / -presenters / -brand", "xai-org/xai-cookbook", "examples/grok-shorts/skills", "Re-cut a Grok Short, make your own presenter, set your logo, colors and font"),
  ("create-shortform", "hungv47/meta-skills", "skills/create-shortform", "Researches and scripts TikTok, Reels, Shorts"),
 ]),
 ("Docs, slides, spreadsheets", "Office files from plain language.", [
@@ -540,6 +543,7 @@ INDEX = {
  "browser-use/browser-use": "browser-use, cloud, open-source, qa, remote-browser, x402",
  "mem0ai/mem0": "forget, mem0, mem0-cli, mem0-integrate, mem0-oss-to-platform, mem0-test-integration, mem0-vercel-ai-sdk, pause, remember, resume, search, status",
  "assafelovic/gpt-researcher": "gpt-researcher",
+ "xai-org/xai-cookbook": "grok-shorts-brand, grok-shorts-edit, grok-shorts-make, grok-shorts-presenters",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -612,7 +616,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)
