@@ -330,3 +330,7 @@
 	path = vendor/assafelovic_gpt-researcher
 	url = https://github.com/assafelovic/gpt-researcher.git
 	shallow = true
+[submodule "xai-org_xai-cookbook"]
+	path = vendor/xai-org_xai-cookbook
+	url = https://github.com/xai-org/xai-cookbook.git
+	shallow = true
