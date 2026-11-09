@@ -80,6 +80,13 @@ REPOS = {
     "frankxai/awesome-motion-design-agent-skills": (0, "CC0-1.0", "main"),
     "Barty-Bart/motion-graphics": (0, "MIT", "main"),
     "199-biotechnologies/motion-dev-animations-skill": (0, "MIT", "main"),
+    "anthropics/knowledge-work-plugins": (0, "Apache-2.0", "main"),
+    "anthropics/financial-services": (0, "Apache-2.0", "main"),
+    "snarktank/ralph": (0, "MIT", "main"),
+    "browser-use/browser-use": (0, "MIT", "main"),
+    "mem0ai/mem0": (0, "Apache-2.0", "main"),
+    "assafelovic/gpt-researcher": (0, "Apache-2.0", "main"),
+    "xai-org/xai-cookbook": (0, "xAI Beta Testing License", "main"),
 }
 
 def L(repo, path):
@@ -138,6 +145,9 @@ SECTIONS = [
  ("spec-driven-development", "addyosmani/agent-skills", "skills/spec-driven-development", "Writes the spec before any code (Addy Osmani)"),
  ("incremental-implementation", "addyosmani/agent-skills", "skills/incremental-implementation", "Ships changes in thin, verifiable slices"),
  ("doubt-driven-development", "addyosmani/agent-skills", "skills/doubt-driven-development", "Fresh-context adversarial review of each non-trivial decision"),
+ ("ralph", "snarktank/ralph", "skills/ralph", "Turns a PRD into stories for Ralph, the loop that keeps the agent going until every story passes"),
+ ("browser-use", "browser-use/browser-use", "skills/browser-use", "Drives a real browser: clicks, forms, scraping, screenshots"),
+ ("qa", "browser-use/browser-use", "skills/qa", "QA-tests a site and returns a 1-5 score with evidence"),
  ("interview-me", "addyosmani/agent-skills", "skills/interview-me", "Pulls out what you actually want before building"),
  ("multi-reviewer-patterns", "wshobson/agents", "plugins/agent-teams/skills/multi-reviewer-patterns", "Parallel code review across several quality dimensions"),
  ("parallel-debugging", "wshobson/agents", "plugins/agent-teams/skills/parallel-debugging", "Debugs with competing hypotheses investigated in parallel"),
@@ -367,6 +377,8 @@ SECTIONS = [
  ("motion-dev-animations", "199-biotechnologies/motion-dev-animations-skill", "", "Web animation with Motion.dev (formerly Framer Motion)"),
  ("lemo-opuscar", "lemomo-ai/lemo-opuscar", "plugin/skills/lemo-opuscar", "66 film styles in code (oil paint, ukiyo-e, teardown), each with a demo film"),
  ("motion-graphics", "Mort1d/motion-graphics-skills", "skills/motion-graphics", "Promo from a link or clips: picks a style, reads the brand, writes the score, self-reviews"),
+ ("grok-shorts-make", "xai-org/xai-cookbook", "examples/grok-shorts/skills/grok-shorts-make", "xAI's own: a lifelike presenter explains a PR or any idea in a 15-45s vertical video, with captions (needs an xAI API key)"),
+ ("grok-shorts-edit / -presenters / -brand", "xai-org/xai-cookbook", "examples/grok-shorts/skills", "Re-cut a Grok Short, make your own presenter, set your logo, colors and font"),
  ("create-shortform", "hungv47/meta-skills", "skills/create-shortform", "Researches and scripts TikTok, Reels, Shorts"),
 ]),
 ("Docs, slides, spreadsheets", "Office files from plain language.", [
@@ -375,6 +387,8 @@ SECTIONS = [
  ("pptx", A, "skills/pptx", "Slide decks"),
  ("xlsx", A, "skills/xlsx", "Spreadsheets with formulas and charts"),
  ("md-slides / md-document", AR, "", "Markdown to slides and documents"),
+ ("xlsx-author / pptx-author", "anthropics/financial-services", "plugins/vertical-plugins/financial-analysis/skills/xlsx-author", "Banker-grade Excel models and decks with live formulas"),
+ ("build-dashboard", "anthropics/knowledge-work-plugins", "data/skills/build-dashboard", "Interactive HTML dashboard with charts, filters and tables"),
 ]),
 ("Product, founders, business", "PRDs, strategy, C-level thinking.", [
  ("write-a-prd / to-spec", MP, "skills/engineering/to-spec", "Specs from conversation"),
@@ -394,6 +408,14 @@ SECTIONS = [
  ("jobs-to-be-done", "deanpeters/Product-Manager-Skills", "skills/jobs-to-be-done", "Customer jobs, pains and gains"),
  ("opportunity-solution-tree", "deanpeters/Product-Manager-Skills", "skills/opportunity-solution-tree", "Outcomes to opportunities to experiments"),
  ("prd-generator", "ognjengt/founder-skills", "skills/prd-generator", "PRD files built for AI coding agents"),
+ ("review-contract / triage-nda", "anthropics/knowledge-work-plugins", "legal/skills/review-contract", "Contract review against your playbook with redlines, plus NDA triage (Anthropic legal plugin)"),
+ ("financial-statements / variance-analysis", "anthropics/knowledge-work-plugins", "finance/skills/financial-statements", "P&L, balance sheet and cash flow with variance commentary"),
+ ("draft-offer / interview-prep / performance-review", "anthropics/knowledge-work-plugins", "human-resources/skills/draft-offer", "HR pack: offer letters, interview plans, reviews"),
+ ("call-prep / deal-review / forecast", "anthropics/knowledge-work-plugins", "sales/skills/call-prep", "36 sales skills: call prep, pipeline, forecast, follow-ups"),
+ ("cash-flow-snapshot / invoice-chase", "anthropics/knowledge-work-plugins", "small-business/skills/cash-flow-snapshot", "44 skills for small business owners: cash, invoices, payroll, leads"),
+ ("dcf-model / lbo-model / 3-statement-model", "anthropics/financial-services", "plugins/vertical-plugins/financial-analysis/skills/dcf-model", "Analyst-grade financial models in Excel (Anthropic financial services)"),
+ ("ic-memo / initiating-coverage", "anthropics/financial-services", "plugins/vertical-plugins/private-equity/skills/ic-memo", "Investment memos and equity research notes"),
+ ("prd", "snarktank/ralph", "skills/prd", "PRD for a new feature, ready to hand to the Ralph loop"),
 ]),
 ("Research and knowledge", "Second brain, notes, deep research.", [
  ("obsidian-cli / obsidian-bases / json-canvas", "kepano/obsidian-skills", "", "By Obsidian's CEO: vault, Bases, Canvas"),
@@ -411,6 +433,8 @@ SECTIONS = [
  ("claude-scientific-skills", "K-Dense-AI/claude-scientific-skills", "", "177 science skills: biology, chemistry, data, lab tools"),
  ("academy-guide", A, "skills/academy-guide", "Points you to the matching Claude Academy course when you ask how to use Claude"),
  ("discernment-nudge", A, "skills/discernment-nudge", "After advice or a draft, adds 2-3 questions on what to check before you act on it"),
+ ("gpt-researcher", "assafelovic/gpt-researcher", ".claude", "Autonomous deep research on any topic, ends in a cited report"),
+ ("analyze / explore-data / sql-queries", "anthropics/knowledge-work-plugins", "data/skills/analyze", "Ask your data questions in plain English, get SQL and answers"),
 ]),
 ("AI agents, context and evals", "For people building agents.", [
  ("context-optimization", CE, "", "Context budgeting so the agent doesn't degrade"),
@@ -434,6 +458,9 @@ SECTIONS = [
  ("integrate-whatsapp", "gokapso/agent-skills", "skills/integrate-whatsapp", "Connect WhatsApp to your product: webhooks, messages, templates (Kapso)"),
  ("automate-whatsapp", "gokapso/agent-skills", "skills/automate-whatsapp", "Build and debug WhatsApp workflows and triggers"),
  ("integrate-whatsapp-calling", "gokapso/agent-skills", "skills/integrate-whatsapp-calling", "Connect a voice agent to WhatsApp calls"),
+ ("mem0", "mem0ai/mem0", "skills/mem0", "Memory layer so your agents remember context across sessions"),
+ ("mem0 plugin: remember / search", "mem0ai/mem0", "integrations/claude-code-plugin", "Claude Code plugin that captures and recalls memories per repo"),
+ ("create-cowork-plugin", "anthropics/knowledge-work-plugins", "cowork-plugin-management/skills/create-cowork-plugin", "Builds your own Claude plugin from scratch"),
 ]),
 ]
 
@@ -511,6 +538,13 @@ INDEX = {
  "Barty-Bart/motion-graphics": "explainer-default, explainer-engaging, explainer-high-energy, motion-broll, object-separation, sound-effects",
  "199-biotechnologies/motion-dev-animations-skill": "motion-dev-animations",
  "olelehmann100kMRR/autoresearch-skill": "autoresearch",
+ "anthropics/knowledge-work-plugins": "accessibility-review, account-context, account-plan, account-research, account-tiering, ad-manager, analyze, ap-processor, architecture, audit-support, brand-review, brand-style, brand-voice-enforcement, brief, build-agent, build-connector, build-dashboard, build-zoom-bot, build-zoom-contact-center-app, build-zoom-meeting-app, build-zoom-meeting-sdk-app, build-zoom-phone-integration, build-zoom-rest-api-app, build-zoom-team-chat-app, build-zoom-video-sdk-app, build-zoom-virtual-agent, business-pulse, call-list, call-prep, call-summary, campaign-plan, canva-creator, capacity-plan, cash-flow-snapshot, change-request, choose-zoom-approach, close-management, close-month, close-plan, code-review, comp-analysis, competitive-brief, competitive-intelligence, compliance-check, compliance-tracking, compose-outreach, contact-center/android, contact-center/ios, contact-center/web, contact-research, content-creation, content-strategy, contract-review, cowork-plugin-customizer, create-an-asset, create-cowork-plugin, create-viz, crm-autopilot, crm-hygiene-check, customer-escalation, customer-health, customer-research, customer-voice, daily-briefing, data-context-extractor, data-visualization, deal-advance-gap, deal-review, deal-signals, deal-slip-scenario, debug, debug-zoom, debug-zoom-integration, deploy-checklist, design-critique, design-handoff, design-mcp-workflow, design-system, digest, discover-brand, documentation, draft-content, draft-offer, draft-outreach, draft-response, email-sequence, end-of-day, enrich-lead, expansion-whitespace, explore-data, financial-statements, forecast, grant-rfp-writer, grow-pipeline, growth-pulse, guideline-generation, handle-objection, hiring-screener, inbox-manager, inbox-sweep, incident-response, instrument-data-to-allotrope, interview-prep, inventory-planner, invoice-chase, job-post-builder, journal-entry, journal-entry-prep, kb-article, knowledge-synthesis, lead-finder, lead-triage, legal-response, legal-risk-assessment, log-activity, marketing-monday, meeting-briefing, meeting-sdk/linux, memory-management, metrics-review, monday-brief, month-end-prep, nextflow-development, onboarding, org-planning, outreach-composer, pay-the-bills, payroll-prep, people-report, performance-report, performance-review, pipeline-review, plan-payroll, plan-zoom-integration, plan-zoom-product, policy-lookup, probe-sdk, process-doc, process-optimization, product-brainstorming, proposal-builder, prospect, reactivate, reconciliation, recruiting-pipeline, renewal-radar, rep-context, report-builder, report-pack, research-synthesis, restock, review-contract, review-reputation, risk-assessment, rivet-sdk, roadmap-update, route-lead, runbook, schedule-meeting, scientific-problem-selection, scribe, scvi-tools, search, search-strategy, seo-ai-visibility, seo-audit, sequence-load, setup, setup-zoom-mcp, setup-zoom-oauth, setup-zoom-webhooks, setup-zoom-websockets, signature-request, single-cell-rna-qc, slack-messaging, slack-search, smb-onboard, smb-router, social-content-engine, source-management, sox-testing, speed-to-lead, sprint-planning, sql-queries, stakeholder-map, stakeholder-update, standup, start, statistical-analysis, status-report, synthesize-research, system-design, task-management, tax-prep, tax-season-organizer, team-pipeline, tech-debt, testing-strategy, ticket-deflector, ticket-triage, triage-nda, ui-toolkit/web, update, update-opportunity, user-research, ux-copy, validate-data, variance-analysis, vendor-check, vendor-review, video-sdk/linux, video-sdk/web, video-sdk/windows, view-pdf, virtual-agent/android, virtual-agent/ios, virtual-agent/web, weekly-prep-brief, weekly-wrap, win-loss-review, write-query, write-spec, zoom-apps-sdk, zoom-cobrowse-sdk, zoom-general, zoom-mcp, zoom-mcp/whiteboard, zoom-meeting-sdk-android, zoom-meeting-sdk-electron, zoom-meeting-sdk-ios, zoom-meeting-sdk-macos, zoom-meeting-sdk-react-native, zoom-meeting-sdk-unreal, zoom-meeting-sdk-web, zoom-meeting-sdk-web-client-view, zoom-meeting-sdk-web-component-view, zoom-meeting-sdk-windows, zoom-oauth, zoom-rtms, zoom-video-sdk-android, zoom-video-sdk-flutter, zoom-video-sdk-ios, zoom-video-sdk-macos, zoom-video-sdk-react-native, zoom-video-sdk-unity",
+ "anthropics/financial-services": "3-statement-model, accrual-schedule, ai-readiness, audit-xls, bond-futures-basis, bond-relative-value, break-trace, buyer-list, catalyst-calendar, cim-builder, clean-data-xls, client-report, client-review, competitive-analysis, comps-analysis, datapack-builder, dcf-model, dd-checklist, dd-meeting-prep, deal-screening, deal-sourcing, deal-tracker, deck-refresh, earnings-analysis, earnings-preview, earnings-preview-single, equity-research, fixed-income-portfolio, fsi-strip-profile, funding-digest, fx-carry-trade, gl-recon, ib-check-deck, ic-memo, idea-generation, initiating-coverage, investment-proposal, kyc-doc-parse, kyc-rules, lbo-model, macro-rates-monitor, merger-model, model-update, morning-note, nav-tieout, option-vol-analysis, pitch-deck, portfolio-monitoring, ppt-template-creator, pptx-author, process-letter, returns-analysis, roll-forward, sector-overview, skill-creator, swap-curve-strategy, tear-sheet, teaser, thesis-tracker, unit-economics, value-creation-plan, variance-commentary, xlsx-author",
+ "snarktank/ralph": "prd, ralph",
+ "browser-use/browser-use": "browser-use, cloud, open-source, qa, remote-browser, x402",
+ "mem0ai/mem0": "forget, mem0, mem0-cli, mem0-integrate, mem0-oss-to-platform, mem0-test-integration, mem0-vercel-ai-sdk, pause, remember, resume, search, status",
+ "assafelovic/gpt-researcher": "gpt-researcher",
+ "xai-org/xai-cookbook": "grok-shorts-brand, grok-shorts-edit, grok-shorts-make, grok-shorts-presenters",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -583,7 +617,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)

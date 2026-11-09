@@ -306,3 +306,31 @@
 	path = vendor/Mort1d_motion-graphics-skills
 	url = https://github.com/Mort1d/motion-graphics-skills.git
 	shallow = true
+[submodule "anthropics_knowledge-work-plugins"]
+	path = vendor/anthropics_knowledge-work-plugins
+	url = https://github.com/anthropics/knowledge-work-plugins.git
+	shallow = true
+[submodule "anthropics_financial-services"]
+	path = vendor/anthropics_financial-services
+	url = https://github.com/anthropics/financial-services.git
+	shallow = true
+[submodule "snarktank_ralph"]
+	path = vendor/snarktank_ralph
+	url = https://github.com/snarktank/ralph.git
+	shallow = true
+[submodule "browser-use_browser-use"]
+	path = vendor/browser-use_browser-use
+	url = https://github.com/browser-use/browser-use.git
+	shallow = true
+[submodule "mem0ai_mem0"]
+	path = vendor/mem0ai_mem0
+	url = https://github.com/mem0ai/mem0.git
+	shallow = true
+[submodule "assafelovic_gpt-researcher"]
+	path = vendor/assafelovic_gpt-researcher
+	url = https://github.com/assafelovic/gpt-researcher.git
+	shallow = true
+[submodule "xai-org_xai-cookbook"]
+	path = vendor/xai-org_xai-cookbook
+	url = https://github.com/xai-org/xai-cookbook.git
+	shallow = true
