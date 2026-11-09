@@ -17,7 +17,7 @@ nrepos = len(open(os.path.join(HERE, "data/repos.txt")).read().split())
 
 def install(sk, repo, path):
     if not repo:
-        return "npx skills@latest add f0rgent/claude-skills-catalog/x-reach"
+        return "npx skills@latest add f0rgent/claude-skills-catalog/" + path.rstrip("/").split("/")[-1]
     if not path or "(" in sk:
         return f"npx skills@latest add {repo}"
     name = sk.split(" / ")[0].strip()
