@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3071-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-98-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3073-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-97-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>42 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>41 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>7 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>25 picks</sub></td>
 </tr>
@@ -452,7 +452,7 @@ Videos and animation written as code.
 | [**frame-critic (ours)**](skills/frame-critic) | Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs | this repo |
 | [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
 
-<details><summary><b>Show all 42 video skills</b></summary>
+<details><summary><b>Show all 41 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -462,7 +462,6 @@ Videos and animation written as code.
 | [**remotion-render**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-render) | Export the video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-maps**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-maps) | Map animations | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**huashu-motion**](https://github.com/alchaincyf/huashu-motion) | Launch videos and explainers; click a frame to fix that part | [alchaincyf/huashu-motion](https://github.com/alchaincyf/huashu-motion) |
-| [**mg-styles-15**](https://github.com/Vincentwei1021/mg-styles-15) | 15 motion-graphics styles with demos and prompts | [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) |
 | [**pixelfx**](https://github.com/patch-gg/pixelfx) | 244 pixel effects plus a pixel-artist skill | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) |
 | [**slack-gif-creator**](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator) | Animated GIFs that fit Slack limits | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**demo-video**](https://github.com/alirezarezvani/claude-skills) | Product demo videos | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
@@ -648,7 +647,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3071 skills, grouped by repo</b></summary>
+<details><summary><b>All 3073 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
