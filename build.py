@@ -87,6 +87,20 @@ REPOS = {
     "mem0ai/mem0": (0, "Apache-2.0", "main"),
     "assafelovic/gpt-researcher": (0, "Apache-2.0", "main"),
     "xai-org/xai-cookbook": (0, "xAI Beta Testing License", "main"),
+    "OpenMontageInc/OpenMontage": (0, "AGPL-3.0", "main"),
+    "Vincentwei1021/video-shotcraft": (0, "Apache-2.0", "main"),
+    "pbakaus/impeccable": (0, "Apache-2.0", "main"),
+    "nexu-io/open-design": (0, "Apache-2.0", "main"),
+    "Nutlope/hallmark": (0, "MIT", "main"),
+    "wheresryan22/anatomy": (0, "MIT", "main"),
+    "CoplayDev/unity-mcp": (0, "MIT", "beta"),
+    "arjun988/blender-skills": (0, "MIT", "main"),
+    "Vincentwei1021/anything2explainer": (0, "Noncommercial (commercial use needs author's OK)", "main"),
+    "oil-oil/oil-motion": (0, "MIT", "main"),
+    "nateherkai/herk-edit-kit": (0, "MIT", "main"),
+    "rehan-remade/universal-modder": (0, "MIT", "main"),
+    "gamedev-skills/awesome-gamedev-agent-skills": (0, "Apache-2.0", "main"),
+    "aldegad/sprite-gen": (0, "Apache-2.0", "main"),
 }
 
 def L(repo, path):
@@ -157,6 +171,10 @@ SECTIONS = [
  ("pstack (58 skills)", "cursor/plugins", "pstack", "Lauren Tan's skills for careful agent coding: arena, blast-radius, swarm, unslop"),
 ]),
 ("Developers: languages, frameworks, infra", "Specialist skills per stack.", [
+ ("awesome-gamedev-agent-skills (77 skills)", "gamedev-skills/awesome-gamedev-agent-skills", "skills", "Game dev for Godot, Unity, Unreal and more: game feel, AI, dialogue, cameras"),
+ ("unity-mcp-skill", "CoplayDev/unity-mcp", "unity-mcp-skill", "Drives the Unity editor through Unity MCP (needs the MCP server)"),
+ ("sprite-gen", "aldegad/sprite-gen", "", "Game sprites and images via GPT or Grok, with cleanup, atlases and palette swaps"),
+ ("universal-modder (13 skills)", "rehan-remade/universal-modder", "skills", "Research, decompile and mod existing games"),
  ("react-best-practices", VL, "skills/react-best-practices", "Vercel's React and Next.js performance rules"),
  ("composition-patterns", VL, "skills/composition-patterns", "React composition patterns that scale"),
  ("react-native-skills", VL, "skills/react-native-skills", "React Native and Expo best practices"),
@@ -199,6 +217,10 @@ SECTIONS = [
  ("tail-check (ours)", "", "skills/tail-check", "Checks if a phone is following you with a Raspberry Pi (Chasing Your Tail) and writes a report for your lawyer"),
 ]),
 ("Designers", "UI, brand and visuals.", [
+ ("impeccable", "pbakaus/impeccable", ".claude/skills/impeccable", "/polish, /bolder, /critique: audits and fixes a frontend so it stops looking like AI slop"),
+ ("hallmark", "Nutlope/hallmark", "skills/hallmark", "New pages that look designed, not generated"),
+ ("anatomy", "wheresryan22/anatomy", "", "Interactive isometric SVG figures that explain a technical idea as a physical object"),
+ ("open-design (169 skills)", "nexu-io/open-design", "skills", "Design and motion templates plus ad, deck and brand skills from the Open Design workspace"),
  ("ui-ux-pro-max", UX, ".claude/skills/ui-ux-pro-max", "Design intelligence for pages, components, apps"),
  ("design", UX, ".claude/skills/design", "Brand identity, tokens, logos (55 styles), CI kits"),
  ("design-system", UX, ".claude/skills/design-system", "Token architecture and component specs"),
@@ -380,6 +402,12 @@ SECTIONS = [
  ("grok-shorts-make", "xai-org/xai-cookbook", "examples/grok-shorts/skills/grok-shorts-make", "xAI's own: a lifelike presenter explains a PR or any idea in a 15-45s vertical video, with captions (needs an xAI API key)"),
  ("grok-shorts-edit / -presenters / -brand", "xai-org/xai-cookbook", "examples/grok-shorts/skills", "Re-cut a Grok Short, make your own presenter, set your logo, colors and font"),
  ("create-shortform", "hungv47/meta-skills", "skills/create-shortform", "Researches and scripts TikTok, Reels, Shorts"),
+ ("OpenMontage", "OpenMontageInc/OpenMontage", ".agents/skills", "A full agentic video studio: script, AI clips, voice, music and edit in one pipeline (AGPL, most skills need API keys)"),
+ ("video-shotcraft", "Vincentwei1021/video-shotcraft", "", "Cinematic product promos from your real web pages, shot cards and synced sound effects"),
+ ("herk-edit-kit (15 skills)", "nateherkai/herk-edit-kit", ".claude/skills", "Nate Herk's HyperFrames edit kit: cut mistakes and silences, beats, captions, edit a video end to end"),
+ ("anything2explainer", "Vincentwei1021/anything2explainer", "", "Any topic into a narrated motion-graphics explainer with subtitles (free for noncommercial use)"),
+ ("oil-motion", "oil-oil/oil-motion", "", "Turns AI video or frame sequences into scroll- and pointer-driven web animation"),
+ ("blender-skills (94 skills)", "arjun988/blender-skills", ".claude/skills", "Blender by prompt: scenes, materials, rigs, animation, archviz, genre looks"),
 ]),
 ("Docs, slides, spreadsheets", "Office files from plain language.", [
  ("pdf", A, "skills/pdf", "Read, merge, split, fill PDFs"),
@@ -545,6 +573,20 @@ INDEX = {
  "mem0ai/mem0": "forget, mem0, mem0-cli, mem0-integrate, mem0-oss-to-platform, mem0-test-integration, mem0-vercel-ai-sdk, pause, remember, resume, search, status",
  "assafelovic/gpt-researcher": "gpt-researcher",
  "xai-org/xai-cookbook": "grok-shorts-brand, grok-shorts-edit, grok-shorts-make, grok-shorts-presenters",
+ "OpenMontageInc/OpenMontage": "3d-asset-generation, acestep, agents, ai-video-gen, atlas-cloud, avatar-video, azure-speech-to-text, azure-text-to-speech, beautiful-mermaid, bfl-api, canvas-procedural-animation, character-animation-qa, character-rigging, comfyui, create-video, d3-viz, dashscope, doubao-tts, elevenlabs, faceswap, ffmpeg, fish-audio-tts, flux-best-practices, framer-motion, gemini-omni, grok-media, gsap-core, gsap-frameworks, gsap-performance, gsap-plugins, gsap-react, gsap-scrolltrigger, gsap-timeline, gsap-utils, heygen, hyperframes, hyperframes-animation, hyperframes-cli, hyperframes-core, hyperframes-creative, hyperframes-media, hyperframes-registry, kling-official, lottie-bodymovin, ltx2, lyria, manim-composer, manimce-best-practices, manimgl-best-practices, media-use, minimax-h3, motion-graphics, music, music-to-video, pika-h3-flex, playwright-recording, pose-library-design, provider-model-refresh, provider-refresh-oct23, remotion, remotion-best-practices, remotion-to-hyperframes, seedance-2-0, seedance-2-5, setup-api-key, sound-effects, speech-to-text, svg-character-animation, synthetic-screen-recording, tailwind-design-system, text-to-speech, threejs-animation, threejs-fundamentals, threejs-geometry, threejs-interaction, threejs-lighting, threejs-loaders, threejs-materials, threejs-postprocessing, threejs-shaders, threejs-textures, threejs-world-generation, vercel-composition-patterns, vercel-react-best-practices, video-download, video-edit, video-toolkit, video-translate, video-understand, video_toolkit, visual-style, web-design-guidelines, website-to-video",
+ "Vincentwei1021/video-shotcraft": "video-shotcraft",
+ "pbakaus/impeccable": "impeccable",
+ "nexu-io/open-design": "8-bit-orbit-video-template, ad-creative, after-hours-editorial-template, agent-browser, ai-music-album, algorithmic-art, animate, apple-hig, article-magazine, artifacts-builder, brainstorming, brand-extract, brand-guidelines, brandkit, brutalist-skill, canvas-design, card-twitter, card-xiaohongshu, chat-motion-overlay, color-expert, competitive-ads-extractor, copywriting, creative-director, d3-visualization, data-report, deck-guizang-editorial, deck-open-slide-canvas, deck-swiss-international, design-brief, design-consultation, design-md, design-review, digits-fintech-swiss-template, doc, doc-kami-parchment, docx, domain-name-brainstormer, ecommerce-image-workflow, editorial-burgundy-principles-template, emil-design-eng, emilkowalski-motion, enhance-prompt, export-download-debugging, fal-3d, fal-generate, fal-image-edit, fal-kling-o3, fal-lip-sync, fal-realtime, fal-restore, fal-train, fal-tryon, fal-upscale, fal-video-edit, fal-vision, faq-page, field-notes-editorial-template, figma-code-connect-components, figma-create-design-system-rules, figma-create-new-file, figma-generate-design, figma-generate-library, figma-implement-design, figma-use, flutter-animating-apps, frame-data-chart-nyt, frame-flowchart-sticky, frame-glitch-title, frame-light-leak-cinema, frame-liquid-bg-hero, frame-logo-outro, frame-macos-notification, frontend-design, frontend-dev, frontend-skill, frontend-slides, full-page-screenshot, gif-sticker-maker, gpt-tasteskill, gsap-core, gsap-frameworks, gsap-performance, gsap-plugins, gsap-react, gsap-scrolltrigger, gsap-timeline, gsap-utils, hand-drawn-diagrams, hatch-pet, html-ppt-retro-quarterly-review, huashu-art-motion, image-enhancer, image-to-code-skill, imagegen, imagegen-frontend-mobile, imagegen-frontend-web, imagen, impeccable-design-polish, library-curator, login-flow, marketing-psychology, minimalist-skill, minimax-docx, minimax-pdf, mockup-device-3d, motion-design, motion-lab, nanobanana-ppt, od-next-media-inputs, oil-motion, output-skill, paywall-upgrade-cro, pdf, pixelbin-media, plan-design-review, platform-design, poster-hero, ppt-keynote, pptx, pptx-generator, pptx-html-fidelity-audit, pr-feedback-quality-gate, redesign-skill, reference-design-contract, release-notes-one-pager, remotion, replicate, research-decision-room, resume-modern, review-animations, screenshot, screenshots-marketing, shadcn-ui, shader-dev, slack-gif-creator, slides, social-reddit-card, social-spotify-card, social-x-post-card, soft-skill, sora, speech, stitch-loop, stitch-skill, swiftui-design, swiss-creative-mode-template, swiss-user-research-video-template, taste-skill, taste-skill-v1, theme-factory, threejs, ui-animation, ui-skills, ui-ux-pro-max, venice-audio-music, venice-audio-speech, venice-image-edit, venice-image-generate, venice-video, vfx-text-cursor, video-downloader, video-hyperframes, web-artifacts-builder, web-clone, web-design-guidelines, weread-year-in-review-video-template, wpds, writing-guidelines, youtube-clipper",
+ "Nutlope/hallmark": "hallmark",
+ "wheresryan22/anatomy": "anatomy",
+ "CoplayDev/unity-mcp": "blender-to-unity, mcp-source, unity-mcp-skill",
+ "arjun988/blender-skills": "analog-found-footage-horror, animation, anime-style, apocalypse-worlds, archviz, asset-optimization, biome-worlds, blender-director, blender-modeler, body-horror-style, brutalist-mood, camera-cinematography, cartoon-style, character-archetypes, character-artist, chibi-style, cloth-sim, collision-proxy, comic-book-style, compositing, cosmic-eldritch-horror, cozy-wholesome-mood, creature-artist, dark-gritty-mood, dream-surreal-mood, dream-weirdcore-style, environment-artist, export-pipeline, fantasy-worlds, folk-horror-style, frutiger-aero-style, genre-action-combat, genre-card-party-idle, genre-metroidvania-roguelike, genre-narrative-vn, genre-open-world-sandbox, genre-puzzle-platformer, genre-racing-sports, genre-rpg, genre-shooter, genre-soulslike, genre-stealth, genre-strategy-sim, genre-survival, geometry-nodes, godot-export, hair-groom, hand-painted-style, hard-surface, hd-2d-style, historical-worlds, horror-style, indie-horror-aesthetics, isometric-style, lighting, liminal-space-style, lod-pipeline, lookdev, lowpoly-style, manga-style, mascot-puppet-horror, materials, minimalist-style, neon-retrofuturism, noir-style, painterly-style, physics-sim, pixel-art-style, procedural-modeling, prop-artist, psx-horror-style, qa-review, realistic-style, rendering, retopology, retro-16bit-style, retro-8bit-style, rigging, scene-assembly, sci-fi-punk-worlds, sculpting, set-dressing, stop-motion-craft-style, stylized-style, texture-workflow, unity-export, unreal-export, uv-workflow, vector-style, vegetation-artist, vehicle-artist, vfx-fx, visual-console-eras, voxel-style",
+ "Vincentwei1021/anything2explainer": "anything2explainer",
+ "oil-oil/oil-motion": "oil-motion",
+ "nateherkai/herk-edit-kit": "cut-mistakes, cut-silences, edit-video, gsap, hyperframes, hyperframes-cli, hyperframes-registry, hyperframes-video-beats, make-a-video, motion-showreel, short-form-edit, short-form-video, style-library, video-storytelling, website-to-hyperframes",
+ "rehan-remade/universal-modder": "asset-pipeline, blitz3d-decomp, fal-assets, game-automation, game-recon, game-research-websearch, mashup-mods, mod-any-game, port-a-mod, publish-mod, reverse-engineering, share-field-notes, showcase-video",
+ "gamedev-skills/awesome-gamedev-agent-skills": "ai-behavior-trees-utility-ai, audio-design, bevy-ecs, camera-systems, card-game, create-game-assets, defold-core, dialogue-systems, ebitengine-game, fps-shooter, game-ai, game-feel, game-jam, game-ui-ux, godot-2d-movement, godot-3d-essentials, godot-animation, godot-audio, godot-csharp, godot-export, godot-gdscript, godot-multiplayer, godot-nodes-scenes, godot-physics, godot-resources, godot-shaders, godot-signals-groups, godot-tilemap, godot-ui-control, input-systems, itch-publish, level-design, love2d-core, performance-optimization, phaser-arcade-physics, phaser-core, physics-tuning, pixijs-rendering, platformer, procedural-gen, prototype-fast, puzzle, pygame-core, roblox-characters, roblox-datastores, roblox-luau, roblox-networking, roblox-physics, roblox-simulator-economy, roblox-studio-workflow, roblox-ui, roguelike, router, rpg, save-systems, shader-programming, steam-publish, survival-crafting, threejs-gltf-loading, threejs-materials-lighting, threejs-scene-setup, tower-defense, unity-animation, unity-build-pipeline, unity-csharp-scripting, unity-input-system, unity-navmesh, unity-physics, unity-scriptableobjects, unity-tilemap-2d, unreal-behavior-trees, unreal-blueprints, unreal-cpp-gameplay, unreal-enhanced-input, unreal-niagara, unreal-packaging, visual-novel",
+ "aldegad/sprite-gen": "sprite-gen",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -617,7 +659,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)
