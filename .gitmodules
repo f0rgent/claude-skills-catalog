@@ -90,10 +90,6 @@
 	path = vendor/neolabhq_context-engineering-kit
 	url = https://github.com/neolabhq/context-engineering-kit.git
 	shallow = true
-[submodule "Vincentwei1021_mg-styles-15"]
-	path = vendor/Vincentwei1021_mg-styles-15
-	url = https://github.com/Vincentwei1021/mg-styles-15.git
-	shallow = true
 [submodule "patch-gg_pixelfx"]
 	path = vendor/patch-gg_pixelfx
 	url = https://github.com/patch-gg/pixelfx.git

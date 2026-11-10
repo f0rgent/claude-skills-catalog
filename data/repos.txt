@@ -21,7 +21,6 @@ jeffallan/claude-skills
 199-biotechnologies/claude-deep-research-skill
 pleaseprompto/notebooklm-skill
 neolabhq/context-engineering-kit
-Vincentwei1021/mg-styles-15
 patch-gg/pixelfx
 massgen/massgen
 blader/humanizer
