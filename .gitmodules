@@ -400,3 +400,7 @@
 	url = https://github.com/aldegad/sprite-gen.git
 [submodule "aldegad_sprite-gen"]
 	shallow = true
+[submodule "vendor/Jakeschincariol_instagram-agent-skill"]
+	path = vendor/Jakeschincariol_instagram-agent-skill
+	url = https://github.com/Jakeschincariol/instagram-agent-skill.git
+	shallow = true

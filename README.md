@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3073-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-97-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3086-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-98-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -54,7 +54,7 @@ If you install nothing else, install these.
 <td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>28 picks</sub></td>
 <td align="center" width="25%"><a href="#s6"><h1>📈</h1><b>Marketing</b></a><br><sub>32 picks</sub></td>
 <td align="center" width="25%"><a href="#s7"><h1>✍️</h1><b>Copywriting</b></a><br><sub>21 picks</sub></td>
-<td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>17 picks</sub></td>
+<td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>21 picks</sub></td>
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
@@ -377,7 +377,7 @@ Writing that sells and reads like a person.
 <p align="right"><a href="#s0">↑ top</a></p>
 
 <a id="s8"></a>
-## 📱 SMM, X and LinkedIn
+## 📱 SMM, X, LinkedIn, Instagram
 
 Social content, scheduling, analytics.
 
@@ -387,7 +387,7 @@ Social content, scheduling, analytics.
 | [**influencer-marketing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/influencer-marketing) | Finds, vets and briefs creators | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**co-marketing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/co-marketing) | Partner campaigns | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
-<details><summary><b>Show all 17 smm skills</b></summary>
+<details><summary><b>Show all 21 smm skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -405,6 +405,10 @@ Social content, scheduling, analytics.
 | [**linkedin-writer**](https://github.com/ognjengt/founder-skills/tree/main/skills/linkedin-writer) | LinkedIn posts with voice matching | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
 | [**tweet-draft-reviewer**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/tweet-draft-reviewer) | Scores tweet drafts 1-10 against voice rules | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
 | [**tweetclaw**](https://github.com/Xquik-dev/tweetclaw/tree/master/skills/tweetclaw) | Post, reply, search tweets, export followers | [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw) |
+| [**ig-reel**](https://github.com/Jakeschincariol/instagram-agent-skill/tree/main/skills/ig-reel) | Instagram Reel script from a raw idea: 26 hook formulas, beat sheet, hook score | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) |
+| [**ig-viral**](https://github.com/Jakeschincariol/instagram-agent-skill/tree/main/skills/ig-viral) | Finds reels working in your niche and ranks them by how far each beat its account | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) |
+| [**ig-profile**](https://github.com/Jakeschincariol/instagram-agent-skill/tree/main/skills/ig-profile) | Scores an Instagram profile out of 100 and rewrites what lost points | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) |
+| [**ig-human**](https://github.com/Jakeschincariol/instagram-agent-skill/tree/main/skills/ig-human) | Strips em dashes, slop words and watermark characters from any draft | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) |
 
 </details>
 
@@ -647,7 +651,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3073 skills, grouped by repo</b></summary>
+<details><summary><b>All 3086 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -746,6 +750,7 @@ For people building agents.
 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) (13) |  | MIT | asset-pipeline, blitz3d-decomp, fal-assets, game-automation, game-recon, game-research-websearch, mashup-mods, mod-any-game, port-a-mod, publish-mod, reverse-engineering, share-field-notes, showcase-video |
 | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) (77) |  | Apache-2.0 | ai-behavior-trees-utility-ai, audio-design, bevy-ecs, camera-systems, card-game, create-game-assets, defold-core, dialogue-systems, ebitengine-game, fps-shooter, game-ai, game-feel, game-jam, game-ui-ux, godot-2d-movement, godot-3d-essentials, godot-animation, godot-audio, godot-csharp, godot-export, godot-gdscript, godot-multiplayer, godot-nodes-scenes, godot-physics, godot-resources, godot-shaders, godot-signals-groups, godot-tilemap, godot-ui-control, input-systems, itch-publish, level-design, love2d-core, performance-optimization, phaser-arcade-physics, phaser-core, physics-tuning, pixijs-rendering, platformer, procedural-gen, prototype-fast, puzzle, pygame-core, roblox-characters, roblox-datastores, roblox-luau, roblox-networking, roblox-physics, roblox-simulator-economy, roblox-studio-workflow, roblox-ui, roguelike, router, rpg, save-systems, shader-programming, steam-publish, survival-crafting, threejs-gltf-loading, threejs-materials-lighting, threejs-scene-setup, tower-defense, unity-animation, unity-build-pipeline, unity-csharp-scripting, unity-input-system, unity-navmesh, unity-physics, unity-scriptableobjects, unity-tilemap-2d, unreal-behavior-trees, unreal-blueprints, unreal-cpp-gameplay, unreal-enhanced-input, unreal-niagara, unreal-packaging, visual-novel |
 | [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) (1) |  | Apache-2.0 | sprite-gen |
+| [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) (13) |  | MIT | ig-audit, ig-caption, ig-carousel, ig-comment, ig-dm, ig-human, ig-plan, ig-profile, ig-reel, ig-reply, ig-repurpose, ig-story, ig-viral |
 
 </details>
 

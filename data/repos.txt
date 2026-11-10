@@ -95,3 +95,4 @@ nateherkai/herk-edit-kit
 rehan-remade/universal-modder
 gamedev-skills/awesome-gamedev-agent-skills
 aldegad/sprite-gen
+Jakeschincariol/instagram-agent-skill

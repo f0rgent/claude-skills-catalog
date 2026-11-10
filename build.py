@@ -101,6 +101,7 @@ REPOS = {
     "rehan-remade/universal-modder": (0, "MIT", "main"),
     "gamedev-skills/awesome-gamedev-agent-skills": (0, "Apache-2.0", "main"),
     "aldegad/sprite-gen": (0, "Apache-2.0", "main"),
+    "Jakeschincariol/instagram-agent-skill": (0, "MIT", "main"),
 }
 
 def L(repo, path):
@@ -330,7 +331,7 @@ SECTIONS = [
  ("headline-matrix", "realkimbarrett/advertising-skills", "skills/copy-chief/headline-matrix", "Headline variations across angles"),
  ("write-copy / write-longform", "hungv47/meta-skills", "skills/write-copy", "Finished product-marketing copy and long-form pieces"),
 ]),
-("SMM, X and LinkedIn", "Social content, scheduling, analytics.", [
+("SMM, X, LinkedIn, Instagram", "Social content, scheduling, analytics.", [
  ("social", MK, "skills/social", "Content for LinkedIn, X, Instagram, TikTok, plus listening"),
  ("influencer-marketing", MK, "skills/influencer-marketing", "Finds, vets and briefs creators"),
  ("co-marketing", MK, "skills/co-marketing", "Partner campaigns"),
@@ -348,6 +349,10 @@ SECTIONS = [
  ("linkedin-writer", "ognjengt/founder-skills", "skills/linkedin-writer", "LinkedIn posts with voice matching"),
  ("tweet-draft-reviewer", "BrianRWagner/ai-marketing-skills", "tweet-draft-reviewer", "Scores tweet drafts 1-10 against voice rules"),
  ("tweetclaw", "Xquik-dev/tweetclaw", "skills/tweetclaw", "Post, reply, search tweets, export followers"),
+ ("ig-reel", "Jakeschincariol/instagram-agent-skill", "skills/ig-reel", "Instagram Reel script from a raw idea: 26 hook formulas, beat sheet, hook score"),
+ ("ig-viral", "Jakeschincariol/instagram-agent-skill", "skills/ig-viral", "Finds reels working in your niche and ranks them by how far each beat its account"),
+ ("ig-profile", "Jakeschincariol/instagram-agent-skill", "skills/ig-profile", "Scores an Instagram profile out of 100 and rewrites what lost points"),
+ ("ig-human", "Jakeschincariol/instagram-agent-skill", "skills/ig-human", "Strips em dashes, slop words and watermark characters from any draft"),
 ]),
 ("UGC, ads and creatives", "Ads that convert, scripts for UGC videos.", [
  ("ad-creative", MK, "skills/ad-creative", "Headlines, primary text, full ad variations at scale"),
@@ -588,6 +593,7 @@ INDEX = {
  "rehan-remade/universal-modder": "asset-pipeline, blitz3d-decomp, fal-assets, game-automation, game-recon, game-research-websearch, mashup-mods, mod-any-game, port-a-mod, publish-mod, reverse-engineering, share-field-notes, showcase-video",
  "gamedev-skills/awesome-gamedev-agent-skills": "ai-behavior-trees-utility-ai, audio-design, bevy-ecs, camera-systems, card-game, create-game-assets, defold-core, dialogue-systems, ebitengine-game, fps-shooter, game-ai, game-feel, game-jam, game-ui-ux, godot-2d-movement, godot-3d-essentials, godot-animation, godot-audio, godot-csharp, godot-export, godot-gdscript, godot-multiplayer, godot-nodes-scenes, godot-physics, godot-resources, godot-shaders, godot-signals-groups, godot-tilemap, godot-ui-control, input-systems, itch-publish, level-design, love2d-core, performance-optimization, phaser-arcade-physics, phaser-core, physics-tuning, pixijs-rendering, platformer, procedural-gen, prototype-fast, puzzle, pygame-core, roblox-characters, roblox-datastores, roblox-luau, roblox-networking, roblox-physics, roblox-simulator-economy, roblox-studio-workflow, roblox-ui, roguelike, router, rpg, save-systems, shader-programming, steam-publish, survival-crafting, threejs-gltf-loading, threejs-materials-lighting, threejs-scene-setup, tower-defense, unity-animation, unity-build-pipeline, unity-csharp-scripting, unity-input-system, unity-navmesh, unity-physics, unity-scriptableobjects, unity-tilemap-2d, unreal-behavior-trees, unreal-blueprints, unreal-cpp-gameplay, unreal-enhanced-input, unreal-niagara, unreal-packaging, visual-novel",
  "aldegad/sprite-gen": "sprite-gen",
+ "Jakeschincariol/instagram-agent-skill": "ig-audit, ig-caption, ig-carousel, ig-comment, ig-dm, ig-human, ig-plan, ig-profile, ig-reel, ig-reply, ig-repurpose, ig-story, ig-viral",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
