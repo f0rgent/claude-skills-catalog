@@ -82,3 +82,17 @@ browser-use/browser-use
 mem0ai/mem0
 assafelovic/gpt-researcher
 xai-org/xai-cookbook
+OpenMontageInc/OpenMontage
+Vincentwei1021/video-shotcraft
+pbakaus/impeccable
+nexu-io/open-design
+Nutlope/hallmark
+wheresryan22/anatomy
+CoplayDev/unity-mcp
+arjun988/blender-skills
+Vincentwei1021/anything2explainer
+oil-oil/oil-motion
+nateherkai/herk-edit-kit
+rehan-remade/universal-modder
+gamedev-skills/awesome-gamedev-agent-skills
+aldegad/sprite-gen

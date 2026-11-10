@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-2600-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-84-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3071-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-98-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -46,9 +46,9 @@ If you install nothing else, install these.
 <table>
 <tr>
 <td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>41 picks</sub></td>
-<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>28 picks</sub></td>
+<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>32 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>10 picks</sub></td>
-<td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>21 picks</sub></td>
+<td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>25 picks</sub></td>
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>28 picks</sub></td>
@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>36 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>42 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>7 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>25 picks</sub></td>
 </tr>
@@ -133,14 +133,18 @@ Specialist skills per stack.
 
 | Skill | What it does | Repo |
 |---|---|---|
-| [**react-best-practices**](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) | Vercel's React and Next.js performance rules | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
-| [**composition-patterns**](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) | React composition patterns that scale | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
-| [**react-native-skills**](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills) | React Native and Expo best practices | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [**awesome-gamedev-agent-skills (77 skills)**](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main/skills) | Game dev for Godot, Unity, Unreal and more: game feel, AI, dialogue, cameras | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| [**unity-mcp-skill**](https://github.com/CoplayDev/unity-mcp/tree/beta/unity-mcp-skill) | Drives the Unity editor through Unity MCP (needs the MCP server) | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) |
+| [**sprite-gen**](https://github.com/aldegad/sprite-gen) | Game sprites and images via GPT or Grok, with cleanup, atlases and palette swaps | [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) |
 
-<details><summary><b>Show all 28 dev stacks skills</b></summary>
+<details><summary><b>Show all 32 dev stacks skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**universal-modder (13 skills)**](https://github.com/rehan-remade/universal-modder/tree/main/skills) | Research, decompile and mod existing games | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) |
+| [**react-best-practices**](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) | Vercel's React and Next.js performance rules | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [**composition-patterns**](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) | React composition patterns that scale | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [**react-native-skills**](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills) | React Native and Expo best practices | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [**react-view-transitions**](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions) | Native-feeling animations with the View Transition API | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [**deploy-to-vercel**](https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel) | Deploys and returns the link | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [**typescript-pro**](https://github.com/jeffallan/claude-skills/tree/main/skills/typescript-pro) | Advanced TypeScript types and guards | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
@@ -205,14 +209,18 @@ UI, brand and visuals.
 
 | Skill | What it does | Repo |
 |---|---|---|
-| [**ui-ux-pro-max**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/ui-ux-pro-max) | Design intelligence for pages, components, apps | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
-| [**design**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/design) | Brand identity, tokens, logos (55 styles), CI kits | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
-| [**design-system**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/design-system) | Token architecture and component specs | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| [**impeccable**](https://github.com/pbakaus/impeccable/tree/main/.claude/skills/impeccable) | /polish, /bolder, /critique: audits and fixes a frontend so it stops looking like AI slop | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) |
+| [**hallmark**](https://github.com/Nutlope/hallmark/tree/main/skills/hallmark) | New pages that look designed, not generated | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) |
+| [**anatomy**](https://github.com/wheresryan22/anatomy) | Interactive isometric SVG figures that explain a technical idea as a physical object | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) |
 
-<details><summary><b>Show all 21 design skills</b></summary>
+<details><summary><b>Show all 25 design skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**open-design (169 skills)**](https://github.com/nexu-io/open-design/tree/main/skills) | Design and motion templates plus ad, deck and brand skills from the Open Design workspace | [nexu-io/open-design](https://github.com/nexu-io/open-design) |
+| [**ui-ux-pro-max**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/ui-ux-pro-max) | Design intelligence for pages, components, apps | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| [**design**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/design) | Brand identity, tokens, logos (55 styles), CI kits | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| [**design-system**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/design-system) | Token architecture and component specs | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | [**ui-styling**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/ui-styling) | shadcn/ui + Tailwind interfaces | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | [**banner-design**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/banner-design) | Banners for social, ads, heroes and print | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | [**brand**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/brand) | Brand voice, identity, messaging frameworks | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
@@ -444,7 +452,7 @@ Videos and animation written as code.
 | [**frame-critic (ours)**](skills/frame-critic) | Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs | this repo |
 | [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
 
-<details><summary><b>Show all 36 video skills</b></summary>
+<details><summary><b>Show all 42 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -481,6 +489,12 @@ Videos and animation written as code.
 | [**grok-shorts-make**](https://github.com/xai-org/xai-cookbook/tree/main/examples/grok-shorts/skills/grok-shorts-make) | xAI's own: a lifelike presenter explains a PR or any idea in a 15-45s vertical video, with captions (needs an xAI API key) | [xai-org/xai-cookbook](https://github.com/xai-org/xai-cookbook) |
 | [**grok-shorts-edit / -presenters / -brand**](https://github.com/xai-org/xai-cookbook/tree/main/examples/grok-shorts/skills) | Re-cut a Grok Short, make your own presenter, set your logo, colors and font | [xai-org/xai-cookbook](https://github.com/xai-org/xai-cookbook) |
 | [**create-shortform**](https://github.com/hungv47/meta-skills/tree/main/skills/create-shortform) | Researches and scripts TikTok, Reels, Shorts | [hungv47/meta-skills](https://github.com/hungv47/meta-skills) |
+| [**OpenMontage**](https://github.com/OpenMontageInc/OpenMontage/tree/main/.agents/skills) | A full agentic video studio: script, AI clips, voice, music and edit in one pipeline (AGPL, most skills need API keys) | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) |
+| [**video-shotcraft**](https://github.com/Vincentwei1021/video-shotcraft) | Cinematic product promos from your real web pages, shot cards and synced sound effects | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) |
+| [**herk-edit-kit (15 skills)**](https://github.com/nateherkai/herk-edit-kit/tree/main/.claude/skills) | Nate Herk's HyperFrames edit kit: cut mistakes and silences, beats, captions, edit a video end to end | [nateherkai/herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) |
+| [**anything2explainer**](https://github.com/Vincentwei1021/anything2explainer) | Any topic into a narrated motion-graphics explainer with subtitles (free for noncommercial use) | [Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer) |
+| [**oil-motion**](https://github.com/oil-oil/oil-motion) | Turns AI video or frame sequences into scroll- and pointer-driven web animation | [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) |
+| [**blender-skills (94 skills)**](https://github.com/arjun988/blender-skills/tree/main/.claude/skills) | Blender by prompt: scenes, materials, rigs, animation, archviz, genre looks | [arjun988/blender-skills](https://github.com/arjun988/blender-skills) |
 
 </details>
 
@@ -634,7 +648,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 2600 skills, grouped by repo</b></summary>
+<details><summary><b>All 3071 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -719,6 +733,20 @@ For people building agents.
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) (12) |  | Apache-2.0 | forget, mem0, mem0-cli, mem0-integrate, mem0-oss-to-platform, mem0-test-integration, mem0-vercel-ai-sdk, pause, remember, resume, search, status |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) (1) |  | Apache-2.0 | gpt-researcher |
 | [xai-org/xai-cookbook](https://github.com/xai-org/xai-cookbook) (4) |  | xAI Beta Testing License | grok-shorts-brand, grok-shorts-edit, grok-shorts-make, grok-shorts-presenters |
+| [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) (93) |  | AGPL-3.0 | 3d-asset-generation, acestep, agents, ai-video-gen, atlas-cloud, avatar-video, azure-speech-to-text, azure-text-to-speech, beautiful-mermaid, bfl-api, canvas-procedural-animation, character-animation-qa, character-rigging, comfyui, create-video, d3-viz, dashscope, doubao-tts, elevenlabs, faceswap, ffmpeg, fish-audio-tts, flux-best-practices, framer-motion, gemini-omni, grok-media, gsap-core, gsap-frameworks, gsap-performance, gsap-plugins, gsap-react, gsap-scrolltrigger, gsap-timeline, gsap-utils, heygen, hyperframes, hyperframes-animation, hyperframes-cli, hyperframes-core, hyperframes-creative, hyperframes-media, hyperframes-registry, kling-official, lottie-bodymovin, ltx2, lyria, manim-composer, manimce-best-practices, manimgl-best-practices, media-use, minimax-h3, motion-graphics, music, music-to-video, pika-h3-flex, playwright-recording, pose-library-design, provider-model-refresh, provider-refresh-oct23, remotion, remotion-best-practices, remotion-to-hyperframes, seedance-2-0, seedance-2-5, setup-api-key, sound-effects, speech-to-text, svg-character-animation, synthetic-screen-recording, tailwind-design-system, text-to-speech, threejs-animation, threejs-fundamentals, threejs-geometry, threejs-interaction, threejs-lighting, threejs-loaders, threejs-materials, threejs-postprocessing, threejs-shaders, threejs-textures, threejs-world-generation, vercel-composition-patterns, vercel-react-best-practices, video-download, video-edit, video-toolkit, video-translate, video-understand, video_toolkit, visual-style, web-design-guidelines, website-to-video |
+| [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) (1) |  | Apache-2.0 | video-shotcraft |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (1) |  | Apache-2.0 | impeccable |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) (169) |  | Apache-2.0 | 8-bit-orbit-video-template, ad-creative, after-hours-editorial-template, agent-browser, ai-music-album, algorithmic-art, animate, apple-hig, article-magazine, artifacts-builder, brainstorming, brand-extract, brand-guidelines, brandkit, brutalist-skill, canvas-design, card-twitter, card-xiaohongshu, chat-motion-overlay, color-expert, competitive-ads-extractor, copywriting, creative-director, d3-visualization, data-report, deck-guizang-editorial, deck-open-slide-canvas, deck-swiss-international, design-brief, design-consultation, design-md, design-review, digits-fintech-swiss-template, doc, doc-kami-parchment, docx, domain-name-brainstormer, ecommerce-image-workflow, editorial-burgundy-principles-template, emil-design-eng, emilkowalski-motion, enhance-prompt, export-download-debugging, fal-3d, fal-generate, fal-image-edit, fal-kling-o3, fal-lip-sync, fal-realtime, fal-restore, fal-train, fal-tryon, fal-upscale, fal-video-edit, fal-vision, faq-page, field-notes-editorial-template, figma-code-connect-components, figma-create-design-system-rules, figma-create-new-file, figma-generate-design, figma-generate-library, figma-implement-design, figma-use, flutter-animating-apps, frame-data-chart-nyt, frame-flowchart-sticky, frame-glitch-title, frame-light-leak-cinema, frame-liquid-bg-hero, frame-logo-outro, frame-macos-notification, frontend-design, frontend-dev, frontend-skill, frontend-slides, full-page-screenshot, gif-sticker-maker, gpt-tasteskill, gsap-core, gsap-frameworks, gsap-performance, gsap-plugins, gsap-react, gsap-scrolltrigger, gsap-timeline, gsap-utils, hand-drawn-diagrams, hatch-pet, html-ppt-retro-quarterly-review, huashu-art-motion, image-enhancer, image-to-code-skill, imagegen, imagegen-frontend-mobile, imagegen-frontend-web, imagen, impeccable-design-polish, library-curator, login-flow, marketing-psychology, minimalist-skill, minimax-docx, minimax-pdf, mockup-device-3d, motion-design, motion-lab, nanobanana-ppt, od-next-media-inputs, oil-motion, output-skill, paywall-upgrade-cro, pdf, pixelbin-media, plan-design-review, platform-design, poster-hero, ppt-keynote, pptx, pptx-generator, pptx-html-fidelity-audit, pr-feedback-quality-gate, redesign-skill, reference-design-contract, release-notes-one-pager, remotion, replicate, research-decision-room, resume-modern, review-animations, screenshot, screenshots-marketing, shadcn-ui, shader-dev, slack-gif-creator, slides, social-reddit-card, social-spotify-card, social-x-post-card, soft-skill, sora, speech, stitch-loop, stitch-skill, swiftui-design, swiss-creative-mode-template, swiss-user-research-video-template, taste-skill, taste-skill-v1, theme-factory, threejs, ui-animation, ui-skills, ui-ux-pro-max, venice-audio-music, venice-audio-speech, venice-image-edit, venice-image-generate, venice-video, vfx-text-cursor, video-downloader, video-hyperframes, web-artifacts-builder, web-clone, web-design-guidelines, weread-year-in-review-video-template, wpds, writing-guidelines, youtube-clipper |
+| [Nutlope/hallmark](https://github.com/Nutlope/hallmark) (1) |  | MIT | hallmark |
+| [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) (1) |  | MIT | anatomy |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) (3) |  | MIT | blender-to-unity, mcp-source, unity-mcp-skill |
+| [arjun988/blender-skills](https://github.com/arjun988/blender-skills) (94) |  | MIT | analog-found-footage-horror, animation, anime-style, apocalypse-worlds, archviz, asset-optimization, biome-worlds, blender-director, blender-modeler, body-horror-style, brutalist-mood, camera-cinematography, cartoon-style, character-archetypes, character-artist, chibi-style, cloth-sim, collision-proxy, comic-book-style, compositing, cosmic-eldritch-horror, cozy-wholesome-mood, creature-artist, dark-gritty-mood, dream-surreal-mood, dream-weirdcore-style, environment-artist, export-pipeline, fantasy-worlds, folk-horror-style, frutiger-aero-style, genre-action-combat, genre-card-party-idle, genre-metroidvania-roguelike, genre-narrative-vn, genre-open-world-sandbox, genre-puzzle-platformer, genre-racing-sports, genre-rpg, genre-shooter, genre-soulslike, genre-stealth, genre-strategy-sim, genre-survival, geometry-nodes, godot-export, hair-groom, hand-painted-style, hard-surface, hd-2d-style, historical-worlds, horror-style, indie-horror-aesthetics, isometric-style, lighting, liminal-space-style, lod-pipeline, lookdev, lowpoly-style, manga-style, mascot-puppet-horror, materials, minimalist-style, neon-retrofuturism, noir-style, painterly-style, physics-sim, pixel-art-style, procedural-modeling, prop-artist, psx-horror-style, qa-review, realistic-style, rendering, retopology, retro-16bit-style, retro-8bit-style, rigging, scene-assembly, sci-fi-punk-worlds, sculpting, set-dressing, stop-motion-craft-style, stylized-style, texture-workflow, unity-export, unreal-export, uv-workflow, vector-style, vegetation-artist, vehicle-artist, vfx-fx, visual-console-eras, voxel-style |
+| [Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer) (1) |  | Noncommercial (commercial use needs author's OK) | anything2explainer |
+| [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) (1) |  | MIT | oil-motion |
+| [nateherkai/herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) (15) |  | MIT | cut-mistakes, cut-silences, edit-video, gsap, hyperframes, hyperframes-cli, hyperframes-registry, hyperframes-video-beats, make-a-video, motion-showreel, short-form-edit, short-form-video, style-library, video-storytelling, website-to-hyperframes |
+| [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) (13) |  | MIT | asset-pipeline, blitz3d-decomp, fal-assets, game-automation, game-recon, game-research-websearch, mashup-mods, mod-any-game, port-a-mod, publish-mod, reverse-engineering, share-field-notes, showcase-video |
+| [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) (77) |  | Apache-2.0 | ai-behavior-trees-utility-ai, audio-design, bevy-ecs, camera-systems, card-game, create-game-assets, defold-core, dialogue-systems, ebitengine-game, fps-shooter, game-ai, game-feel, game-jam, game-ui-ux, godot-2d-movement, godot-3d-essentials, godot-animation, godot-audio, godot-csharp, godot-export, godot-gdscript, godot-multiplayer, godot-nodes-scenes, godot-physics, godot-resources, godot-shaders, godot-signals-groups, godot-tilemap, godot-ui-control, input-systems, itch-publish, level-design, love2d-core, performance-optimization, phaser-arcade-physics, phaser-core, physics-tuning, pixijs-rendering, platformer, procedural-gen, prototype-fast, puzzle, pygame-core, roblox-characters, roblox-datastores, roblox-luau, roblox-networking, roblox-physics, roblox-simulator-economy, roblox-studio-workflow, roblox-ui, roguelike, router, rpg, save-systems, shader-programming, steam-publish, survival-crafting, threejs-gltf-loading, threejs-materials-lighting, threejs-scene-setup, tower-defense, unity-animation, unity-build-pipeline, unity-csharp-scripting, unity-input-system, unity-navmesh, unity-physics, unity-scriptableobjects, unity-tilemap-2d, unreal-behavior-trees, unreal-blueprints, unreal-cpp-gameplay, unreal-enhanced-input, unreal-niagara, unreal-packaging, visual-novel |
+| [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) (1) |  | Apache-2.0 | sprite-gen |
 
 </details>
 
@@ -726,6 +754,6 @@ For people building agents.
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
-- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio on X.
+- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>

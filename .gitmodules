@@ -334,3 +334,73 @@
 	path = vendor/xai-org_xai-cookbook
 	url = https://github.com/xai-org/xai-cookbook.git
 	shallow = true
+[submodule "vendor/OpenMontageInc_OpenMontage"]
+	path = vendor/OpenMontageInc_OpenMontage
+	url = https://github.com/OpenMontageInc/OpenMontage.git
+[submodule "OpenMontageInc_OpenMontage"]
+	shallow = true
+[submodule "vendor/Vincentwei1021_video-shotcraft"]
+	path = vendor/Vincentwei1021_video-shotcraft
+	url = https://github.com/Vincentwei1021/video-shotcraft.git
+[submodule "Vincentwei1021_video-shotcraft"]
+	shallow = true
+[submodule "vendor/pbakaus_impeccable"]
+	path = vendor/pbakaus_impeccable
+	url = https://github.com/pbakaus/impeccable.git
+[submodule "pbakaus_impeccable"]
+	shallow = true
+[submodule "vendor/nexu-io_open-design"]
+	path = vendor/nexu-io_open-design
+	url = https://github.com/nexu-io/open-design.git
+[submodule "nexu-io_open-design"]
+	shallow = true
+[submodule "vendor/Nutlope_hallmark"]
+	path = vendor/Nutlope_hallmark
+	url = https://github.com/Nutlope/hallmark.git
+[submodule "Nutlope_hallmark"]
+	shallow = true
+[submodule "vendor/wheresryan22_anatomy"]
+	path = vendor/wheresryan22_anatomy
+	url = https://github.com/wheresryan22/anatomy.git
+[submodule "wheresryan22_anatomy"]
+	shallow = true
+[submodule "vendor/CoplayDev_unity-mcp"]
+	path = vendor/CoplayDev_unity-mcp
+	url = https://github.com/CoplayDev/unity-mcp.git
+[submodule "CoplayDev_unity-mcp"]
+	shallow = true
+[submodule "vendor/arjun988_blender-skills"]
+	path = vendor/arjun988_blender-skills
+	url = https://github.com/arjun988/blender-skills.git
+[submodule "arjun988_blender-skills"]
+	shallow = true
+[submodule "vendor/Vincentwei1021_anything2explainer"]
+	path = vendor/Vincentwei1021_anything2explainer
+	url = https://github.com/Vincentwei1021/anything2explainer.git
+[submodule "Vincentwei1021_anything2explainer"]
+	shallow = true
+[submodule "vendor/oil-oil_oil-motion"]
+	path = vendor/oil-oil_oil-motion
+	url = https://github.com/oil-oil/oil-motion.git
+[submodule "oil-oil_oil-motion"]
+	shallow = true
+[submodule "vendor/nateherkai_herk-edit-kit"]
+	path = vendor/nateherkai_herk-edit-kit
+	url = https://github.com/nateherkai/herk-edit-kit.git
+[submodule "nateherkai_herk-edit-kit"]
+	shallow = true
+[submodule "vendor/rehan-remade_universal-modder"]
+	path = vendor/rehan-remade_universal-modder
+	url = https://github.com/rehan-remade/universal-modder.git
+[submodule "rehan-remade_universal-modder"]
+	shallow = true
+[submodule "vendor/gamedev-skills_awesome-gamedev-agent-skills"]
+	path = vendor/gamedev-skills_awesome-gamedev-agent-skills
+	url = https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git
+[submodule "gamedev-skills_awesome-gamedev-agent-skills"]
+	shallow = true
+[submodule "vendor/aldegad_sprite-gen"]
+	path = vendor/aldegad_sprite-gen
+	url = https://github.com/aldegad/sprite-gen.git
+[submodule "aldegad_sprite-gen"]
+	shallow = true
