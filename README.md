@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3156-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-103-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3160-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-104-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -45,7 +45,7 @@ If you install nothing else, install these.
 
 <table>
 <tr>
-<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>41 picks</sub></td>
+<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>45 picks</sub></td>
 <td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>32 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>10 picks</sub></td>
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>25 picks</sub></td>
@@ -79,7 +79,7 @@ How the agent plans, codes, reviews and ships.
 | [**writing-plans**](https://github.com/obra/superpowers/tree/main/skills/writing-plans) | Turns a spec into a step-by-step implementation plan | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**executing-plans**](https://github.com/obra/superpowers/tree/main/skills/executing-plans) | Works through a plan inline, step by step | [obra/superpowers](https://github.com/obra/superpowers) |
 
-<details><summary><b>Show all 41 dev workflow skills</b></summary>
+<details><summary><b>Show all 45 dev workflow skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -121,6 +121,10 @@ How the agent plans, codes, reviews and ships.
 | [**graphify**](https://github.com/safishamsi/graphify) | Turns a codebase or any folder into a queryable knowledge graph | [safishamsi/graphify](https://github.com/safishamsi/graphify) |
 | [**statechart / create-formal-verification-skill**](https://github.com/cursor/plugins/tree/main/pstack/skills/statechart) | Lauren Tan's pstack: models state machines in TLA+ and finds logic bugs | [cursor/plugins](https://github.com/cursor/plugins) |
 | [**pstack (58 skills)**](https://github.com/cursor/plugins/tree/main/pstack) | Lauren Tan's skills for careful agent coding: arena, blast-radius, swarm, unslop | [cursor/plugins](https://github.com/cursor/plugins) |
+| [**agent-qa-authoring**](https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-authoring) | Authors web/mobile tests; memidex memory and validated self-improvement. https://vostride.com | [vostride/agent-qa](https://github.com/vostride/agent-qa) |
+| [**agent-qa-debug-fix**](https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-debug-fix) | Debugs failed agent-qa runs from logs, artifacts and MCP evidence. https://vostride.com | [vostride/agent-qa](https://github.com/vostride/agent-qa) |
+| [**agent-qa-knowledge**](https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-knowledge) | Reads agent-qa run evidence and memidex knowledge through CLI/MCP. https://vostride.com | [vostride/agent-qa](https://github.com/vostride/agent-qa) |
+| [**agent-qa-result-triage**](https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-result-triage) | Classifies failed agent-qa runs and compares screenshot/artifact evidence. https://vostride.com | [vostride/agent-qa](https://github.com/vostride/agent-qa) |
 
 </details>
 
@@ -664,7 +668,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3156 skills, grouped by repo</b></summary>
+<details><summary><b>All 3160 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -769,11 +773,13 @@ For people building agents.
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) (16) |  | MIT | geo, geo-audit, geo-brand-mentions, geo-citability, geo-compare, geo-content, geo-crawlers, geo-llmstxt, geo-platform-optimizer, geo-proposal, geo-prospect, geo-report, geo-report-pdf, geo-schema, geo-technical, geo-update |
 | [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) (33) |  | MIT | blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain |
 | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) (5) |  | Apache-2.0 | build_workspace_app, configure_mcp_server, develop_extension, use_openbb_cli, work_with_server |
+| [vostride/agent-qa](https://github.com/vostride/agent-qa) (4) | 853 | FSL-1.1-ALv2 (competing-use restrictions) | agent-qa-authoring, agent-qa-debug-fix, agent-qa-knowledge, agent-qa-result-triage |
 
 </details>
 
 ## 📝 Notes
 
+- agent-qa: four existing public skills and 853 stars checked on 2026-11-11. Product: https://vostride.com. FSL-1.1-ALv2 includes competing-use restrictions; permitted local software use is free, with model/provider and device/compute costs separate. Requires the configured agent-qa runtime (Node.js 24+); skill installation alone does not set it up. Source reviewed only; no runtime or client compatibility test claimed.
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
 - Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x on X.

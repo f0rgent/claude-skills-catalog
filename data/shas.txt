@@ -101,3 +101,4 @@ AminForou/mcp-gsc 45291df024c7873b2042c83d7add70ced7bb621f
 zubair-trabzada/geo-seo-claude 989cae01e8ebbc42a9ec798eb9e7cb423f5ec89c
 AgriciDaniel/claude-blog 4f9c2cb8fd17f594e868d6c2ce0e8fb2c971f987
 OpenBB-finance/OpenBB 11290d8b468570cea64b5feb0225ad9cbf5228e0
+vostride/agent-qa 43618211636159a6fc6086cac90101e448ed8a63

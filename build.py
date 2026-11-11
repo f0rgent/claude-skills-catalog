@@ -107,6 +107,7 @@ REPOS = {
     "zubair-trabzada/geo-seo-claude": (0, "MIT", "main"),
     "AgriciDaniel/claude-blog": (0, "MIT", "main"),
     "OpenBB-finance/OpenBB": (0, "Apache-2.0", "develop"),
+    "vostride/agent-qa": (853, "FSL-1.1-ALv2 (competing-use restrictions)", "main"),  # checked 2026-11-11
 }
 
 def L(repo, path):
@@ -175,6 +176,10 @@ SECTIONS = [
  ("graphify", "safishamsi/graphify", "", "Turns a codebase or any folder into a queryable knowledge graph"),
  ("statechart / create-formal-verification-skill", "cursor/plugins", "pstack/skills/statechart", "Lauren Tan's pstack: models state machines in TLA+ and finds logic bugs"),
  ("pstack (58 skills)", "cursor/plugins", "pstack", "Lauren Tan's skills for careful agent coding: arena, blast-radius, swarm, unslop"),
+ ('agent-qa-authoring', 'vostride/agent-qa', 'skills/agent-qa-authoring', 'Authors web/mobile tests; memidex memory and validated self-improvement. https://vostride.com'),
+ ('agent-qa-debug-fix', 'vostride/agent-qa', 'skills/agent-qa-debug-fix', 'Debugs failed agent-qa runs from logs, artifacts and MCP evidence. https://vostride.com'),
+ ('agent-qa-knowledge', 'vostride/agent-qa', 'skills/agent-qa-knowledge', 'Reads agent-qa run evidence and memidex knowledge through CLI/MCP. https://vostride.com'),
+ ('agent-qa-result-triage', 'vostride/agent-qa', 'skills/agent-qa-result-triage', 'Classifies failed agent-qa runs and compares screenshot/artifact evidence. https://vostride.com'),
 ]),
 ("Developers: languages, frameworks, infra", "Specialist skills per stack.", [
  ("awesome-gamedev-agent-skills (77 skills)", "gamedev-skills/awesome-gamedev-agent-skills", "skills", "Game dev for Godot, Unity, Unreal and more: game feel, AI, dialogue, cameras"),
@@ -618,6 +623,7 @@ INDEX = {
  "AgriciDaniel/claude-blog": "blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain",
  "OpenBB-finance/OpenBB": "build_workspace_app, configure_mcp_server, develop_extension, use_openbb_cli, work_with_server",
 }
+INDEX["vostride/agent-qa"] = "agent-qa-authoring, agent-qa-debug-fix, agent-qa-knowledge, agent-qa-result-triage"
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
 def stars(r):
@@ -687,6 +693,7 @@ def main():
             w(f"| [{r}]({GH}{r}) ({n}) | {stars(r)} | {REPOS[r][1]} | {INDEX[r]} |")
     w("\n</details>\n")
     w("## 📝 Notes\n")
+    w("- agent-qa: four existing public skills and 853 stars checked on 2026-11-11. Product: https://vostride.com. FSL-1.1-ALv2 includes competing-use restrictions; permitted local software use is free, with model/provider and device/compute costs separate. Requires the configured agent-qa runtime (Node.js 24+); skill installation alone does not set it up. Source reviewed only; no runtime or client compatibility test claimed.")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
     w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x on X.\n")
