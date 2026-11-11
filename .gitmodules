@@ -404,3 +404,23 @@
 	path = vendor/Jakeschincariol_instagram-agent-skill
 	url = https://github.com/Jakeschincariol/instagram-agent-skill.git
 	shallow = true
+[submodule "vendor/every-app_open-seo"]
+	path = vendor/every-app_open-seo
+	url = https://github.com/every-app/open-seo.git
+	shallow = true
+[submodule "vendor/AminForou_mcp-gsc"]
+	path = vendor/AminForou_mcp-gsc
+	url = https://github.com/AminForou/mcp-gsc.git
+	shallow = true
+[submodule "vendor/zubair-trabzada_geo-seo-claude"]
+	path = vendor/zubair-trabzada_geo-seo-claude
+	url = https://github.com/zubair-trabzada/geo-seo-claude.git
+	shallow = true
+[submodule "vendor/AgriciDaniel_claude-blog"]
+	path = vendor/AgriciDaniel_claude-blog
+	url = https://github.com/AgriciDaniel/claude-blog.git
+	shallow = true
+[submodule "vendor/OpenBB-finance_OpenBB"]
+	path = vendor/OpenBB-finance_OpenBB
+	url = https://github.com/OpenBB-finance/OpenBB.git
+	shallow = true

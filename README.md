@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3086-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-98-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3156-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-103-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -51,7 +51,7 @@ If you install nothing else, install these.
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>25 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>28 picks</sub></td>
+<td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>40 picks</sub></td>
 <td align="center" width="25%"><a href="#s6"><h1>📈</h1><b>Marketing</b></a><br><sub>32 picks</sub></td>
 <td align="center" width="25%"><a href="#s7"><h1>✍️</h1><b>Copywriting</b></a><br><sub>21 picks</sub></td>
 <td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>21 picks</sub></td>
@@ -63,7 +63,7 @@ If you install nothing else, install these.
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>25 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>17 picks</sub></td>
+<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>18 picks</sub></td>
 <td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>24 picks</sub></td>
 </tr>
 </table>
@@ -255,7 +255,7 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 | [**seo-audit**](https://github.com/agricidaniel/claude-seo/tree/main/skills/seo-audit) | Full-site scored, prioritized audit | [agricidaniel/claude-seo](https://github.com/agricidaniel/claude-seo) |
 | [**seo-page**](https://github.com/agricidaniel/claude-seo/tree/main/skills/seo-page) | Single-URL analysis | [agricidaniel/claude-seo](https://github.com/agricidaniel/claude-seo) |
 
-<details><summary><b>Show all 28 seo skills</b></summary>
+<details><summary><b>Show all 40 seo skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -284,6 +284,18 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 | [**content-gap-analysis**](https://github.com/aaron-he-zhu/aaron-marketing-skills/tree/main/seo-geo/survey/content-gap-analysis) | Finds topics competitors cover and you don't | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) |
 | [**ai-discoverability-audit**](https://github.com/BrianRWagner/ai-marketing-skills/tree/main/ai-discoverability-audit) | How your brand shows up in ChatGPT, Perplexity, Claude | [BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills) |
 | [**seo-audit**](https://github.com/firecrawl/firecrawl-claude-plugin/tree/main/skills/seo-audit) | Inspects titles, meta, headings, canonicals, structured data | [firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin) |
+| [**keyword-research**](https://github.com/every-app/open-seo/tree/main/plugins/openseo/skills/keyword-research) | Free Semrush/Ahrefs-style keyword research, pay per request data | [every-app/open-seo](https://github.com/every-app/open-seo) |
+| [**seo-audit**](https://github.com/every-app/open-seo/tree/main/plugins/openseo/skills/seo-audit) | Short data-backed report: the few changes that grow traffic | [every-app/open-seo](https://github.com/every-app/open-seo) |
+| [**competitor-analysis**](https://github.com/every-app/open-seo/tree/main/plugins/openseo/skills/competitor-analysis) | One competitor's keywords, content themes, backlinks, gaps | [every-app/open-seo](https://github.com/every-app/open-seo) |
+| [**link-prospecting**](https://github.com/every-app/open-seo/tree/main/plugins/openseo/skills/link-prospecting) | Finds link prospects and drafts outreach | [every-app/open-seo](https://github.com/every-app/open-seo) |
+| [**ai-visibility-audit**](https://github.com/every-app/open-seo/tree/main/plugins/openseo/skills/ai-visibility-audit) | How your brand shows up in AI answers and what gets it cited | [every-app/open-seo](https://github.com/every-app/open-seo) |
+| [**content-opportunities**](https://github.com/AminForou/mcp-gsc/tree/main/skills/content-opportunities) | Search Console quick wins: high impressions, low CTR, position 11-20 | [AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc) |
+| [**cannibalization-check**](https://github.com/AminForou/mcp-gsc/tree/main/skills/cannibalization-check) | Finds your pages competing for the same query in Search Console | [AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc) |
+| [**geo-audit**](https://github.com/zubair-trabzada/geo-seo-claude/tree/main/skills/geo-audit) | Full GEO+SEO audit with parallel subagents, scored for AI search | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) |
+| [**geo-citability**](https://github.com/zubair-trabzada/geo-seo-claude/tree/main/skills/geo-citability) | Scores 0-100 how likely ChatGPT, Perplexity, Gemini are to quote a page | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) |
+| [**geo-llmstxt**](https://github.com/zubair-trabzada/geo-seo-claude/tree/main/skills/geo-llmstxt) | Validates or generates llms.txt for your site | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) |
+| [**blog**](https://github.com/AgriciDaniel/claude-blog/tree/main/skills/blog) | Blog engine: research, write, score out of 100, 31 sub-skills | [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) |
+| [**blog-factcheck**](https://github.com/AgriciDaniel/claude-blog/tree/main/skills/blog-factcheck) | Opens cited sources and checks the stats really are there | [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) |
 
 </details>
 
@@ -580,7 +592,7 @@ Second brain, notes, deep research.
 | [**defuddle**](https://github.com/kepano/obsidian-skills) | Any web page to clean Markdown | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |
 | [**notebooklm**](https://github.com/pleaseprompto/notebooklm-skill) | Query your NotebookLM notebooks from Claude Code | [pleaseprompto/notebooklm-skill](https://github.com/pleaseprompto/notebooklm-skill) |
 
-<details><summary><b>Show all 17 research skills</b></summary>
+<details><summary><b>Show all 18 research skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -597,6 +609,7 @@ Second brain, notes, deep research.
 | [**academy-guide**](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | Points you to the matching Claude Academy course when you ask how to use Claude | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**discernment-nudge**](https://github.com/anthropics/skills/tree/main/skills/discernment-nudge) | After advice or a draft, adds 2-3 questions on what to check before you act on it | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**gpt-researcher**](https://github.com/assafelovic/gpt-researcher/tree/main/.claude) | Autonomous deep research on any topic, ends in a cited report | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) |
+| [**work_with_server**](https://github.com/OpenBB-finance/OpenBB/tree/develop/openbb_platform/extensions/mcp_server/openbb_mcp_server/skills/work_with_server) | Market and financial data for your agent through the OpenBB MCP server | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) |
 | [**analyze / explore-data / sql-queries**](https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/analyze) | Ask your data questions in plain English, get SQL and answers | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
 
 </details>
@@ -651,7 +664,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3086 skills, grouped by repo</b></summary>
+<details><summary><b>All 3156 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -751,6 +764,11 @@ For people building agents.
 | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) (77) |  | Apache-2.0 | ai-behavior-trees-utility-ai, audio-design, bevy-ecs, camera-systems, card-game, create-game-assets, defold-core, dialogue-systems, ebitengine-game, fps-shooter, game-ai, game-feel, game-jam, game-ui-ux, godot-2d-movement, godot-3d-essentials, godot-animation, godot-audio, godot-csharp, godot-export, godot-gdscript, godot-multiplayer, godot-nodes-scenes, godot-physics, godot-resources, godot-shaders, godot-signals-groups, godot-tilemap, godot-ui-control, input-systems, itch-publish, level-design, love2d-core, performance-optimization, phaser-arcade-physics, phaser-core, physics-tuning, pixijs-rendering, platformer, procedural-gen, prototype-fast, puzzle, pygame-core, roblox-characters, roblox-datastores, roblox-luau, roblox-networking, roblox-physics, roblox-simulator-economy, roblox-studio-workflow, roblox-ui, roguelike, router, rpg, save-systems, shader-programming, steam-publish, survival-crafting, threejs-gltf-loading, threejs-materials-lighting, threejs-scene-setup, tower-defense, unity-animation, unity-build-pipeline, unity-csharp-scripting, unity-input-system, unity-navmesh, unity-physics, unity-scriptableobjects, unity-tilemap-2d, unreal-behavior-trees, unreal-blueprints, unreal-cpp-gameplay, unreal-enhanced-input, unreal-niagara, unreal-packaging, visual-novel |
 | [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) (1) |  | Apache-2.0 | sprite-gen |
 | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) (13) |  | MIT | ig-audit, ig-caption, ig-carousel, ig-comment, ig-dm, ig-human, ig-plan, ig-profile, ig-reel, ig-reply, ig-repurpose, ig-story, ig-viral |
+| [every-app/open-seo](https://github.com/every-app/open-seo) (12) |  | MIT | ai-prompt-research, ai-visibility-audit, competitive-landscape, competitor-analysis, keyword-clustering, keyword-research, link-prospecting, local-seo, seo-audit, seo-coach, seo-project-setup, seo-report |
+| [AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc) (4) |  | MIT | cannibalization-check, content-opportunities, indexing-audit, seo-weekly-report |
+| [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) (16) |  | MIT | geo, geo-audit, geo-brand-mentions, geo-citability, geo-compare, geo-content, geo-crawlers, geo-llmstxt, geo-platform-optimizer, geo-proposal, geo-prospect, geo-report, geo-report-pdf, geo-schema, geo-technical, geo-update |
+| [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) (33) |  | MIT | blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) (5) |  | Apache-2.0 | build_workspace_app, configure_mcp_server, develop_extension, use_openbb_cli, work_with_server |
 
 </details>
 
@@ -758,6 +776,6 @@ For people building agents.
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
-- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble on X.
+- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>
