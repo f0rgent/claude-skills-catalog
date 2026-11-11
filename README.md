@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3151-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-102-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3156-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-103-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -63,7 +63,7 @@ If you install nothing else, install these.
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>25 picks</sub></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>17 picks</sub></td>
+<td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>18 picks</sub></td>
 <td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>24 picks</sub></td>
 </tr>
 </table>
@@ -592,7 +592,7 @@ Second brain, notes, deep research.
 | [**defuddle**](https://github.com/kepano/obsidian-skills) | Any web page to clean Markdown | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |
 | [**notebooklm**](https://github.com/pleaseprompto/notebooklm-skill) | Query your NotebookLM notebooks from Claude Code | [pleaseprompto/notebooklm-skill](https://github.com/pleaseprompto/notebooklm-skill) |
 
-<details><summary><b>Show all 17 research skills</b></summary>
+<details><summary><b>Show all 18 research skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -609,6 +609,7 @@ Second brain, notes, deep research.
 | [**academy-guide**](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | Points you to the matching Claude Academy course when you ask how to use Claude | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**discernment-nudge**](https://github.com/anthropics/skills/tree/main/skills/discernment-nudge) | After advice or a draft, adds 2-3 questions on what to check before you act on it | [anthropics/skills](https://github.com/anthropics/skills) |
 | [**gpt-researcher**](https://github.com/assafelovic/gpt-researcher/tree/main/.claude) | Autonomous deep research on any topic, ends in a cited report | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) |
+| [**work_with_server**](https://github.com/OpenBB-finance/OpenBB/tree/develop/openbb_platform/extensions/mcp_server/openbb_mcp_server/skills/work_with_server) | Market and financial data for your agent through the OpenBB MCP server | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) |
 | [**analyze / explore-data / sql-queries**](https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/analyze) | Ask your data questions in plain English, get SQL and answers | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
 
 </details>
@@ -663,7 +664,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3151 skills, grouped by repo</b></summary>
+<details><summary><b>All 3156 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -767,6 +768,7 @@ For people building agents.
 | [AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc) (4) |  | MIT | cannibalization-check, content-opportunities, indexing-audit, seo-weekly-report |
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) (16) |  | MIT | geo, geo-audit, geo-brand-mentions, geo-citability, geo-compare, geo-content, geo-crawlers, geo-llmstxt, geo-platform-optimizer, geo-proposal, geo-prospect, geo-report, geo-report-pdf, geo-schema, geo-technical, geo-update |
 | [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) (33) |  | MIT | blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) (5) |  | Apache-2.0 | build_workspace_app, configure_mcp_server, develop_extension, use_openbb_cli, work_with_server |
 
 </details>
 
@@ -774,6 +776,6 @@ For people building agents.
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
-- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_ on X.
+- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>

@@ -106,6 +106,7 @@ REPOS = {
     "AminForou/mcp-gsc": (0, "MIT", "main"),
     "zubair-trabzada/geo-seo-claude": (0, "MIT", "main"),
     "AgriciDaniel/claude-blog": (0, "MIT", "main"),
+    "OpenBB-finance/OpenBB": (0, "Apache-2.0", "develop"),
 }
 
 def L(repo, path):
@@ -482,6 +483,7 @@ SECTIONS = [
  ("academy-guide", A, "skills/academy-guide", "Points you to the matching Claude Academy course when you ask how to use Claude"),
  ("discernment-nudge", A, "skills/discernment-nudge", "After advice or a draft, adds 2-3 questions on what to check before you act on it"),
  ("gpt-researcher", "assafelovic/gpt-researcher", ".claude", "Autonomous deep research on any topic, ends in a cited report"),
+ ("work_with_server", "OpenBB-finance/OpenBB", "openbb_platform/extensions/mcp_server/openbb_mcp_server/skills/work_with_server", "Market and financial data for your agent through the OpenBB MCP server"),
  ("analyze / explore-data / sql-queries", "anthropics/knowledge-work-plugins", "data/skills/analyze", "Ask your data questions in plain English, get SQL and answers"),
 ]),
 ("AI agents, context and evals", "For people building agents.", [
@@ -614,6 +616,7 @@ INDEX = {
  "AminForou/mcp-gsc": "cannibalization-check, content-opportunities, indexing-audit, seo-weekly-report",
  "zubair-trabzada/geo-seo-claude": "geo, geo-audit, geo-brand-mentions, geo-citability, geo-compare, geo-content, geo-crawlers, geo-llmstxt, geo-platform-optimizer, geo-proposal, geo-prospect, geo-report, geo-report-pdf, geo-schema, geo-technical, geo-update",
  "AgriciDaniel/claude-blog": "blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain",
+ "OpenBB-finance/OpenBB": "build_workspace_app, configure_mcp_server, develop_extension, use_openbb_cli, work_with_server",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -686,7 +689,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_ on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)

@@ -420,3 +420,7 @@
 	path = vendor/AgriciDaniel_claude-blog
 	url = https://github.com/AgriciDaniel/claude-blog.git
 	shallow = true
+[submodule "vendor/OpenBB-finance_OpenBB"]
+	path = vendor/OpenBB-finance_OpenBB
+	url = https://github.com/OpenBB-finance/OpenBB.git
+	shallow = true

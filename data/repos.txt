@@ -100,3 +100,4 @@ every-app/open-seo
 AminForou/mcp-gsc
 zubair-trabzada/geo-seo-claude
 AgriciDaniel/claude-blog
+OpenBB-finance/OpenBB
