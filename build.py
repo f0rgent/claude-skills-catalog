@@ -102,6 +102,10 @@ REPOS = {
     "gamedev-skills/awesome-gamedev-agent-skills": (0, "Apache-2.0", "main"),
     "aldegad/sprite-gen": (0, "Apache-2.0", "main"),
     "Jakeschincariol/instagram-agent-skill": (0, "MIT", "main"),
+    "every-app/open-seo": (0, "MIT", "main"),
+    "AminForou/mcp-gsc": (0, "MIT", "main"),
+    "zubair-trabzada/geo-seo-claude": (0, "MIT", "main"),
+    "AgriciDaniel/claude-blog": (0, "MIT", "main"),
 }
 
 def L(repo, path):
@@ -273,6 +277,18 @@ SECTIONS = [
  ("content-gap-analysis", "aaron-he-zhu/aaron-marketing-skills", "seo-geo/survey/content-gap-analysis", "Finds topics competitors cover and you don't"),
  ("ai-discoverability-audit", "BrianRWagner/ai-marketing-skills", "ai-discoverability-audit", "How your brand shows up in ChatGPT, Perplexity, Claude"),
  ("seo-audit", "firecrawl/firecrawl-claude-plugin", "skills/seo-audit", "Inspects titles, meta, headings, canonicals, structured data"),
+ ("keyword-research", "every-app/open-seo", "plugins/openseo/skills/keyword-research", "Free Semrush/Ahrefs-style keyword research, pay per request data"),
+ ("seo-audit", "every-app/open-seo", "plugins/openseo/skills/seo-audit", "Short data-backed report: the few changes that grow traffic"),
+ ("competitor-analysis", "every-app/open-seo", "plugins/openseo/skills/competitor-analysis", "One competitor's keywords, content themes, backlinks, gaps"),
+ ("link-prospecting", "every-app/open-seo", "plugins/openseo/skills/link-prospecting", "Finds link prospects and drafts outreach"),
+ ("ai-visibility-audit", "every-app/open-seo", "plugins/openseo/skills/ai-visibility-audit", "How your brand shows up in AI answers and what gets it cited"),
+ ("content-opportunities", "AminForou/mcp-gsc", "skills/content-opportunities", "Search Console quick wins: high impressions, low CTR, position 11-20"),
+ ("cannibalization-check", "AminForou/mcp-gsc", "skills/cannibalization-check", "Finds your pages competing for the same query in Search Console"),
+ ("geo-audit", "zubair-trabzada/geo-seo-claude", "skills/geo-audit", "Full GEO+SEO audit with parallel subagents, scored for AI search"),
+ ("geo-citability", "zubair-trabzada/geo-seo-claude", "skills/geo-citability", "Scores 0-100 how likely ChatGPT, Perplexity, Gemini are to quote a page"),
+ ("geo-llmstxt", "zubair-trabzada/geo-seo-claude", "skills/geo-llmstxt", "Validates or generates llms.txt for your site"),
+ ("blog", "AgriciDaniel/claude-blog", "skills/blog", "Blog engine: research, write, score out of 100, 31 sub-skills"),
+ ("blog-factcheck", "AgriciDaniel/claude-blog", "skills/blog-factcheck", "Opens cited sources and checks the stats really are there"),
 ]),
 ("Marketing and growth", "53 skills in one repo; this is the best single marketing pack.", [
  ("marketing-plan", MK, "skills/marketing-plan", "Full marketing plan for a product"),
@@ -594,6 +610,10 @@ INDEX = {
  "gamedev-skills/awesome-gamedev-agent-skills": "ai-behavior-trees-utility-ai, audio-design, bevy-ecs, camera-systems, card-game, create-game-assets, defold-core, dialogue-systems, ebitengine-game, fps-shooter, game-ai, game-feel, game-jam, game-ui-ux, godot-2d-movement, godot-3d-essentials, godot-animation, godot-audio, godot-csharp, godot-export, godot-gdscript, godot-multiplayer, godot-nodes-scenes, godot-physics, godot-resources, godot-shaders, godot-signals-groups, godot-tilemap, godot-ui-control, input-systems, itch-publish, level-design, love2d-core, performance-optimization, phaser-arcade-physics, phaser-core, physics-tuning, pixijs-rendering, platformer, procedural-gen, prototype-fast, puzzle, pygame-core, roblox-characters, roblox-datastores, roblox-luau, roblox-networking, roblox-physics, roblox-simulator-economy, roblox-studio-workflow, roblox-ui, roguelike, router, rpg, save-systems, shader-programming, steam-publish, survival-crafting, threejs-gltf-loading, threejs-materials-lighting, threejs-scene-setup, tower-defense, unity-animation, unity-build-pipeline, unity-csharp-scripting, unity-input-system, unity-navmesh, unity-physics, unity-scriptableobjects, unity-tilemap-2d, unreal-behavior-trees, unreal-blueprints, unreal-cpp-gameplay, unreal-enhanced-input, unreal-niagara, unreal-packaging, visual-novel",
  "aldegad/sprite-gen": "sprite-gen",
  "Jakeschincariol/instagram-agent-skill": "ig-audit, ig-caption, ig-carousel, ig-comment, ig-dm, ig-human, ig-plan, ig-profile, ig-reel, ig-reply, ig-repurpose, ig-story, ig-viral",
+ "every-app/open-seo": "ai-prompt-research, ai-visibility-audit, competitive-landscape, competitor-analysis, keyword-clustering, keyword-research, link-prospecting, local-seo, seo-audit, seo-coach, seo-project-setup, seo-report",
+ "AminForou/mcp-gsc": "cannibalization-check, content-opportunities, indexing-audit, seo-weekly-report",
+ "zubair-trabzada/geo-seo-claude": "geo, geo-audit, geo-brand-mentions, geo-citability, geo-compare, geo-content, geo-crawlers, geo-llmstxt, geo-platform-optimizer, geo-proposal, geo-prospect, geo-report, geo-report-pdf, geo-schema, geo-technical, geo-update",
+ "AgriciDaniel/claude-blog": "blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -666,7 +686,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_ on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)
