@@ -424,3 +424,7 @@
 	path = vendor/OpenBB-finance_OpenBB
 	url = https://github.com/OpenBB-finance/OpenBB.git
 	shallow = true
+[submodule "vendor/vostride_agent-qa"]
+	path = vendor/vostride_agent-qa
+	url = https://github.com/vostride/agent-qa.git
+	shallow = true
