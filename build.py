@@ -389,6 +389,13 @@ SECTIONS = [
 ]),
 ("Video and motion", "Videos and animation written as code.", [
  ("hyperframes", "heygen-com/hyperframes", "skills/hyperframes", "Write HTML, render video: explainers, captions, charts, vertical clips"),
+ ("reverse-any-video", "heygen-com/hyperframes", "skills/reverse-any-video", "Rebuilds any video file as an editable HyperFrames project, checked frame by frame"),
+ ("hyperframes-registry", "heygen-com/hyperframes", "skills/hyperframes-registry", "About 450 ready blocks: transitions, titles, kinetic type, charts, 3D, camera moves"),
+ ("style-sampling", "heygen-com/hyperframes", "skills/style-sampling", "A new episode in a proven style: collage, finance, science or 3D explainer"),
+ ("media-use", "heygen-com/hyperframes", "skills/media-use", "Music, SFX, voiceover, icons, cutouts and color grades for your video, free tools or HeyGen"),
+ ("remotion-to-hyperframes", "heygen-com/hyperframes", "skills/remotion-to-hyperframes", "Ports Remotion, Lottie, Three.js or canvas animation to HyperFrames and verifies each frame"),
+ ("motion-doctrine", "heygen-com/hyperframes", ".claude/skills/motion-doctrine", "HeyGen's motion law: a multi-scene video that feels like one camera move, not slides"),
+ ("3D title blocks (7 skills)", "heygen-com/hyperframes", "registry/blocks", "Glass shards, wireframe portal, ice logo orbit, cuboid carousel and more, as ready 1080p blocks"),
  ("frame-critic (ours)", "", "skills/frame-critic", "Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs"),
  ("teardown", "elvarofficial/teardown", "", "A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video"),
  ("remotion-best-practices", RM, "skills/remotion-best-practices", "Official Remotion router skill"),
@@ -516,7 +523,7 @@ SECTIONS = [
 
 INDEX = {
  "blader/humanizer": "humanizer",
- "heygen-com/hyperframes": "captions-overlay, changelog-video, cut-the-curve, figma, hyperframes, hyperframes-cli, hyperframes-registry, media-use, motion-doctrine, oversized-cursor, remotion-to-hyperframes, reverse-any-video, seam-craft, slideshow, style-sampling",
+ "heygen-com/hyperframes": "captions-overlay, changelog-video, cut-the-curve, figma, hyperframes, hyperframes-cli, hyperframes-registry, media-use, motion-doctrine, oversized-cursor, remotion-to-hyperframes, reverse-any-video, seam-craft, slideshow, style-sampling; blocks: canopy-part-title, code-slice-hero, cuboid-carousel, frost-sequence-camera-orbit, glass-shard-title, orbit-card, wireframe-portal-title",
  "retieedra-profound/skills-marketing-library": "aeo-operator-2026, ai-answer-accuracy-auditor, ai-citation-mix-strategist, ai-commerce-readiness-auditor, ai-prompt-portfolio-builder, ai-retrieval-fanout-mapper, ai-search-attribution-planner, brand-voice, claude-code-discoverability-auditor, commercial-ai-journey-mapper, copy-editing, humanizer, improved-copywriting, international-aeo-strategist, link-creator, newsletter-copy, session-end, session-start, writing",
  "massgen/massgen": "audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation",
  "anthropics/skills": "academy-guide, algorithmic-art, brand-guidelines, canvas-design, claude-api, discernment-nudge, doc-coauthoring, docx, frontend-design, internal-comms, mcp-builder, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing, xlsx",
@@ -634,7 +641,7 @@ def row(sk, repo, path, desc):
     return f"| [**{sk}**]({L(repo, path)}) | {desc} | [{repo}]({GH}{repo}) |"
 
 def main():
-    total = sum(len([x for x in v.replace("; extensions:", ",").split(",") if x.strip()]) for v in INDEX.values())
+    total = sum(len([x for x in v.replace("; extensions:", ",").replace("; blocks:", ",").split(",") if x.strip()]) for v in INDEX.values())
     nrepos = len(open(__file__.replace('build.py','data/repos.txt')).read().split())
     out = []
     w = out.append
@@ -683,7 +690,7 @@ def main():
     w("| Repo | ⭐ | License | Skills |\n|---|---|---|---|")
     for r in REPOS:
         if r in INDEX:
-            n = len([x for x in INDEX[r].replace("; extensions:", ",").split(",") if x.strip()])
+            n = len([x for x in INDEX[r].replace("; extensions:", ",").replace("; blocks:", ",").split(",") if x.strip()])
             w(f"| [{r}]({GH}{r}) ({n}) | {stars(r)} | {REPOS[r][1]} | {INDEX[r]} |")
     w("\n</details>\n")
     w("## 📝 Notes\n")
