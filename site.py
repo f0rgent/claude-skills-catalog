@@ -10,7 +10,7 @@ SECTIONS, REPOS, INDEX, L, stars = B["SECTIONS"], B["REPOS"], B["INDEX"], B["L"]
 SHORT, EMO = B["SHORT"], B["EMO"]
 
 def count(v):
-    return len([x for x in v.replace("; extensions:", ",").split(",") if x.strip()])
+    return len([x for x in v.replace("; extensions:", ",").replace("; blocks:", ",").split(",") if x.strip()])
 
 total = sum(count(v) for v in INDEX.values())
 nrepos = len(open(os.path.join(HERE, "data/repos.txt")).read().split())

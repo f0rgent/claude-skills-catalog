@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3156-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/skills-3163-1d7f86?style=flat-square" alt="skills">
   <img src="https://img.shields.io/badge/repos-103-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
@@ -58,7 +58,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
-<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>41 picks</sub></td>
+<td align="center" width="25%"><a href="#s10"><h1>🎬</h1><b>Video</b></a><br><sub>48 picks</sub></td>
 <td align="center" width="25%"><a href="#s11"><h1>📄</h1><b>Docs</b></a><br><sub>7 picks</sub></td>
 <td align="center" width="25%"><a href="#s12"><h1>🚀</h1><b>Product</b></a><br><sub>25 picks</sub></td>
 </tr>
@@ -465,13 +465,20 @@ Videos and animation written as code.
 | Skill | What it does | Repo |
 |---|---|---|
 | [**hyperframes**](https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes) | Write HTML, render video: explainers, captions, charts, vertical clips | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
-| [**frame-critic (ours)**](skills/frame-critic) | Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs | this repo |
-| [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
+| [**reverse-any-video**](https://github.com/heygen-com/hyperframes/tree/main/skills/reverse-any-video) | Rebuilds any video file as an editable HyperFrames project, checked frame by frame | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**hyperframes-registry**](https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-registry) | About 450 ready blocks: transitions, titles, kinetic type, charts, 3D, camera moves | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
 
-<details><summary><b>Show all 41 video skills</b></summary>
+<details><summary><b>Show all 48 video skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**style-sampling**](https://github.com/heygen-com/hyperframes/tree/main/skills/style-sampling) | A new episode in a proven style: collage, finance, science or 3D explainer | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**media-use**](https://github.com/heygen-com/hyperframes/tree/main/skills/media-use) | Music, SFX, voiceover, icons, cutouts and color grades for your video, free tools or HeyGen | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**remotion-to-hyperframes**](https://github.com/heygen-com/hyperframes/tree/main/skills/remotion-to-hyperframes) | Ports Remotion, Lottie, Three.js or canvas animation to HyperFrames and verifies each frame | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**motion-doctrine**](https://github.com/heygen-com/hyperframes/tree/main/.claude/skills/motion-doctrine) | HeyGen's motion law: a multi-scene video that feels like one camera move, not slides | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**3D title blocks (7 skills)**](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks) | Glass shards, wireframe portal, ice logo orbit, cuboid carousel and more, as ready 1080p blocks | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| [**frame-critic (ours)**](skills/frame-critic) | Watches your AI video before you ship: scores every frame out of 10 and boxes the bugs | this repo |
+| [**teardown**](https://github.com/elvarofficial/teardown) | A 3D simulator of any machine you can take apart part by part, then recorded to a 60 fps video | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) |
 | [**remotion-best-practices**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices) | Official Remotion router skill | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-create**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-create) | New Remotion video | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
 | [**remotion-captions**](https://github.com/remotion-dev/skills/tree/main/skills/remotion-captions) | Transcribe and animate captions | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
@@ -664,7 +671,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3156 skills, grouped by repo</b></summary>
+<details><summary><b>All 3163 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -672,7 +679,7 @@ For people building agents.
 | [obra/superpowers](https://github.com/obra/superpowers) (15) | 312k | MIT | brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills |
 | [massgen/massgen](https://github.com/massgen/massgen) (19) | 1k | Apache-2.0 | audio-generation, backend-integrator, evolving-skill-creator, file-search, image-generation, massgen, massgen-config-creator, massgen-develops-massgen, massgen-log-analyzer, massgen-release-documenter, model-registry-maintainer, multimedia-backend-integrator, pr-checks, release-prep, semtools, serena, skill-organizer, textual-ui-developer, video-generation |
 | [blader/humanizer](https://github.com/blader/humanizer) (1) | 65k | MIT | humanizer |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) (15) | 79k | Apache-2.0 | captions-overlay, changelog-video, cut-the-curve, figma, hyperframes, hyperframes-cli, hyperframes-registry, media-use, motion-doctrine, oversized-cursor, remotion-to-hyperframes, reverse-any-video, seam-craft, slideshow, style-sampling |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) (22) | 79k | Apache-2.0 | captions-overlay, changelog-video, cut-the-curve, figma, hyperframes, hyperframes-cli, hyperframes-registry, media-use, motion-doctrine, oversized-cursor, remotion-to-hyperframes, reverse-any-video, seam-craft, slideshow, style-sampling; blocks: canopy-part-title, code-slice-hero, cuboid-carousel, frost-sequence-camera-orbit, glass-shard-title, orbit-card, wireframe-portal-title |
 | [retieedra-profound/skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library) (19) | 3 | MIT | aeo-operator-2026, ai-answer-accuracy-auditor, ai-citation-mix-strategist, ai-commerce-readiness-auditor, ai-prompt-portfolio-builder, ai-retrieval-fanout-mapper, ai-search-attribution-planner, brand-voice, claude-code-discoverability-auditor, commercial-ai-journey-mapper, copy-editing, humanizer, improved-copywriting, international-aeo-strategist, link-creator, newsletter-copy, session-end, session-start, writing |
 | [mattpocock/skills](https://github.com/mattpocock/skills) (39) | 312k | MIT | ask-matt, code-review, codebase-design, diagnosing-bugs, domain-modeling, grill-with-docs, implement-spec, implement, improve-codebase-architecture, pr, prototype, research, retro, setup-matt-pocock-skills, tdd, to-spec, to-tickets, triage, wayfinder, wizard, chief-of-staff, claude-handoff, loop-me, setup-ts-deep-modules, software-factory, writing-beats, writing-fragments, writing-shape, git-guardrails-claude-code, migrate-to-shoehorn, scaffold-exercises, setup-pre-commit, grill-me, grilling, handoff, teach, to-questionnaire, wait-what, writing-for-agents |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (9) | 34k | none stated | composition-patterns, deploy-to-vercel, react-best-practices, react-native-skills, react-view-transitions, vercel-cli-with-tokens, vercel-optimize, web-design-guidelines, writing-guidelines |
