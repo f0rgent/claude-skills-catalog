@@ -8,7 +8,7 @@ critique.json:
 {
   "frames": [
     {"image": "stills/f0252.jpg", "label": "#4 f252",
-     "scores": {"hook": null, "read": 7, "comp": 3, "motion": 7, "bugs": 2},
+     "scores": {"hook": null, "read": 7, "comp": 3, "bugs": 2},
      "boxes": [[0.30, 0.0, 1.0, 0.22]],          # x0,y0,x1,y1 as 0..1 of the frame
      "note": "FINE stamp covers a third of the frame"}
   ]
