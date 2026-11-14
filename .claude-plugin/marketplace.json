@@ -1,0 +1,11 @@
+{
+  "name": "f0rgent",
+  "owner": { "name": "f0rgent" },
+  "plugins": [
+    {
+      "name": "agent-radar",
+      "source": "./mods/agent-radar",
+      "description": "Live pane of every tool call, file and command your Claude Code agent runs, with alerts and a guard mode for risky moves."
+    }
+  ]
+}
