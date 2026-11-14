@@ -20,6 +20,14 @@ In Claude Code, at the prompt:
 
 Say `y` to add the marketplace, then pick a scope. The HUD look and animated backdrop show in the Claude Code desktop and mobile apps; the radar pane works everywhere.
 
+## Audit your agent's last 30 days first
+
+Read-only, prints counts only:
+
+```
+curl -fsSLo agent-audit.mjs https://raw.githubusercontent.com/f0rgent/claude-skills-catalog/main/tools/agent-audit.mjs && node agent-audit.mjs
+```
+
 ## Commands
 
 - `/radar` opens the pane
