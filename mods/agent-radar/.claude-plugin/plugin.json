@@ -1,0 +1,7 @@
+{
+  "name": "agent-radar",
+  "version": "0.1.0",
+  "description": "Agent radar for Claude Code: a live pane of every tool call, file and command your agent runs, alerts on risky moves, optional guard mode, in a dark neon HUD look.",
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}
