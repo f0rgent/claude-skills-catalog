@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3163-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-103-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3225-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-106-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -46,7 +46,7 @@ If you install nothing else, install these.
 <table>
 <tr>
 <td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>41 picks</sub></td>
-<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>32 picks</sub></td>
+<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>36 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>10 picks</sub></td>
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>25 picks</sub></td>
 </tr>
@@ -137,7 +137,7 @@ Specialist skills per stack.
 | [**unity-mcp-skill**](https://github.com/CoplayDev/unity-mcp/tree/beta/unity-mcp-skill) | Drives the Unity editor through Unity MCP (needs the MCP server) | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) |
 | [**sprite-gen**](https://github.com/aldegad/sprite-gen) | Game sprites and images via GPT or Grok, with cleanup, atlases and palette swaps | [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) |
 
-<details><summary><b>Show all 32 dev stacks skills</b></summary>
+<details><summary><b>Show all 36 dev stacks skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -155,6 +155,10 @@ Specialist skills per stack.
 | [**rust-engineer**](https://github.com/jeffallan/claude-skills/tree/main/skills/rust-engineer) | Idiomatic, safe Rust | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**swift-expert**](https://github.com/jeffallan/claude-skills/tree/main/skills/swift-expert) | iOS/macOS apps with SwiftUI | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**flutter-expert**](https://github.com/jeffallan/claude-skills/tree/main/skills/flutter-expert) | Cross-platform apps with Flutter | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
+| [**expo-router**](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-router) | Official Expo: tabs, stacks, modals and deep links in Expo Router (24 skills) | [expo/skills](https://github.com/expo/skills) |
+| [**eas-app-stores**](https://github.com/expo/skills/tree/main/plugins/expo/skills/eas-app-stores) | Official Expo: signing, build numbers and shipping to TestFlight or Google Play | [expo/skills](https://github.com/expo/skills) |
+| [**swiftui-pro**](https://github.com/twostraws/swiftui-agent-skill/tree/main/swiftui-pro) | Paul Hudson's SwiftUI review: modern APIs, VoiceOver, Dynamic Type, performance | [twostraws/swiftui-agent-skill](https://github.com/twostraws/swiftui-agent-skill) |
+| [**adaptive**](https://github.com/android/skills/tree/main/jetpack-compose/adaptive) | Official Google: makes Android apps fit tablets, foldables and desktop (37 skills) | [android/skills](https://github.com/android/skills) |
 | [**shopify-expert**](https://github.com/jeffallan/claude-skills/tree/main/skills/shopify-expert) | Shopify themes and apps | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**wordpress-pro**](https://github.com/jeffallan/claude-skills/tree/main/skills/wordpress-pro) | WordPress themes, plugins, Gutenberg blocks | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
 | [**postgres-pro**](https://github.com/jeffallan/claude-skills/tree/main/skills/postgres-pro) | PostgreSQL tuning and replication | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) |
@@ -671,7 +675,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3163 skills, grouped by repo</b></summary>
+<details><summary><b>All 3225 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -776,6 +780,9 @@ For people building agents.
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) (16) |  | MIT | geo, geo-audit, geo-brand-mentions, geo-citability, geo-compare, geo-content, geo-crawlers, geo-llmstxt, geo-platform-optimizer, geo-proposal, geo-prospect, geo-report, geo-report-pdf, geo-schema, geo-technical, geo-update |
 | [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) (33) |  | MIT | blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain |
 | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) (5) |  | Apache-2.0 | build_workspace_app, configure_mcp_server, develop_extension, use_openbb_cli, work_with_server |
+| [expo/skills](https://github.com/expo/skills) (24) |  | MIT | eas-app-stores, eas-hosting, eas-observe, eas-simulator, eas-update, eas-update-insights, eas-workflows, expo-animation, expo-app-clip, expo-brownfield, expo-data-fetching, expo-design-system, expo-dev-client, expo-dom, expo-examples, expo-migrate-module, expo-module, expo-native-ui, expo-overview, expo-project-structure, expo-router, expo-ui, expo-upgrade, expo-web-to-native |
+| [twostraws/swiftui-agent-skill](https://github.com/twostraws/swiftui-agent-skill) (1) |  | MIT | swiftui-pro |
+| [android/skills](https://github.com/android/skills) (37) |  | Apache-2.0 | adaptive, agp-9-upgrade, android-cli, android-for-cars-parked-apps, android-intent-security, android-permissions-security, android-profiler, anr-audit-and-fix, appfunctions, camerax, display-glasses-with-jetpack-compose-glimmer, edge-to-edge, engage-sdk-integration, glance-appwidget-updates-and-memory, glance-canonical-layouts, ink-app-builder, ink-custom-brush-builder, ios-to-android, jetpack-compose-performance, leanback-to-compose-tv-migration, litert-lm, litert-runtime, media3-cast-integration, migrate-xml-views-to-jetpack-compose, ml-kit-genai-prompt-api, mlkit-agent-api, navigation-3, navigation-event, play-billing-library-version-upgrade, play-policy-insights, projected-hardware, r8-analyzer, restore-credentials, testing-setup, verified-email, wear-compose-m3, wear-widgets |
 
 </details>
 
@@ -783,6 +790,6 @@ For people building agents.
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
-- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x on X.
+- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_ on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>
