@@ -101,3 +101,6 @@ AminForou/mcp-gsc
 zubair-trabzada/geo-seo-claude
 AgriciDaniel/claude-blog
 OpenBB-finance/OpenBB
+expo/skills
+twostraws/swiftui-agent-skill
+android/skills

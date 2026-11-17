@@ -107,6 +107,9 @@ REPOS = {
     "zubair-trabzada/geo-seo-claude": (0, "MIT", "main"),
     "AgriciDaniel/claude-blog": (0, "MIT", "main"),
     "OpenBB-finance/OpenBB": (0, "Apache-2.0", "develop"),
+    "expo/skills": (0, "MIT", "main"),
+    "twostraws/swiftui-agent-skill": (0, "MIT", "main"),
+    "android/skills": (0, "Apache-2.0", "main"),
 }
 
 def L(repo, path):
@@ -194,6 +197,10 @@ SECTIONS = [
  ("rust-engineer", JA, "skills/rust-engineer", "Idiomatic, safe Rust"),
  ("swift-expert", JA, "skills/swift-expert", "iOS/macOS apps with SwiftUI"),
  ("flutter-expert", JA, "skills/flutter-expert", "Cross-platform apps with Flutter"),
+ ("expo-router", "expo/skills", "plugins/expo/skills/expo-router", "Official Expo: tabs, stacks, modals and deep links in Expo Router (24 skills)"),
+ ("eas-app-stores", "expo/skills", "plugins/expo/skills/eas-app-stores", "Official Expo: signing, build numbers and shipping to TestFlight or Google Play"),
+ ("swiftui-pro", "twostraws/swiftui-agent-skill", "swiftui-pro", "Paul Hudson's SwiftUI review: modern APIs, VoiceOver, Dynamic Type, performance"),
+ ("adaptive", "android/skills", "jetpack-compose/adaptive", "Official Google: makes Android apps fit tablets, foldables and desktop (37 skills)"),
  ("shopify-expert", JA, "skills/shopify-expert", "Shopify themes and apps"),
  ("wordpress-pro", JA, "skills/wordpress-pro", "WordPress themes, plugins, Gutenberg blocks"),
  ("postgres-pro", JA, "skills/postgres-pro", "PostgreSQL tuning and replication"),
@@ -624,6 +631,9 @@ INDEX = {
  "zubair-trabzada/geo-seo-claude": "geo, geo-audit, geo-brand-mentions, geo-citability, geo-compare, geo-content, geo-crawlers, geo-llmstxt, geo-platform-optimizer, geo-proposal, geo-prospect, geo-report, geo-report-pdf, geo-schema, geo-technical, geo-update",
  "AgriciDaniel/claude-blog": "blog, blog-analyze, blog-audio, blog-audit, blog-brand, blog-brief, blog-calendar, blog-cannibalization, blog-chart, blog-cluster, blog-decay, blog-discourse, blog-factcheck, blog-flow, blog-geo, blog-google, blog-image, blog-locale-audit, blog-localize, blog-multilingual, blog-notebooklm, blog-outline, blog-persona, blog-repurpose, blog-rewrite, blog-schema, blog-seo-check, blog-strategy, blog-style, blog-taxonomy, blog-translate, blog-write, claude-blog-brain",
  "OpenBB-finance/OpenBB": "build_workspace_app, configure_mcp_server, develop_extension, use_openbb_cli, work_with_server",
+ "expo/skills": "eas-app-stores, eas-hosting, eas-observe, eas-simulator, eas-update, eas-update-insights, eas-workflows, expo-animation, expo-app-clip, expo-brownfield, expo-data-fetching, expo-design-system, expo-dev-client, expo-dom, expo-examples, expo-migrate-module, expo-module, expo-native-ui, expo-overview, expo-project-structure, expo-router, expo-ui, expo-upgrade, expo-web-to-native",
+ "twostraws/swiftui-agent-skill": "swiftui-pro",
+ "android/skills": "adaptive, agp-9-upgrade, android-cli, android-for-cars-parked-apps, android-intent-security, android-permissions-security, android-profiler, anr-audit-and-fix, appfunctions, camerax, display-glasses-with-jetpack-compose-glimmer, edge-to-edge, engage-sdk-integration, glance-appwidget-updates-and-memory, glance-canonical-layouts, ink-app-builder, ink-custom-brush-builder, ios-to-android, jetpack-compose-performance, leanback-to-compose-tv-migration, litert-lm, litert-runtime, media3-cast-integration, migrate-xml-views-to-jetpack-compose, ml-kit-genai-prompt-api, mlkit-agent-api, navigation-3, navigation-event, play-billing-library-version-upgrade, play-policy-insights, projected-hardware, r8-analyzer, restore-credentials, testing-setup, verified-email, wear-compose-m3, wear-widgets",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -696,7 +706,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_ on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)

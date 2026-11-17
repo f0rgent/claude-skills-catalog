@@ -424,3 +424,12 @@
 	path = vendor/OpenBB-finance_OpenBB
 	url = https://github.com/OpenBB-finance/OpenBB.git
 	shallow = true
+[submodule "vendor/expo_skills"]
+	path = vendor/expo_skills
+	url = https://github.com/expo/skills.git
+[submodule "vendor/twostraws_swiftui-agent-skill"]
+	path = vendor/twostraws_swiftui-agent-skill
+	url = https://github.com/twostraws/swiftui-agent-skill.git
+[submodule "vendor/android_skills"]
+	path = vendor/android_skills
+	url = https://github.com/android/skills.git
