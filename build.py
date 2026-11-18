@@ -110,6 +110,11 @@ REPOS = {
     "expo/skills": (0, "MIT", "main"),
     "twostraws/swiftui-agent-skill": (0, "MIT", "main"),
     "android/skills": (0, "Apache-2.0", "main"),
+    "uditgoenka/autoresearch": (0, "MIT", "master"),
+    "Yeachan-Heo/oh-my-claudecode": (0, "MIT", "main"),
+    "open-gsd/gsd-core": (0, "MIT", "next"),
+    "paperclipai/paperclip": (0, "MIT", "master"),
+    "wanshuiyin/Auto-claude-code-research-in-sleep": (0, "MIT", "main"),
 }
 
 def L(repo, path):
@@ -169,6 +174,8 @@ SECTIONS = [
  ("incremental-implementation", "addyosmani/agent-skills", "skills/incremental-implementation", "Ships changes in thin, verifiable slices"),
  ("doubt-driven-development", "addyosmani/agent-skills", "skills/doubt-driven-development", "Fresh-context adversarial review of each non-trivial decision"),
  ("ralph", "snarktank/ralph", "skills/ralph", "Turns a PRD into stories for Ralph, the loop that keeps the agent going until every story passes"),
+ ("autopilot / ralph / team", "Yeachan-Heo/oh-my-claudecode", "skills/autopilot", "oh-my-claudecode: idea to working code on its own, loops until verified, runs agent teams (84 skills)"),
+ ("gsd-autonomous", "open-gsd/gsd-core", "skills/gsd-autonomous", "GSD: plans and builds phase after phase without you driving (72 skills)"),
  ("browser-use", "browser-use/browser-use", "skills/browser-use", "Drives a real browser: clicks, forms, scraping, screenshots"),
  ("qa", "browser-use/browser-use", "skills/qa", "QA-tests a site and returns a 1-5 score with evidence"),
  ("interview-me", "addyosmani/agent-skills", "skills/interview-me", "Pulls out what you actually want before building"),
@@ -499,6 +506,8 @@ SECTIONS = [
  ("gpt-researcher", "assafelovic/gpt-researcher", ".claude", "Autonomous deep research on any topic, ends in a cited report"),
  ("work_with_server", "OpenBB-finance/OpenBB", "openbb_platform/extensions/mcp_server/openbb_mcp_server/skills/work_with_server", "Market and financial data for your agent through the OpenBB MCP server"),
  ("analyze / explore-data / sql-queries", "anthropics/knowledge-work-plugins", "data/skills/analyze", "Ask your data questions in plain English, get SQL and answers"),
+ ("research-pipeline", "wanshuiyin/Auto-claude-code-research-in-sleep", "skills/research-pipeline", "ARIS: research overnight, from a broad direction to ideas, experiments and a paper (87 skills)"),
+ ("auto-review-loop", "wanshuiyin/Auto-claude-code-research-in-sleep", "skills/auto-review-loop", "A second model reviews the research, Claude fixes and re-reviews until it passes"),
 ]),
 ("AI agents, context and evals", "For people building agents.", [
  ("context-optimization", CE, "", "Context budgeting so the agent doesn't degrade"),
@@ -525,6 +534,8 @@ SECTIONS = [
  ("mem0", "mem0ai/mem0", "skills/mem0", "Memory layer so your agents remember context across sessions"),
  ("mem0 plugin: remember / search", "mem0ai/mem0", "integrations/claude-code-plugin", "Claude Code plugin that captures and recalls memories per repo"),
  ("create-cowork-plugin", "anthropics/knowledge-work-plugins", "cowork-plugin-management/skills/create-cowork-plugin", "Builds your own Claude plugin from scratch"),
+ ("autoresearch", "uditgoenka/autoresearch", "plugins/autoresearch/skills/autoresearch", "Karpathy's loop for any goal: modify, verify, keep what's better, revert what's worse"),
+ ("paperclip / paperclip-create-agent", "paperclipai/paperclip", "skills/paperclip", "Paperclip: agents with roles and tickets that wake on a heartbeat (12 skills)"),
 ]),
 ]
 
@@ -634,6 +645,11 @@ INDEX = {
  "expo/skills": "eas-app-stores, eas-hosting, eas-observe, eas-simulator, eas-update, eas-update-insights, eas-workflows, expo-animation, expo-app-clip, expo-brownfield, expo-data-fetching, expo-design-system, expo-dev-client, expo-dom, expo-examples, expo-migrate-module, expo-module, expo-native-ui, expo-overview, expo-project-structure, expo-router, expo-ui, expo-upgrade, expo-web-to-native",
  "twostraws/swiftui-agent-skill": "swiftui-pro",
  "android/skills": "adaptive, agp-9-upgrade, android-cli, android-for-cars-parked-apps, android-intent-security, android-permissions-security, android-profiler, anr-audit-and-fix, appfunctions, camerax, display-glasses-with-jetpack-compose-glimmer, edge-to-edge, engage-sdk-integration, glance-appwidget-updates-and-memory, glance-canonical-layouts, ink-app-builder, ink-custom-brush-builder, ios-to-android, jetpack-compose-performance, leanback-to-compose-tv-migration, litert-lm, litert-runtime, media3-cast-integration, migrate-xml-views-to-jetpack-compose, ml-kit-genai-prompt-api, mlkit-agent-api, navigation-3, navigation-event, play-billing-library-version-upgrade, play-policy-insights, projected-hardware, r8-analyzer, restore-credentials, testing-setup, verified-email, wear-compose-m3, wear-widgets",
+ "uditgoenka/autoresearch": "autoresearch",
+ "Yeachan-Heo/oh-my-claudecode": "agent-doc-discipline, ai-slop-cleaner, architect, architecture-survey, arena, ask, ask-navigator, autopilot, autoresearch, babysit, benchmark-checklist, blast-radius, bro, cancel, configure-notifications, correct, create-formal-verification-skill, create-verification-skill, debug, deep-interview, deepinit, diagram, drydock, execute, external-context, figure-it-out, fix-ci, fix-merge-conflicts, get-pr-comments, graph, harbor, hillclimb, how, hud, in-your-own-words, intent, interrogate, ketchup, ketchup-video, launch, loft, maintain-formal-verification-skill, maintain-verification-skill, map, minimal-code-discipline, minimal-prose-discipline, models, omc-doctor, omc-plan, omc-review, omc-setup, personal-mode, pr, principles, project-session-manager, ralph, ralplan, recall, refit, reflect, release, remember, research, sdd, self-improve, session-flow, sharpen, show-me-your-work, skill, skillify, stacked-delivery, statechart, tdd, teach, team, technical-writing, trace, typescript-best-practices, ultragoal, verify, visual-verdict, what-did-i-get-done, why, wiki",
+ "open-gsd/gsd-core": "gsd-add-tests, gsd-ai-integration-phase, gsd-audit-fix, gsd-audit-milestone, gsd-audit-uat, gsd-autonomous, gsd-capture, gsd-cleanup, gsd-code-review, gsd-complete-milestone, gsd-config, gsd-debug, gsd-discuss-phase, gsd-docs-update, gsd-eval-review, gsd-execute-phase, gsd-explore, gsd-extract-learnings, gsd-fast, gsd-forensics, gsd-graphify, gsd-health, gsd-help, gsd-import, gsd-inbox, gsd-ingest-docs, gsd-manager, gsd-map-codebase, gsd-mempalace-capture, gsd-mempalace-recall, gsd-milestone-summary, gsd-mvp-phase, gsd-new-milestone, gsd-new-project, gsd-next, gsd-ns-context, gsd-ns-ideate, gsd-ns-manage, gsd-ns-project, gsd-ns-review, gsd-ns-workflow, gsd-onboard, gsd-pause-work, gsd-phase, gsd-plan-phase, gsd-plan-review-convergence, gsd-pr-branch, gsd-profile-user, gsd-progress, gsd-quick, gsd-quick-batch, gsd-resume-work, gsd-review, gsd-review-backlog, gsd-secure-phase, gsd-settings, gsd-ship, gsd-sketch, gsd-spec-phase, gsd-spike, gsd-stats, gsd-surface, gsd-thread, gsd-ui-phase, gsd-ui-review, gsd-ultraplan-phase, gsd-undo, gsd-update, gsd-validate-phase, gsd-verify-work, gsd-workspace, gsd-workstreams",
+ "paperclipai/paperclip": "agentmail, complain, delegate-work, follow-up-results, paperclip, paperclip-board, paperclip-converting-plans-to-tasks, paperclip-create-agent, para-memory-files, review-my-team, slack, suggestion-box",
+ "wanshuiyin/Auto-claude-code-research-in-sleep": "ablation-planner, alphaxiv, analyze-results, arxiv, auto-paper-improvement-loop, auto-review-loop, auto-review-loop-llm, auto-review-loop-minimax, citation-audit, citation-crosscheck, claims-drafting, comm-lit-review, deepxiv, dse-loop, embodiment-description, exa-search, experiment-audit, experiment-bridge, experiment-plan, experiment-queue, feishu-notify, figure-description, figure-spec, firecrawl-search, formula-derivation, gemini-search, grant-proposal, idea-creator, idea-discovery, idea-discovery-robot, integrity-forensics, interview-cheatsheet, invention-structuring, jurisdiction-format, keenable-search, kill-argument, lean-formalize, mermaid-diagram, meta-apply, meta-optimize, monitor-experiment, novelty-check, openalex, overleaf-sync, paper-claim-audit, paper-compile, paper-figure, paper-illustration, paper-illustration-image2, paper-plan, paper-poster, paper-poster-html, paper-slides, paper-talk, paper-write, paper-writing, patent-novelty-check, patent-pipeline, patent-review, pixel-art, prior-art-search, proof-checker, proof-orchestrator, proof-writer, qzcli, rebuttal, render-html, research-implement-feature, research-lit, research-pipeline, research-refine, research-refine-pipeline, research-review, research-wiki, resubmit-pipeline, result-to-claim, run-experiment, semantic-scholar, serverless-modal, slides-polish, specification-writing, system-profile, training-check, vast-gpu, web-debug-search, wiki-enrich, writing-systems-papers",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -706,7 +722,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_ on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)

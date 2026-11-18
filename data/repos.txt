@@ -104,3 +104,8 @@ OpenBB-finance/OpenBB
 expo/skills
 twostraws/swiftui-agent-skill
 android/skills
+uditgoenka/autoresearch
+Yeachan-Heo/oh-my-claudecode
+open-gsd/gsd-core
+paperclipai/paperclip
+wanshuiyin/Auto-claude-code-research-in-sleep
