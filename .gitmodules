@@ -433,3 +433,23 @@
 [submodule "vendor/android_skills"]
 	path = vendor/android_skills
 	url = https://github.com/android/skills.git
+[submodule "vendor/uditgoenka_autoresearch"]
+	path = vendor/uditgoenka_autoresearch
+	url = https://github.com/uditgoenka/autoresearch.git
+	shallow = true
+[submodule "vendor/Yeachan-Heo_oh-my-claudecode"]
+	path = vendor/Yeachan-Heo_oh-my-claudecode
+	url = https://github.com/Yeachan-Heo/oh-my-claudecode.git
+	shallow = true
+[submodule "vendor/open-gsd_gsd-core"]
+	path = vendor/open-gsd_gsd-core
+	url = https://github.com/open-gsd/gsd-core.git
+	shallow = true
+[submodule "vendor/paperclipai_paperclip"]
+	path = vendor/paperclipai_paperclip
+	url = https://github.com/paperclipai/paperclip.git
+	shallow = true
+[submodule "vendor/wanshuiyin_Auto-claude-code-research-in-sleep"]
+	path = vendor/wanshuiyin_Auto-claude-code-research-in-sleep
+	url = https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+	shallow = true
