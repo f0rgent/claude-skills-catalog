@@ -109,3 +109,6 @@ Yeachan-Heo/oh-my-claudecode dec7e4188c0e3de6b92fb3d734ee5c95326021ed
 open-gsd/gsd-core e89cb9f78ec3868ba147e68250dc5dada706583f
 paperclipai/paperclip 1c556d5340403112b39e9c7cb068483f58d79dfd
 wanshuiyin/Auto-claude-code-research-in-sleep ca70fe2c2f87e8c8e70729acad4f472ef19472d1
+firecrawl/firecrawl a38c6812f22ec1c97c97fcad431d8bcc728e3e89
+vendurehq/vendure 26e20467b9e0bf5f6e3cf99362195af831c051b5
+n8n-io/n8n bac26db0ff582aa01916e4d1467cf4632b2440e4
