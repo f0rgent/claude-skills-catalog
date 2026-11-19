@@ -115,6 +115,9 @@ REPOS = {
     "open-gsd/gsd-core": (0, "MIT", "next"),
     "paperclipai/paperclip": (0, "MIT", "master"),
     "wanshuiyin/Auto-claude-code-research-in-sleep": (0, "MIT", "main"),
+    "firecrawl/firecrawl": (0, "AGPL-3.0", "main"),
+    "vendurehq/vendure": (0, "GPL-3.0", "master"),
+    "n8n-io/n8n": (0, "Sustainable Use", "master"),
 }
 
 def L(repo, path):
@@ -176,6 +179,7 @@ SECTIONS = [
  ("ralph", "snarktank/ralph", "skills/ralph", "Turns a PRD into stories for Ralph, the loop that keeps the agent going until every story passes"),
  ("autopilot / ralph / team", "Yeachan-Heo/oh-my-claudecode", "skills/autopilot", "oh-my-claudecode: idea to working code on its own, loops until verified, runs agent teams (84 skills)"),
  ("gsd-autonomous", "open-gsd/gsd-core", "skills/gsd-autonomous", "GSD: plans and builds phase after phase without you driving (72 skills)"),
+ ("firecrawl-build / scrape / search", "firecrawl/firecrawl", "skills/firecrawl-build", "Wires web search, scraping and browser actions into your app's code with Firecrawl (5 skills)"),
  ("browser-use", "browser-use/browser-use", "skills/browser-use", "Drives a real browser: clicks, forms, scraping, screenshots"),
  ("qa", "browser-use/browser-use", "skills/qa", "QA-tests a site and returns a 1-5 score with evidence"),
  ("interview-me", "addyosmani/agent-skills", "skills/interview-me", "Pulls out what you actually want before building"),
@@ -190,6 +194,7 @@ SECTIONS = [
  ("awesome-gamedev-agent-skills (77 skills)", "gamedev-skills/awesome-gamedev-agent-skills", "skills", "Game dev for Godot, Unity, Unreal and more: game feel, AI, dialogue, cameras"),
  ("unity-mcp-skill", "CoplayDev/unity-mcp", "unity-mcp-skill", "Drives the Unity editor through Unity MCP (needs the MCP server)"),
  ("sprite-gen", "aldegad/sprite-gen", "", "Game sprites and images via GPT or Grok, with cleanup, atlases and palette swaps"),
+ ("vendure-cli / vendure-troubleshooting", "vendurehq/vendure", "skills/vendure-cli", "Vendure headless store: scaffold, migrate, build and debug it from the agent (4 skills)"),
  ("universal-modder (13 skills)", "rehan-remade/universal-modder", "skills", "Research, decompile and mod existing games"),
  ("react-best-practices", VL, "skills/react-best-practices", "Vercel's React and Next.js performance rules"),
  ("composition-patterns", VL, "skills/composition-patterns", "React composition patterns that scale"),
@@ -536,6 +541,7 @@ SECTIONS = [
  ("create-cowork-plugin", "anthropics/knowledge-work-plugins", "cowork-plugin-management/skills/create-cowork-plugin", "Builds your own Claude plugin from scratch"),
  ("autoresearch", "uditgoenka/autoresearch", "plugins/autoresearch/skills/autoresearch", "Karpathy's loop for any goal: modify, verify, keep what's better, revert what's worse"),
  ("paperclip / paperclip-create-agent", "paperclipai/paperclip", "skills/paperclip", "Paperclip: agents with roles and tickets that wake on a heartbeat (12 skills)"),
+ ("n8n-cli", "n8n-io/n8n", "packages/@n8n/cli/skills/n8n-cli", "Runs your n8n instance from the terminal: workflows, credentials, executions"),
 ]),
 ]
 
@@ -650,6 +656,9 @@ INDEX = {
  "open-gsd/gsd-core": "gsd-add-tests, gsd-ai-integration-phase, gsd-audit-fix, gsd-audit-milestone, gsd-audit-uat, gsd-autonomous, gsd-capture, gsd-cleanup, gsd-code-review, gsd-complete-milestone, gsd-config, gsd-debug, gsd-discuss-phase, gsd-docs-update, gsd-eval-review, gsd-execute-phase, gsd-explore, gsd-extract-learnings, gsd-fast, gsd-forensics, gsd-graphify, gsd-health, gsd-help, gsd-import, gsd-inbox, gsd-ingest-docs, gsd-manager, gsd-map-codebase, gsd-mempalace-capture, gsd-mempalace-recall, gsd-milestone-summary, gsd-mvp-phase, gsd-new-milestone, gsd-new-project, gsd-next, gsd-ns-context, gsd-ns-ideate, gsd-ns-manage, gsd-ns-project, gsd-ns-review, gsd-ns-workflow, gsd-onboard, gsd-pause-work, gsd-phase, gsd-plan-phase, gsd-plan-review-convergence, gsd-pr-branch, gsd-profile-user, gsd-progress, gsd-quick, gsd-quick-batch, gsd-resume-work, gsd-review, gsd-review-backlog, gsd-secure-phase, gsd-settings, gsd-ship, gsd-sketch, gsd-spec-phase, gsd-spike, gsd-stats, gsd-surface, gsd-thread, gsd-ui-phase, gsd-ui-review, gsd-ultraplan-phase, gsd-undo, gsd-update, gsd-validate-phase, gsd-verify-work, gsd-workspace, gsd-workstreams",
  "paperclipai/paperclip": "agentmail, complain, delegate-work, follow-up-results, paperclip, paperclip-board, paperclip-converting-plans-to-tasks, paperclip-create-agent, para-memory-files, review-my-team, slack, suggestion-box",
  "wanshuiyin/Auto-claude-code-research-in-sleep": "ablation-planner, alphaxiv, analyze-results, arxiv, auto-paper-improvement-loop, auto-review-loop, auto-review-loop-llm, auto-review-loop-minimax, citation-audit, citation-crosscheck, claims-drafting, comm-lit-review, deepxiv, dse-loop, embodiment-description, exa-search, experiment-audit, experiment-bridge, experiment-plan, experiment-queue, feishu-notify, figure-description, figure-spec, firecrawl-search, formula-derivation, gemini-search, grant-proposal, idea-creator, idea-discovery, idea-discovery-robot, integrity-forensics, interview-cheatsheet, invention-structuring, jurisdiction-format, keenable-search, kill-argument, lean-formalize, mermaid-diagram, meta-apply, meta-optimize, monitor-experiment, novelty-check, openalex, overleaf-sync, paper-claim-audit, paper-compile, paper-figure, paper-illustration, paper-illustration-image2, paper-plan, paper-poster, paper-poster-html, paper-slides, paper-talk, paper-write, paper-writing, patent-novelty-check, patent-pipeline, patent-review, pixel-art, prior-art-search, proof-checker, proof-orchestrator, proof-writer, qzcli, rebuttal, render-html, research-implement-feature, research-lit, research-pipeline, research-refine, research-refine-pipeline, research-review, research-wiki, resubmit-pipeline, result-to-claim, run-experiment, semantic-scholar, serverless-modal, slides-polish, specification-writing, system-profile, training-check, vast-gpu, web-debug-search, wiki-enrich, writing-systems-papers",
+ "firecrawl/firecrawl": "firecrawl-build, firecrawl-build-interact, firecrawl-build-onboarding, firecrawl-build-scrape, firecrawl-build-search",
+ "vendurehq/vendure": "radix-to-base-ui-migration, vendure-cli, vendure-dashboard-migration, vendure-troubleshooting",
+ "n8n-io/n8n": "cold-email, humanizer, n8n-cli, research",
 }
 INDEX["alirezarezvani/claude-skills"] = open(__file__.replace("build.py", "data/alirezarezvani.txt")).read().strip()
 
@@ -722,7 +731,7 @@ def main():
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
-    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern on X.\n")
+    w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern, @0xGenAi on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)

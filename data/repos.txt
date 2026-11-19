@@ -109,3 +109,6 @@ Yeachan-Heo/oh-my-claudecode
 open-gsd/gsd-core
 paperclipai/paperclip
 wanshuiyin/Auto-claude-code-research-in-sleep
+firecrawl/firecrawl
+vendurehq/vendure
+n8n-io/n8n

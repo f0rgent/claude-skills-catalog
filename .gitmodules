@@ -453,3 +453,15 @@
 	path = vendor/wanshuiyin_Auto-claude-code-research-in-sleep
 	url = https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
 	shallow = true
+[submodule "vendor/firecrawl_firecrawl"]
+	path = vendor/firecrawl_firecrawl
+	url = https://github.com/firecrawl/firecrawl.git
+	shallow = true
+[submodule "vendor/vendurehq_vendure"]
+	path = vendor/vendurehq_vendure
+	url = https://github.com/vendurehq/vendure.git
+	shallow = true
+[submodule "vendor/n8n-io_n8n"]
+	path = vendor/n8n-io_n8n
+	url = https://github.com/n8n-io/n8n.git
+	shallow = true

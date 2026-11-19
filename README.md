@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3481-1d7f86?style=flat-square" alt="skills">
-  <img src="https://img.shields.io/badge/repos-111-1d7f86?style=flat-square" alt="repos">
+  <img src="https://img.shields.io/badge/skills-3494-1d7f86?style=flat-square" alt="skills">
+  <img src="https://img.shields.io/badge/repos-114-1d7f86?style=flat-square" alt="repos">
   <img src="https://img.shields.io/badge/niches-14-1d7f86?style=flat-square" alt="niches">
   <img src="https://img.shields.io/badge/updated-nov%202026-e8b04a?style=flat-square" alt="updated">
   <img src="https://img.shields.io/badge/license-MIT-3c7d3c?style=flat-square" alt="license">
@@ -45,8 +45,8 @@ If you install nothing else, install these.
 
 <table>
 <tr>
-<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>43 picks</sub></td>
-<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>36 picks</sub></td>
+<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>44 picks</sub></td>
+<td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>37 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>10 picks</sub></td>
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>25 picks</sub></td>
 </tr>
@@ -64,7 +64,7 @@ If you install nothing else, install these.
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s13"><h1>🧠</h1><b>Research</b></a><br><sub>20 picks</sub></td>
-<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>26 picks</sub></td>
+<td align="center" width="25%"><a href="#s14"><h1>🤖</h1><b>AI agents</b></a><br><sub>27 picks</sub></td>
 </tr>
 </table>
 
@@ -79,7 +79,7 @@ How the agent plans, codes, reviews and ships.
 | [**writing-plans**](https://github.com/obra/superpowers/tree/main/skills/writing-plans) | Turns a spec into a step-by-step implementation plan | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**executing-plans**](https://github.com/obra/superpowers/tree/main/skills/executing-plans) | Works through a plan inline, step by step | [obra/superpowers](https://github.com/obra/superpowers) |
 
-<details><summary><b>Show all 43 dev workflow skills</b></summary>
+<details><summary><b>Show all 44 dev workflow skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -114,6 +114,7 @@ How the agent plans, codes, reviews and ships.
 | [**ralph**](https://github.com/snarktank/ralph/tree/main/skills/ralph) | Turns a PRD into stories for Ralph, the loop that keeps the agent going until every story passes | [snarktank/ralph](https://github.com/snarktank/ralph) |
 | [**autopilot / ralph / team**](https://github.com/Yeachan-Heo/oh-my-claudecode/tree/main/skills/autopilot) | oh-my-claudecode: idea to working code on its own, loops until verified, runs agent teams (84 skills) | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) |
 | [**gsd-autonomous**](https://github.com/open-gsd/gsd-core/tree/next/skills/gsd-autonomous) | GSD: plans and builds phase after phase without you driving (72 skills) | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) |
+| [**firecrawl-build / scrape / search**](https://github.com/firecrawl/firecrawl/tree/main/skills/firecrawl-build) | Wires web search, scraping and browser actions into your app's code with Firecrawl (5 skills) | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) |
 | [**browser-use**](https://github.com/browser-use/browser-use/tree/main/skills/browser-use) | Drives a real browser: clicks, forms, scraping, screenshots | [browser-use/browser-use](https://github.com/browser-use/browser-use) |
 | [**qa**](https://github.com/browser-use/browser-use/tree/main/skills/qa) | QA-tests a site and returns a 1-5 score with evidence | [browser-use/browser-use](https://github.com/browser-use/browser-use) |
 | [**interview-me**](https://github.com/addyosmani/agent-skills/tree/main/skills/interview-me) | Pulls out what you actually want before building | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
@@ -139,10 +140,11 @@ Specialist skills per stack.
 | [**unity-mcp-skill**](https://github.com/CoplayDev/unity-mcp/tree/beta/unity-mcp-skill) | Drives the Unity editor through Unity MCP (needs the MCP server) | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) |
 | [**sprite-gen**](https://github.com/aldegad/sprite-gen) | Game sprites and images via GPT or Grok, with cleanup, atlases and palette swaps | [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) |
 
-<details><summary><b>Show all 36 dev stacks skills</b></summary>
+<details><summary><b>Show all 37 dev stacks skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
+| [**vendure-cli / vendure-troubleshooting**](https://github.com/vendurehq/vendure/tree/master/skills/vendure-cli) | Vendure headless store: scaffold, migrate, build and debug it from the agent (4 skills) | [vendurehq/vendure](https://github.com/vendurehq/vendure) |
 | [**universal-modder (13 skills)**](https://github.com/rehan-remade/universal-modder/tree/main/skills) | Research, decompile and mod existing games | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) |
 | [**react-best-practices**](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) | Vercel's React and Next.js performance rules | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [**composition-patterns**](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) | React composition patterns that scale | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
@@ -642,7 +644,7 @@ For people building agents.
 | [**context-compression**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Compaction for long sessions | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 | [**multi-agent-patterns**](https://github.com/muratcankoylan/agent-skills-for-context-engineering) | Multi-agent design | [muratcankoylan/agent-skills-for-context-engineering](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 
-<details><summary><b>Show all 26 ai agents skills</b></summary>
+<details><summary><b>Show all 27 ai agents skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -669,6 +671,7 @@ For people building agents.
 | [**create-cowork-plugin**](https://github.com/anthropics/knowledge-work-plugins/tree/main/cowork-plugin-management/skills/create-cowork-plugin) | Builds your own Claude plugin from scratch | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) |
 | [**autoresearch**](https://github.com/uditgoenka/autoresearch/tree/master/plugins/autoresearch/skills/autoresearch) | Karpathy's loop for any goal: modify, verify, keep what's better, revert what's worse | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) |
 | [**paperclip / paperclip-create-agent**](https://github.com/paperclipai/paperclip/tree/master/skills/paperclip) | Paperclip: agents with roles and tickets that wake on a heartbeat (12 skills) | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) |
+| [**n8n-cli**](https://github.com/n8n-io/n8n/tree/master/packages/@n8n/cli/skills/n8n-cli) | Runs your n8n instance from the terminal: workflows, credentials, executions | [n8n-io/n8n](https://github.com/n8n-io/n8n) |
 
 </details>
 
@@ -681,7 +684,7 @@ For people building agents.
 
 ## 📚 Full index
 
-<details><summary><b>All 3481 skills, grouped by repo</b></summary>
+<details><summary><b>All 3494 skills, grouped by repo</b></summary>
 
 | Repo | ⭐ | License | Skills |
 |---|---|---|---|
@@ -794,6 +797,9 @@ For people building agents.
 | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) (72) |  | MIT | gsd-add-tests, gsd-ai-integration-phase, gsd-audit-fix, gsd-audit-milestone, gsd-audit-uat, gsd-autonomous, gsd-capture, gsd-cleanup, gsd-code-review, gsd-complete-milestone, gsd-config, gsd-debug, gsd-discuss-phase, gsd-docs-update, gsd-eval-review, gsd-execute-phase, gsd-explore, gsd-extract-learnings, gsd-fast, gsd-forensics, gsd-graphify, gsd-health, gsd-help, gsd-import, gsd-inbox, gsd-ingest-docs, gsd-manager, gsd-map-codebase, gsd-mempalace-capture, gsd-mempalace-recall, gsd-milestone-summary, gsd-mvp-phase, gsd-new-milestone, gsd-new-project, gsd-next, gsd-ns-context, gsd-ns-ideate, gsd-ns-manage, gsd-ns-project, gsd-ns-review, gsd-ns-workflow, gsd-onboard, gsd-pause-work, gsd-phase, gsd-plan-phase, gsd-plan-review-convergence, gsd-pr-branch, gsd-profile-user, gsd-progress, gsd-quick, gsd-quick-batch, gsd-resume-work, gsd-review, gsd-review-backlog, gsd-secure-phase, gsd-settings, gsd-ship, gsd-sketch, gsd-spec-phase, gsd-spike, gsd-stats, gsd-surface, gsd-thread, gsd-ui-phase, gsd-ui-review, gsd-ultraplan-phase, gsd-undo, gsd-update, gsd-validate-phase, gsd-verify-work, gsd-workspace, gsd-workstreams |
 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) (12) |  | MIT | agentmail, complain, delegate-work, follow-up-results, paperclip, paperclip-board, paperclip-converting-plans-to-tasks, paperclip-create-agent, para-memory-files, review-my-team, slack, suggestion-box |
 | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) (87) |  | MIT | ablation-planner, alphaxiv, analyze-results, arxiv, auto-paper-improvement-loop, auto-review-loop, auto-review-loop-llm, auto-review-loop-minimax, citation-audit, citation-crosscheck, claims-drafting, comm-lit-review, deepxiv, dse-loop, embodiment-description, exa-search, experiment-audit, experiment-bridge, experiment-plan, experiment-queue, feishu-notify, figure-description, figure-spec, firecrawl-search, formula-derivation, gemini-search, grant-proposal, idea-creator, idea-discovery, idea-discovery-robot, integrity-forensics, interview-cheatsheet, invention-structuring, jurisdiction-format, keenable-search, kill-argument, lean-formalize, mermaid-diagram, meta-apply, meta-optimize, monitor-experiment, novelty-check, openalex, overleaf-sync, paper-claim-audit, paper-compile, paper-figure, paper-illustration, paper-illustration-image2, paper-plan, paper-poster, paper-poster-html, paper-slides, paper-talk, paper-write, paper-writing, patent-novelty-check, patent-pipeline, patent-review, pixel-art, prior-art-search, proof-checker, proof-orchestrator, proof-writer, qzcli, rebuttal, render-html, research-implement-feature, research-lit, research-pipeline, research-refine, research-refine-pipeline, research-review, research-wiki, resubmit-pipeline, result-to-claim, run-experiment, semantic-scholar, serverless-modal, slides-polish, specification-writing, system-profile, training-check, vast-gpu, web-debug-search, wiki-enrich, writing-systems-papers |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) (5) |  | AGPL-3.0 | firecrawl-build, firecrawl-build-interact, firecrawl-build-onboarding, firecrawl-build-scrape, firecrawl-build-search |
+| [vendurehq/vendure](https://github.com/vendurehq/vendure) (4) |  | GPL-3.0 | radix-to-base-ui-migration, vendure-cli, vendure-dashboard-migration, vendure-troubleshooting |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) (4) |  | Sustainable Use | cold-email, humanizer, n8n-cli, research |
 
 </details>
 
@@ -801,6 +807,6 @@ For people building agents.
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
 - Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
-- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern on X.
+- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern, @0xGenAi on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>
