@@ -7,19 +7,18 @@
 <meta name="description" content="Every Claude skill you actually need. Open-source skills for Claude Code, sorted by niche, with links to the original authors.">
 <meta property="og:title" content="Every Claude skill you actually need">
 <meta property="og:description" content="Open-source Claude skills sorted by niche: dev, design, SEO, marketing, copywriting, SMM, UGC, video.">
-<meta property="og:image" content="https://f0rgent.github.io/claude-skills-catalog/assets/og.jpg">
+<meta property="og:image" content="https://f0rgent.github.io/claude-skills-catalog/assets/og-v2.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@f0rgent">
-<link rel="icon" href="assets/avatar-v3.jpg">
+<link rel="icon" href="assets/avatar-v4.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f1e8d8;--card:#fbf6ec;--ink:#0e2a2d;--mute:#0e2a2d99;--line:#0e2a2d1f;--teal:#1d7f86;--gold:#e8b04a;--red:#c2382d;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+:root{--bg:#08080a;--card:#121214;--ink:#f4efe6;--mute:#f4efe699;--line:#f4efe61f;--teal:#ff7a1a;--gold:#ffb347;--red:#ff7a1a;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;
- background-image:radial-gradient(#0e2a2d14 1.2px,transparent 1.2px);background-size:22px 22px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 .wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
 header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:28px}
@@ -93,29 +92,41 @@ footer a{font-weight:700;color:var(--ink)}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);opacity:0;background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font-weight:700;transition:.2s;pointer-events:none}
 .toast.on{opacity:1;transform:translateX(-50%)}
 @media (max-width:860px){.hero{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.bonus,.steps{grid-template-columns:1fr}header.top{flex-wrap:wrap}}
+
+/* dark scene theme */
+.me img{border:2px solid #f4efe655}
+.btn{border-color:#f4efe655}.btn.dark{background:var(--ink);color:#08080a;border-color:var(--ink)}.btn.teal{color:#0b0b0d}
+.scene{display:grid;grid-template-columns:1fr minmax(0,440px);gap:clamp(20px,4vw,56px);align-items:center;margin:6px 0 34px}
+.scene>*{min-width:0}
+.scene .pic{margin:0;border-radius:24px;overflow:hidden;border:1px solid #f4efe622;background:#0d0d12;aspect-ratio:1228/1515}
+.scene .pic img{display:block;width:100%;height:auto}
+.lead b{color:#0b0b0d}
+.stat,.card,.step,details,.search{box-shadow:none;border:1px solid #f4efe626}
+.chip{border:1px solid #f4efe655}
+.cp,pre{background:#1c1c21;color:var(--ink)}
+.bonus{background:var(--card);color:var(--ink);border:1px solid #f4efe626}.bonus h2{color:var(--ink)}
+.tag{background:#f4efe614}
+.search input::placeholder{color:#f4efe677}
+@media (max-width:860px){.scene{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="top">
-  <a class="me" href="https://x.com/f0rgent"><img src="assets/avatar-v3.jpg" alt=""><div><b>f0rgent</b><span>@f0rgent</span></div></a>
+  <a class="me" href="https://x.com/f0rgent"><img src="assets/avatar-v4.jpg" alt=""><div><b>f0rgent</b><span>@f0rgent</span></div></a>
   <div class="btns">
     <a class="btn dark" href="https://x.com/f0rgent">Follow on 𝕏</a>
     <a class="btn teal" href="https://github.com/f0rgent/claude-skills-catalog">★ Star on GitHub</a>
   </div>
 </header>
 
-<div class="hero">
+<div class="scene">
   <div>
     <h1>Every Claude skill you <em>actually</em> need.</h1>
     <p class="lead">Open-source skills for Claude Code, sorted by what you do. Every link goes to the original author. <b>One repo.</b></p>
     <div class="btns"><a class="btn dark" href="#skills">Browse skills ↓</a><a class="btn" href="#install">How to install</a></div>
   </div>
-  <div class="meme" aria-label="A muscular robot labelled Claude with skills next to a skinny crying robot labelled Claude without skills">
-    <div class="caps"><div class="cap l">Claude with skills</div><div class="cap r">Claude without skills</div></div>
-    <img src="assets/robots.jpg" alt="">
-    <div class="stamp">AI slop</div>
-  </div>
+  <figure class="pic"><img src="assets/scene-hero.jpg" width="1228" height="1515" alt="A man with a laptop sits in a desert at dusk in front of a giant curved screen of code"></figure>
 </div>
 
 <div class="stats">

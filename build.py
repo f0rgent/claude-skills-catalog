@@ -680,7 +680,7 @@ def main():
     nrepos = len(open(__file__.replace('build.py','data/repos.txt')).read().split())
     out = []
     w = out.append
-    w('<p align="center"><img src="assets/cover.png" alt="Every Claude skill you actually need" width="100%"></p>\n')
+    w('<p align="center"><img src="assets/cover-v2.png" alt="Every Claude skill you actually need" width="100%"></p>\n')
     w('<p align="center">')
     for lab, val, col in [("skills", str(total), "1d7f86"), ("repos", str(nrepos), "1d7f86"), ("niches", str(len(SECTIONS)-1), "1d7f86"), ("updated", "nov 2026", "e8b04a"), ("license", "MIT", "3c7d3c")]:
         w(f'  <img src="https://img.shields.io/badge/{lab}-{val.replace(" ", "%20")}-{col}?style=flat-square" alt="{lab}">')
