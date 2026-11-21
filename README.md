@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/cover-v2.png" alt="Every Claude skill you actually need" width="100%"></p>
+<p align="center"><img src="assets/cover-v3.png" alt="Every Claude skill you actually need" width="100%"></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/skills-3494-1d7f86?style=flat-square" alt="skills">
