@@ -75,6 +75,8 @@ If you install nothing else, install these.
 
 How the agent plans, codes, reviews and ships.
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**brainstorming**](https://github.com/obra/superpowers/tree/main/skills/brainstorming) | Forces a design conversation before any new feature | [obra/superpowers](https://github.com/obra/superpowers) |
@@ -136,6 +138,8 @@ How the agent plans, codes, reviews and ships.
 
 Specialist skills per stack.
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**awesome-gamedev-agent-skills (77 skills)**](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main/skills) | Game dev for Godot, Unity, Unreal and more: game feel, AI, dialogue, cameras | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
@@ -190,6 +194,8 @@ Specialist skills per stack.
 
 From Trail of Bits, one of the best-known security firms (97 skills).
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**semgrep / codeql**](https://github.com/trailofbits/skills) | Static analysis with Semgrep and CodeQL | [trailofbits/skills](https://github.com/trailofbits/skills) |
@@ -216,6 +222,8 @@ From Trail of Bits, one of the best-known security firms (97 skills).
 ## 🎨 Designers
 
 UI, brand and visuals.
+
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -258,6 +266,8 @@ UI, brand and visuals.
 ## 🔎 SEO and AI search
 
 Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
+
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -316,6 +326,8 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 
 53 skills in one repo; this is the best single marketing pack.
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**marketing-plan**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-plan) | Full marketing plan for a product | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
@@ -365,6 +377,8 @@ Classic SEO plus getting cited by ChatGPT, Perplexity, AI Overviews.
 
 Writing that sells and reads like a person.
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**humanizer**](https://github.com/blader/humanizer) | Strips the signs of AI writing so text reads like a person wrote it | [blader/humanizer](https://github.com/blader/humanizer) |
@@ -402,6 +416,8 @@ Writing that sells and reads like a person.
 ## 📱 SMM, X, LinkedIn, Instagram
 
 Social content, scheduling, analytics.
+
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -441,6 +457,8 @@ Social content, scheduling, analytics.
 
 Ads that convert, scripts for UGC videos.
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**ad-creative**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative) | Headlines, primary text, full ad variations at scale | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
@@ -471,6 +489,8 @@ Ads that convert, scripts for UGC videos.
 ## 🎬 Video and motion
 
 Videos and animation written as code.
+
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -537,6 +557,8 @@ Videos and animation written as code.
 
 Office files from plain language.
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**pdf**](https://github.com/anthropics/skills/tree/main/skills/pdf) | Read, merge, split, fill PDFs | [anthropics/skills](https://github.com/anthropics/skills) |
@@ -560,6 +582,8 @@ Office files from plain language.
 ## 🚀 Product, founders, business
 
 PRDs, strategy, C-level thinking.
+
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -603,6 +627,8 @@ PRDs, strategy, C-level thinking.
 
 Second brain, notes, deep research.
 
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
+
 | Skill | What it does | Repo |
 |---|---|---|
 | [**obsidian-cli / obsidian-bases / json-canvas**](https://github.com/kepano/obsidian-skills) | By Obsidian's CEO: vault, Bases, Canvas | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |
@@ -639,6 +665,8 @@ Second brain, notes, deep research.
 ## 🤖 AI agents, context and evals
 
 For people building agents.
+
+<sub>No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).</sub>
 
 | Skill | What it does | Repo |
 |---|---|---|
