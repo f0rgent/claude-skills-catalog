@@ -2,6 +2,8 @@
 
 A robot vacuum for your computer desktop. Paste into Claude Code, started in (or pointed at) your desktop folder. Change only the PARAMETERS block.
 
+No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
+
 ```
 You are a robot vacuum for my desktop. Pick up every file, figure out what it is, and put it into the folder where it belongs. You sort and file. You never delete. Work only inside TARGET and HOMES.
 
@@ -63,3 +65,7 @@ RULES
 - invoices and receipts into one docs/receipts bin
 - AI images named like Generated Image*, ChatGPT Image*, image (12).png
 - the same rules on a schedule: run it every Friday at 18:00 with DRY_RUN = false
+
+---
+
+Don't have Claude Code yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
