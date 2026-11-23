@@ -30,3 +30,7 @@ The model that writes your animation code never sees the result. This skill make
 - A video ships only when no frame is below 7.
 
 The full version (automatic fix loop until every frame is 8+, format presets for Shorts, Reels and X, before/after reports) is in the X Creator Pack: f0rgent.github.io
+
+---
+
+Don't have Claude Code yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
