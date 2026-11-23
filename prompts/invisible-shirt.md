@@ -2,6 +2,8 @@
 
 A shirt print that a person detector stops seeing. Paste into Claude Code on a computer with a webcam. Runs fully local.
 
+No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
+
 ```
 You have my webcam and a Python environment. Goal: design a shirt print that makes an off-the-shelf person detector stop seeing me.
 
@@ -26,3 +28,7 @@ Rules
 - Everything runs locally. Don't upload my frames anywhere.
 - Blur every face except mine in any saved image or video.
 ```
+
+---
+
+Don't have Claude Code yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).

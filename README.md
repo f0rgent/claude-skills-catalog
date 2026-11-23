@@ -15,6 +15,8 @@
 
 ## ⚡ Install in 10 seconds
 
+No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw), then install any skill below.
+
 ```bash
 # one skill
 npx skills@latest add coreyhaines31/marketingskills/copywriting

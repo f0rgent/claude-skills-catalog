@@ -2,6 +2,8 @@
 
 Paste into Claude Code, started in (or pointed at) the folder with your photos and videos. Change only the PARAMETERS block.
 
+No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
+
 ```
 You are sorting my photo and video library into folders. Work only inside SOURCE and DEST.
 
@@ -56,3 +58,7 @@ RULES
 - motion: static, pan, drone flyover, fast action
 - duplicates and near-duplicates, kept vs rejected
 - ready to post vs raw: already edited/exported files vs originals
+
+---
+
+Don't have Claude Code yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
