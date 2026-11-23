@@ -677,6 +677,7 @@ def row(sk, repo, path, desc):
 
 def main():
     total = sum(len([x for x in v.replace("; extensions:", ",").replace("; blocks:", ",").split(",") if x.strip()]) for v in INDEX.values())
+    CLAUDE = "https://claude.ai/referral/IL0FPScZCw"
     nrepos = len(open(__file__.replace('build.py','data/repos.txt')).read().split())
     out = []
     w = out.append
@@ -689,6 +690,7 @@ def main():
     w('<p align="center">' + " · ".join(f'<a href="#s{i}">{SHORT[i]}</a>' for i in range(1, len(SECTIONS))) + '</p>\n')
     w('<p align="center"><b>The best open-source skills for Claude Code, sorted by what you do.</b><br>Every skill links to its original author, so you always get the latest version.<br>The list keeps growing. ⭐ Star the repo to get updates.<br><br><a href="https://f0rgent.github.io/claude-skills-catalog/"><b>🌐 Open the catalog as a website, with search</b></a></p>\n')
     w("## ⚡ Install in 10 seconds\n")
+    w(f"No Claude yet? [Get Claude here]({CLAUDE}), then install any skill below.\n")
     w("```bash\n# one skill\nnpx skills@latest add coreyhaines31/marketingskills/copywriting\n\n# everything in this catalog (pulls each repo from its author)\ngit clone --recursive https://github.com/f0rgent/claude-skills-catalog\n```\n")
     name, intro, rows = SECTIONS[0]
     w(f'<a id="s0"></a>\n## {EMO[0]} Start here: top 10\n\n{intro}\n')
@@ -707,6 +709,7 @@ def main():
     for i in range(1, len(SECTIONS)):
         name, intro, rows = SECTIONS[i]
         w(f'<a id="s{i}"></a>\n## {EMO[i]} {name}\n\n{intro}\n')
+        w(f"<sub>No Claude yet? [Get Claude here]({CLAUDE}).</sub>\n")
         w("| Skill | What it does | Repo |\n|---|---|---|")
         for r in rows[:SHOW]:
             w(row(*r))
@@ -732,7 +735,7 @@ def main():
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
     w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
     w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern, @0xGenAi on X.\n")
-    w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts</sub></p>')
+    w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts · <a href="{CLAUDE}">Get Claude</a></sub></p>'.replace('{CLAUDE}', CLAUDE))
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
     print("skills in index:", total)
     import subprocess, sys

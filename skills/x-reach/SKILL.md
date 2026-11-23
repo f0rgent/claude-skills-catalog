@@ -66,3 +66,7 @@ Before posting, check:
 - [ ] Every fact can be checked
 - [ ] Ends with a two-sided question
 - [ ] Prompt, source or link goes in the first reply, not the post
+
+---
+
+Don't have Claude Code yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).

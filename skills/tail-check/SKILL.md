@@ -56,3 +56,7 @@ If nothing looks suspicious, say so. Don't guess dramatically.
 - Most modern phones randomize their Wi-Fi MAC, so one device can look like several. Strong cases need many sightings in many places.
 - Many phones no longer broadcast the names of saved networks.
 - Logs give a lawyer questions to ask. They are not automatic evidence.
+
+---
+
+Don't have Claude Code yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).

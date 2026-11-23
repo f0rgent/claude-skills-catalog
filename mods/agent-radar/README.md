@@ -38,4 +38,6 @@ The rules live in `hooks/risk.ts`. Add your own patterns there.
 
 Made by @f0rgent · https://f0rgent.github.io
 
+---
 
+Don't have Claude Code yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
