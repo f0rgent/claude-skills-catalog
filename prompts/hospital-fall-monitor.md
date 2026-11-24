@@ -1,6 +1,6 @@
 # Hospital fall monitor prompt for Claude Code
 
-A visual patient-state monitor: any camera you name, patient ID from the wristband code, nurse call + EHR alert when someone falls and stays down. Paste into Claude Code. Runs fully local; demo uses a mock nurse call board.
+A visual patient-state monitor: works with any camera you name, watches each patient's state (standing, walking, sitting, lying on the floor), knows who is who from the wristband code even in bad light, and fires the nurse call + EHR alert seconds after a fall. Paste into Claude Code. Runs fully local; the demo uses a mock nurse call board.
 
 No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
 
@@ -8,14 +8,14 @@ No Claude yet? [Get Claude here](https://claude.ai/referral/IL0FPScZCw).
 You have a Python environment. Goal: build a visual patient-state monitoring system that works with any camera model I name, knows which patient it is watching, tracks their position and state (standing, walking, sitting, lying on the floor), and alerts that patient's nurse the moment they fall and stay down.
 
 Setup
-- Install ultralytics + opencv-python. Use YOLOv8n-pose (17 keypoints) as the model. Everything runs locally on CPU.
+- Install ultralytics + opencv-python. Use YOLOv8n-pose as the person model (it only feeds the body angle, nothing is drawn as a skeleton). Everything runs locally on CPU.
 - Camera: I will tell you the camera model. Look up its stream (RTSP/ONVIF), resolution and night mode, and put it in cameras.yaml. Webcam 0 or `--video path.mp4` also work for testing.
 
 Per frame, for every person
-1. Box + skeleton. Green while monitoring, red after a fall.
+1. Box around the person with their state: STANDING / WALKING / SITTING / LYING ON FLOOR. Green while monitoring, red after a fall. No skeleton overlay.
 2. Torso angle: angle of the line from mid-hips to mid-shoulders against vertical (0 = standing, 90 = lying).
 3. Vertical descent speed: how fast the hip center moves down, in body heights per second (smooth over 5 frames).
-4. Occlusion: share of keypoints with confidence < 0.3. If some are hidden (behind a desk, a wall, a cane), fill them from the last good frame and mark them "IMPUTED".
+4. Visibility: if part of the body is hidden (a desk, a wall, a cane) or the light is bad, keep the last good estimate and mark it "IMPUTED" instead of dropping the person.
 
 Who is who
 - Keep a stable ID per person with the built-in tracker (ByteTrack).
@@ -36,13 +36,13 @@ Alert (US hospital style: nurse call + EHR)
 
 HUD (CCTV style)
 - Top bar: system name on the left, FPS and "Tracking: N subject(s)" on the right, date + time.
-- Label box above each person: "PERSON #1 | MONITORING" / "FALL DETECTED", torso angle, descent speed, occlusion %.
-- Red bottom banner on alert: "FALL DETECTED (PERSON #1)" + "Verifying ground stillness (3.8s remaining)... Stand up to cancel."
+- Label box above each person: patient ID + room once the wristband is read ("UNKNOWN" before that), state, "MONITORING" / "FALL DETECTED", torso angle, descent speed.
+- Red bottom banner on alert: "FALL DETECTED (patient, room)" + "Verifying ground stillness (3.8s remaining)... Stand up to cancel." then "NURSE ALERTED".
 
 Output
-- fall_detector.py, one file, runs with one command.
+- patient_monitor.py, one file, runs with one command, plus cameras.yaml, patients.json and the mock nurse call page.
 - demo.mp4 with the HUD burned in.
-- events.csv: time, person id, torso angle, speed, alert state.
+- events.csv: time, patient ID, state, torso angle, speed, alert state, seconds from fall to nurse alert.
 - A short summary: thresholds you picked, hits, false alarms, FPS on my machine.
 
 Rules
