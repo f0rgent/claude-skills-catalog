@@ -47,7 +47,7 @@ If you install nothing else, install these.
 
 <table>
 <tr>
-<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>44 picks</sub></td>
+<td align="center" width="25%"><a href="#s1"><h1>💻</h1><b>Dev workflow</b></a><br><sub>45 picks</sub></td>
 <td align="center" width="25%"><a href="#s2"><h1>🧩</h1><b>Dev stacks</b></a><br><sub>37 picks</sub></td>
 <td align="center" width="25%"><a href="#s3"><h1>🛡️</h1><b>Security</b></a><br><sub>10 picks</sub></td>
 <td align="center" width="25%"><a href="#s4"><h1>🎨</h1><b>Design</b></a><br><sub>25 picks</sub></td>
@@ -83,12 +83,13 @@ How the agent plans, codes, reviews and ships.
 | [**writing-plans**](https://github.com/obra/superpowers/tree/main/skills/writing-plans) | Turns a spec into a step-by-step implementation plan | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**executing-plans**](https://github.com/obra/superpowers/tree/main/skills/executing-plans) | Works through a plan inline, step by step | [obra/superpowers](https://github.com/obra/superpowers) |
 
-<details><summary><b>Show all 44 dev workflow skills</b></summary>
+<details><summary><b>Show all 45 dev workflow skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
 | [**subagent-driven-development**](https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development) | Runs plan tasks through separate subagents | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**dispatching-parallel-agents**](https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents) | Splits independent tasks across agents in parallel | [obra/superpowers](https://github.com/obra/superpowers) |
+| [**limit-handoff (ours)**](skills/limit-handoff) | One handoff.md so Claude Code, Codex or Gemini picks up the task where the last agent hit its limit | this repo |
 | [**test-driven-development**](https://github.com/obra/superpowers/tree/main/skills/test-driven-development) | Red-green-refactor before writing implementation | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**systematic-debugging**](https://github.com/obra/superpowers/tree/main/skills/systematic-debugging) | Root-cause debugging instead of guess-and-check | [obra/superpowers](https://github.com/obra/superpowers) |
 | [**file-search**](https://github.com/massgen/massgen/tree/main/massgen/skills/file-search) | Fast code search with ripgrep for text and ast-grep for syntax | [massgen/massgen](https://github.com/massgen/massgen) |
@@ -836,7 +837,7 @@ For people building agents.
 ## 📝 Notes
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
-- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
+- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check, skills/limit-handoff) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
 - Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern, @0xGenAi on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts · <a href="https://claude.ai/referral/IL0FPScZCw">Get Claude</a></sub></p>

@@ -150,6 +150,7 @@ SECTIONS = [
  ("executing-plans", SP, "skills/executing-plans", "Works through a plan inline, step by step"),
  ("subagent-driven-development", SP, "skills/subagent-driven-development", "Runs plan tasks through separate subagents"),
  ("dispatching-parallel-agents", SP, "skills/dispatching-parallel-agents", "Splits independent tasks across agents in parallel"),
+ ("limit-handoff (ours)", "", "skills/limit-handoff", "One handoff.md so Claude Code, Codex or Gemini picks up the task where the last agent hit its limit"),
  ("test-driven-development", SP, "skills/test-driven-development", "Red-green-refactor before writing implementation"),
  ("systematic-debugging", SP, "skills/systematic-debugging", "Root-cause debugging instead of guess-and-check"),
  ("file-search", "massgen/massgen", "massgen/skills/file-search", "Fast code search with ripgrep for text and ast-grep for syntax"),
@@ -733,7 +734,7 @@ def main():
     w("\n</details>\n")
     w("## 📝 Notes\n")
     w("- Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.")
-    w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
+    w("- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check, skills/limit-handoff) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.")
     w("- Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern, @0xGenAi on X.\n")
     w('<p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts · <a href="{CLAUDE}">Get Claude</a></sub></p>'.replace('{CLAUDE}', CLAUDE))
     open(__file__.replace("build.py", "README.md"), "w").write("\n".join(out))
