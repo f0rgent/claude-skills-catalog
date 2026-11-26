@@ -3,7 +3,7 @@ name: limit-handoff
 description: Keep a handoff.md so any agent (Claude Code, Codex, Gemini CLI) can pick up the same task where the last one stopped, e.g. when you hit a usage limit. Use when setting up a repo for long tasks or when told "continue from handoff.md".
 ---
 
-# limit-handoff
+# limit-handoff (lite)
 
 When one agent stops (usage limit, crash, closed laptop), the next agent, from any vendor, continues from the exact step. Nobody re-explains the project and nothing gets redone.
 
@@ -38,6 +38,8 @@ Task: a 6-step Python unit-converter CLI. Three agents in a row, each got only `
 - **Gemini CLI**: wrote tests and README, hit a real free-tier 429, came back, found its own unlogged work, ran the tests for real (5 passed) and finished 6/6. It also deleted the Traps section and did not say who did what. That is why rule 4 exists.
 
 Rules 3 and 4 were added after this run; rule 3 was in place for Gemini, rule 4 is not tested yet.
+
+The full version (a checker that catches unlogged work and fake proof before the next agent starts, a 3-agent relay script, a Claude Code hook) is in the X Creator Pack: f0rgent.github.io
 
 ---
 
