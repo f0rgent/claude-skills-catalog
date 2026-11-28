@@ -56,7 +56,7 @@ If you install nothing else, install these.
 <td align="center" width="25%"><a href="#s5"><h1>🔎</h1><b>SEO</b></a><br><sub>40 picks</sub></td>
 <td align="center" width="25%"><a href="#s6"><h1>📈</h1><b>Marketing</b></a><br><sub>32 picks</sub></td>
 <td align="center" width="25%"><a href="#s7"><h1>✍️</h1><b>Copywriting</b></a><br><sub>21 picks</sub></td>
-<td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>21 picks</sub></td>
+<td align="center" width="25%"><a href="#s8"><h1>📱</h1><b>SMM</b></a><br><sub>22 picks</sub></td>
 </tr>
 <tr>
 <td align="center" width="25%"><a href="#s9"><h1>🎯</h1><b>UGC & Ads</b></a><br><sub>14 picks</sub></td>
@@ -426,7 +426,7 @@ Social content, scheduling, analytics.
 | [**influencer-marketing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/influencer-marketing) | Finds, vets and briefs creators | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 | [**co-marketing**](https://github.com/coreyhaines31/marketingskills/tree/main/skills/co-marketing) | Partner campaigns | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
 
-<details><summary><b>Show all 21 smm skills</b></summary>
+<details><summary><b>Show all 22 smm skills</b></summary>
 
 | Skill | What it does | Repo |
 |---|---|---|
@@ -438,6 +438,7 @@ Social content, scheduling, analytics.
 | [**youtube-full / video-content-strategist**](https://github.com/alirezarezvani/claude-skills) | YouTube channel and video strategy | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | [**youtube**](https://github.com/agricidaniel/claude-youtube) | YouTube SEO and channel work | [agricidaniel/claude-youtube](https://github.com/agricidaniel/claude-youtube) |
 | [**x-reach (ours)**](skills/x-reach) | How to write X posts that get reach, from data on 2,194 posts | this repo |
+| [**x-originality-check (ours)**](skills/x-originality-check) | Checks your X posts for copies and earlier matches before you apply for monetization (method by CoolerRadar) | this repo |
 | [**typefully**](https://github.com/typefully/agent-skills/tree/main/skills/typefully) | Official: draft and schedule posts for X, LinkedIn, Threads, Bluesky | [typefully/agent-skills](https://github.com/typefully/agent-skills) |
 | [**x-writer**](https://github.com/ognjengt/founder-skills/tree/main/skills/x-writer) | X posts from proven formats and templates | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
 | [**viral-hook-creator**](https://github.com/ognjengt/founder-skills/tree/main/skills/viral-hook-creator) | Hooks built on psychological patterns | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) |
@@ -837,7 +838,7 @@ For people building agents.
 ## 📝 Notes
 
 - Names and descriptions were read from each skill's SKILL.md; stars from GitHub on 2026-11-04.
-- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check, skills/limit-handoff) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
+- Our own files (this README, build.py, install.sh, skills/x-reach, skills/frame-critic, skills/tail-check, skills/limit-handoff, skills/x-originality-check) are MIT. Everything under vendor/ belongs to its authors and keeps its own license. Repos with no license stated are linked, not copied.
 - Lists that pointed us to these repos: @Bober_smart, @Mr_Buzzoni, @zodchiii, @eng_khairallah1, @Mnilax, @e1genqq, @DDJCXX, @fayzonnn, @0xSanabi, @xelmio, @Y0urDumble, @diamai_, @replay_0x, @_Vasilievich_, @0x_kern, @0xGenAi on X.
 
 <p align="center"><sub>Made by <a href="https://x.com/f0rgent">@f0rgent</a> · Showing how AI agents actually do practical things + giving away the prompts · <a href="https://claude.ai/referral/IL0FPScZCw">Get Claude</a></sub></p>
